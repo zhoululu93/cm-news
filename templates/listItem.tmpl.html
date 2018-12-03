@@ -1,0 +1,41 @@
+<figure class="col l5 m5 s12 picture-item" data-content_code='{{:contentCode}}' style="margin-bottom: 0px;">
+    <div class="picture-item__inner">
+        <div class="row" style="display: flex;margin: 0;">
+            <div class="aspect aspect--4x4 topic_figure_photo col s4 m4 l4" style="padding-right:1rem;padding-bottom:0;">
+                <div class="aspect__inner topic_figure_photo_image " style="background-image: url(
+                './assets/_con/images/loading-spin.gif');background-repeat: no-repeat;background-position: center center;">
+                </div>
+            </div>
+
+            <div class="picture-item__details clearfix topic_figure_contents col s8 m8 l8" style="padding: .5rem;">
+                <div class="topic_figure_title">
+                    {{:~trimLength(title, 26)}}
+                </div>
+
+                <div class="topic_figure_bottom">
+
+                    <i class="mdi-action-favorite newsLike" id="L{{:contentCode}}" style="color: indianred;font-size: 1.5rem" onclick="onNewsLike(this.id)"></i>
+                    <i class="mdi-action-thumb-up newsGood" id="G{{:contentCode}}" style="color: dodgerblue;font-size: 1.5rem" onclick="onNewsGood(this.id)"></i>
+                    <i class="mdi-communication-message" style="color: grey;font-size: 1.5rem;"></i>
+                </div>
+                <div class="topic_figure_bottom">
+                    <div>{{:media}}</div>
+                    <span style="font-weight:600;">&nbsp;
+                        <!-- <i class="mdi mdi-action-schedule" style="color: dimgray"></i>&nbsp;{{:~topicCodeToDate(date)}}</span> -->
+                        <i class="mdi mdi-action-schedule" style="color: dimgray"></i>&nbsp;{{:~toDateYYYYMMDD(date)}}</span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="topic_figure_bottom" style="border-top: 1px solid #dcdbdba6;">
+
+            <p class="listItemShowCommt">{{:comment1}}</p>
+            <!-- <p class="listItemShowCommt" style="float: left;">Aさん：9月のNHKのクローズアップ現代で今の状況を放送していたが、「純国産」ということを前面に打ち出したのが、ケチのつきはじめだった</p> -->
+            <!-- <i class="mdi-communication-message" style="color: grey;font-size: 1.5rem;float: left;"></i> -->
+            <p class="listItemShowCommt" >{{:comment2}}</p>
+        </div>
+
+    </div>
+
+</figure>

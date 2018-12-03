@@ -1,0 +1,1734 @@
+{
+    "companies": [],
+    "customers": [
+        {
+            "personality_id": "1",
+            "last_name": "西貝",
+            "first_name": "英史",
+            "gender": "m",
+            "remarks": "本人",
+            "birthday": "19630713",
+            "deathday": null
+        },
+        {
+            "personality_id": "2",
+            "last_name": "西貝",
+            "first_name": "琢斗",
+            "gender": "m",
+            "remarks": "父",
+            "birthday": "19310102",
+            "deathday": "20120505"
+        },
+        {
+            "personality_id": "3",
+            "last_name": "西貝",
+            "first_name": "茂",
+            "gender": "m",
+            "remarks": "兄",
+            "birthday": "19570504",
+            "deathday": null
+        },
+        {
+            "personality_id": "4",
+            "last_name": "西貝",
+            "first_name": "暁仁",
+            "gender": "m",
+            "remarks": "弟",
+            "birthday": "19650614",
+            "deathday": null
+        },
+        {
+            "personality_id": "5",
+            "last_name": "西貝",
+            "first_name": "浩亮",
+            "gender": "m",
+            "remarks": "息子",
+            "birthday": "19931210",
+            "deathday": null
+        },
+        {
+            "personality_id": "6",
+            "last_name": "西貝",
+            "first_name": "左京",
+            "gender": "m",
+            "remarks": "甥",
+            "birthday": "19771103",
+            "deathday": null
+        },
+        {
+            "personality_id": "7",
+            "last_name": "西貝",
+            "first_name": "哲児",
+            "gender": "m",
+            "remarks": "甥",
+            "birthday": "19791113",
+            "deathday": null
+        },
+        {
+            "personality_id": "8",
+            "last_name": "西貝",
+            "first_name": "昌之",
+            "gender": "m",
+            "remarks": "弟の養子",
+            "birthday": "19800404",
+            "deathday": null
+        },
+        {
+            "personality_id": "9",
+            "last_name": "西貝",
+            "first_name": "省一郎",
+            "gender": "m",
+            "remarks": "娘の夫",
+            "birthday": "19871203",
+            "deathday": null
+        },
+        {
+            "personality_id": "10",
+            "last_name": "西貝",
+            "first_name": "有俊",
+            "gender": "m",
+            "remarks": "娘の子",
+            "birthday": "20170201",
+            "deathday": null
+        },
+        {
+            "personality_id": "11",
+            "last_name": "西貝",
+            "first_name": "認",
+            "gender": "m",
+            "remarks": "おじいさん",
+            "birthday": "19110706",
+            "deathday": "19810201"
+        },
+        {
+            "personality_id": "12",
+            "last_name": "西貝",
+            "first_name": "昇",
+            "gender": "m",
+            "remarks": "おじさん",
+            "birthday": "19350422",
+            "deathday": null
+        },
+        {
+            "personality_id": "13",
+            "last_name": "西貝",
+            "first_name": "真喜",
+            "gender": "m",
+            "remarks": "おじさん",
+            "birthday": "19360609",
+            "deathday": null
+        },
+        {
+            "personality_id": "16",
+            "last_name": "西貝",
+            "first_name": "晴光",
+            "gender": "m",
+            "remarks": "いとこ",
+            "birthday": "19631030",
+            "deathday": null
+        },
+        {
+            "personality_id": "18",
+            "last_name": "西貝",
+            "first_name": "八雲",
+            "gender": "m",
+            "remarks": "いとこの子",
+            "birthday": "19850301",
+            "deathday": null
+        },
+        {
+            "personality_id": "22",
+            "last_name": "西貝",
+            "first_name": "たか",
+            "gender": "f",
+            "remarks": "母",
+            "birthday": "19411005",
+            "deathday": null
+        },
+        {
+            "personality_id": "23",
+            "last_name": "所谷",
+            "first_name": "樹莉亜",
+            "gender": "f",
+            "remarks": "姉",
+            "birthday": "19601104",
+            "deathday": null
+        },
+        {
+            "personality_id": "24",
+            "last_name": "西貝",
+            "first_name": "みら",
+            "gender": "f",
+            "remarks": "妹",
+            "birthday": "19660814",
+            "deathday": null
+        },
+        {
+            "personality_id": "25",
+            "last_name": "西貝",
+            "first_name": "いちほ",
+            "gender": "f",
+            "remarks": "妻　かつ経理",
+            "birthday": "19620802",
+            "deathday": null
+        },
+        {
+            "personality_id": "26",
+            "last_name": "西貝",
+            "first_name": "芽映",
+            "gender": "f",
+            "remarks": "娘",
+            "birthday": "19890501",
+            "deathday": null
+        },
+        {
+            "personality_id": "27",
+            "last_name": "西貝",
+            "first_name": "メイコ",
+            "gender": "f",
+            "remarks": "姪",
+            "birthday": "19791001",
+            "deathday": null
+        },
+        {
+            "personality_id": "28",
+            "last_name": "西貝",
+            "first_name": "ラム",
+            "gender": "f",
+            "remarks": "姉嫁",
+            "birthday": "19570905",
+            "deathday": null
+        },
+        {
+            "personality_id": "29",
+            "last_name": "西貝",
+            "first_name": "りぼん",
+            "gender": "f",
+            "remarks": "弟の養子の妻",
+            "birthday": "19771130",
+            "deathday": null
+        },
+        {
+            "personality_id": "30",
+            "last_name": "西貝",
+            "first_name": "のぼる",
+            "gender": "f",
+            "remarks": "弟の養子の子",
+            "birthday": "19990110",
+            "deathday": null
+        },
+        {
+            "personality_id": "33",
+            "last_name": "西貝",
+            "first_name": "たつ",
+            "gender": "f",
+            "remarks": "おばあさん",
+            "birthday": "19150609",
+            "deathday": "20021004"
+        },
+        {
+            "personality_id": "34",
+            "last_name": "西貝",
+            "first_name": "寧音",
+            "gender": "f",
+            "remarks": "おばさん（義理",
+            "birthday": "19350422",
+            "deathday": null
+        },
+        {
+            "personality_id": "35",
+            "last_name": "西貝",
+            "first_name": "樹",
+            "gender": "f",
+            "remarks": "いとこ",
+            "birthday": "19590930",
+            "deathday": null
+        },
+        {
+            "personality_id": "36",
+            "last_name": "西貝",
+            "first_name": "ひろき",
+            "gender": "f",
+            "remarks": "",
+            "birthday": "19651001",
+            "deathday": null
+        },
+        {
+            "personality_id": "39",
+            "last_name": "西貝",
+            "first_name": "なつひ",
+            "gender": "f",
+            "remarks": "いとこの子の配偶者",
+            "birthday": "19871219",
+            "deathday": null
+        },
+        {
+            "personality_id": "40",
+            "last_name": "西貝",
+            "first_name": "海莉",
+            "gender": "f",
+            "remarks": "",
+            "birthday": "20121209",
+            "deathday": null
+        },
+        {
+            "personality_id": "43",
+            "last_name": "尾添",
+            "first_name": "琢治",
+            "gender": "m",
+            "remarks": "姉の実子の配偶者",
+            "birthday": "19770320",
+            "deathday": null
+        },
+        {
+            "personality_id": "44",
+            "last_name": "尾添",
+            "first_name": "竜成",
+            "gender": "m",
+            "remarks": "姉の実子の実子",
+            "birthday": "19970924",
+            "deathday": null
+        },
+        {
+            "personality_id": "46",
+            "last_name": "尾添",
+            "first_name": "セナ",
+            "gender": "f",
+            "remarks": "姉の実子の実子の配偶者",
+            "birthday": "19950411",
+            "deathday": null
+        },
+        {
+            "personality_id": "47",
+            "last_name": "尾添",
+            "first_name": "砂羽",
+            "gender": "f",
+            "remarks": "姉の実子の実子の実子",
+            "birthday": "20160103",
+            "deathday": null
+        },
+        {
+            "personality_id": "48",
+            "last_name": "西貝",
+            "first_name": "結梨",
+            "gender": "f",
+            "remarks": "姉の実子の実子の実子",
+            "birthday": "20160103",
+            "deathday": null
+        },
+        {
+            "personality_id": "49",
+            "last_name": "所谷",
+            "first_name": "大幹",
+            "gender": "m",
+            "remarks": "姉の配偶者",
+            "birthday": "19560420",
+            "deathday": null
+        },
+        {
+            "personality_id": "53",
+            "last_name": "所谷",
+            "first_name": "三津枝",
+            "gender": "f",
+            "remarks": "姉の子",
+            "birthday": "19800320",
+            "deathday": null
+        },
+        {
+            "personality_id": "54",
+            "last_name": "尾添",
+            "first_name": "けあき",
+            "gender": "f",
+            "remarks": "",
+            "birthday": "19770920",
+            "deathday": null
+        },
+        {
+            "personality_id": "55",
+            "last_name": "堰合",
+            "first_name": "峻佑",
+            "gender": "m",
+            "remarks": "妹の離婚した配偶者",
+            "birthday": "19640510",
+            "deathday": null
+        },
+        {
+            "personality_id": "56",
+            "last_name": "堰合",
+            "first_name": "正宜",
+            "gender": "m",
+            "remarks": "甥",
+            "birthday": "19840110",
+            "deathday": null
+        },
+        {
+            "personality_id": "57",
+            "last_name": "堰合",
+            "first_name": "衡",
+            "gender": "m",
+            "remarks": "甥",
+            "birthday": "19850113",
+            "deathday": null
+        },
+        {
+            "personality_id": "59",
+            "last_name": "堰合",
+            "first_name": "理衣",
+            "gender": "f",
+            "remarks": "妹の実子の配偶者",
+            "birthday": "19870713",
+            "deathday": null
+        },
+        {
+            "personality_id": "60",
+            "last_name": "堰合",
+            "first_name": "みり愛",
+            "gender": "f",
+            "remarks": "",
+            "birthday": "20070413",
+            "deathday": null
+        }
+    ],
+    "links": [
+        {
+            "from": "1",
+            "to": "25",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "25",
+            "to": "1",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "1",
+            "to": "5",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "5",
+            "to": "1",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "1",
+            "to": "26",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "26",
+            "to": "1",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "9",
+            "to": "10",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "10",
+            "to": "9",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "26",
+            "to": "10",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "10",
+            "to": "26",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "1",
+            "to": "2",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "1",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "1",
+            "to": "22",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "1",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "25",
+            "to": "5",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "5",
+            "to": "25",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "25",
+            "to": "26",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "26",
+            "to": "25",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "28",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "28",
+            "to": "3",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "6",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "6",
+            "to": "3",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "7",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "7",
+            "to": "3",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "27",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "27",
+            "to": "3",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "28",
+            "to": "6",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "6",
+            "to": "28",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "28",
+            "to": "7",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "7",
+            "to": "28",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "28",
+            "to": "27",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "27",
+            "to": "28",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "2",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "3",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "3",
+            "to": "22",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "23",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "23",
+            "to": "2",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "23",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "23",
+            "to": "22",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "23",
+            "to": "49",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "49",
+            "to": "23",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "49",
+            "to": "53",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "53",
+            "to": "49",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "23",
+            "to": "53",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "53",
+            "to": "23",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "49",
+            "to": "54",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "54",
+            "to": "49",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "23",
+            "to": "54",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "54",
+            "to": "23",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "43",
+            "to": "54",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "54",
+            "to": "43",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "43",
+            "to": "44",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "44",
+            "to": "43",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "54",
+            "to": "44",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "44",
+            "to": "54",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "44",
+            "to": "46",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "46",
+            "to": "44",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "44",
+            "to": "47",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "47",
+            "to": "44",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "46",
+            "to": "47",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "47",
+            "to": "46",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "46",
+            "to": "48",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "48",
+            "to": "46",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "11",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "33",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "11",
+            "to": "2",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "33",
+            "to": "2",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "11",
+            "to": "33",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "33",
+            "to": "11",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "11",
+            "to": "12",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "12",
+            "to": "11",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "33",
+            "to": "12",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "12",
+            "to": "33",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "11",
+            "to": "13",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "13",
+            "to": "11",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "33",
+            "to": "13",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "13",
+            "to": "33",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "12",
+            "to": "34",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "34",
+            "to": "12",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "12",
+            "to": "35",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "35",
+            "to": "12",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "12",
+            "to": "16",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "16",
+            "to": "12",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "34",
+            "to": "35",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "35",
+            "to": "34",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "34",
+            "to": "16",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "16",
+            "to": "34",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "16",
+            "to": "36",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "36",
+            "to": "16",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "16",
+            "to": "18",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "18",
+            "to": "16",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "36",
+            "to": "18",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "18",
+            "to": "36",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "18",
+            "to": "39",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "39",
+            "to": "18",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "18",
+            "to": "40",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "40",
+            "to": "18",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "39",
+            "to": "40",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "40",
+            "to": "39",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "24",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "24",
+            "to": "2",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "24",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "24",
+            "to": "22",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "24",
+            "to": "55",
+            "name": "離婚した配偶者",
+            "relationTypeCode": "6",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "55",
+            "to": "24",
+            "name": "離婚した配偶者",
+            "relationTypeCode": "6",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "55",
+            "to": "56",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "55",
+            "to": "57",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "24",
+            "to": "56",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "24",
+            "to": "57",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "56",
+            "to": "55",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "56",
+            "to": "24",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "57",
+            "to": "55",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "57",
+            "to": "24",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "57",
+            "to": "59",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "59",
+            "to": "57",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "57",
+            "to": "60",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "59",
+            "to": "60",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "60",
+            "to": "57",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "60",
+            "to": "59",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "4",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "4",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "4",
+            "to": "8",
+            "name": "養子",
+            "relationTypeCode": "11",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "8",
+            "to": "4",
+            "name": "養父",
+            "relationTypeCode": "3",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "8",
+            "to": "29",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "29",
+            "to": "8",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "8",
+            "to": "30",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "29",
+            "to": "30",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "30",
+            "to": "8",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "30",
+            "to": "29",
+            "name": "実母",
+            "relationTypeCode": "2",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "44",
+            "to": "48",
+            "name": "実子",
+            "relationTypeCode": "10",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "48",
+            "to": "44",
+            "name": "実父",
+            "relationTypeCode": "1",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "2",
+            "to": "22",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        },
+        {
+            "from": "22",
+            "to": "2",
+            "name": "配偶者",
+            "relationTypeCode": "5",
+            "relationTypeGroupCode": "1",
+            "anothoreName": "",
+            "remarks": "",
+            "importance": "FALSE"
+        }
+    ]
+}

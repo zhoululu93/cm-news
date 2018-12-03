@@ -1,0 +1,295 @@
+/*!-----------------------------------------------------------------
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-------------------------------------------------------------------*/
+@charset "UTF-8";
+.search-form {
+  max-width: 70rem; }
+
+.search-form td,
+.search-form th {
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.search-form .input-field {
+  margin-top: 0; }
+
+.search-form .category-cell {
+  margin-top: 0.2rem;
+  /* padding-left: 3.5rem; */ }
+
+.search-form .control {
+  margin: auto; }
+
+.search-form .select-dropdown {
+  margin: auto; }
+
+.control .select-dropdown {
+  margin: auto !important; }
+
+.card-panel {
+  padding: 0 !important;
+  position: relative; }
+
+.bdr_l {
+  border-left: 1px solid #ddd; }
+
+.bdr_b {
+  border-bottom: 1px solid #ddd; }
+
+.btn.btn-inactive {
+  background-color: #eeeeee;
+  color: #646464; }
+
+.btn.btn-important {
+  background-color: #c9302c; }
+
+.chip.btn-inactive {
+  background-color: #eeeeee;
+  color: #646464; }
+
+.chip.btn-important {
+  background-color: #c9302c; }
+
+.chip.isAny {
+  /* A100  Light Blue*/
+  background-color: #80d8ff;
+  /* A400 Light Blue */
+  border-color: #0091ea; }
+
+.chip.rank1 {
+  /* A100 Orange */
+  background-color: #ffd180;
+  /* A400 Orange */
+  border-color: #ff9100; }
+
+.chip.rank2 {
+  /* A100 Yellow */
+  background-color: #ffff8d;
+  /* A400 Yellow */
+  border-color: #ffea00; }
+
+.chip.rank3 {
+  /* A100 Light Green */
+  background-color: #ccff90;
+  /* A400 Light Green */
+  border-color: #76ff03; }
+
+.industry-chip {
+  /* A100 Red */
+  background-color: #ff8a80;
+  /* A400 Red */
+  border-color: #ff1744; }
+
+.industry-chip.inactive {
+  background-color: #eeeeee;
+  color: #646464; }
+
+.topic-chip {
+  margin-bottom: 1rem; }
+
+.modal.first {
+  width: 15rem; }
+
+.btn-network {
+  margin-right: 14px; }
+
+#topicSearch {
+  margin-left: 14px; }
+
+.topic_figure_title {
+  font-size: 1.1rem; }
+
+.modal-full {
+  top: 2.5% !important;
+  width: 95%;
+  max-height: 95%;
+  min-height: 95%; }
+
+.modal-business {
+  top: 2.5% !important;
+  width: 45%;
+  overflow-y: hidden; }
+
+.btn-favorite.inactive {
+  background-color: #FFFDE7 !important;
+  -webkit-text-stroke: #ffb300 1px; }
+
+.btn-like-number.inactive {
+  background-color: #e1f5fe !important;
+  -webkit-text-stroke: #1E88E5 1px; }
+
+.like-number.inactive {
+  -webkit-text-stroke: #e1f5fe !important;
+  -webkit-text-fill-color: #1E88E5 !important; }
+
+.range-title {
+  min-width: 7rem; }
+
+.industryNameTitle {
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex; }
+
+.thumb {
+  display: none; }
+
+.node-count {
+  min-width: 2rem;
+  font-size: 1rem; }
+
+.search-period {
+  padding: 1rem;
+  position: absolute;
+  opacity: 0.0;
+  visibility: hidden;
+  height: 15rem;
+  width: 15rem;
+  bottom: 0rem;
+  z-index: 2000;
+  right: -15rem;
+  background-color: transparent;
+  transition: all 500ms 0s ease;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+
+.search-period.visible {
+  padding: 1rem;
+  position: absolute;
+  background-color: white;
+  visibility: visible;
+  height: 15rem;
+  width: 15rem;
+  display: block;
+  opacity: 1;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 2000; }
+
+.search-period label {
+  color: rgba(0, 0, 0, 0.87) !important; }
+
+.search-period p {
+  text-align: center; }
+
+.node-range {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%; }
+
+.node-sample-svg {
+  padding: .5rem .5rem;
+  height: 100%; }
+
+.range-field {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.range-table td {
+  padding: 0 !important; }
+
+.range-text {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.range-text .node-count {
+  right: auto;
+  -ms-transform: translateY(50%);
+      transform: translateY(50%);
+  -webkit-transform: translateY(50%); }
+
+.highlight-word {
+  background: linear-gradient(transparent 0%, #84ffff 0%); }
+
+/*ローディング用  */
+#loadingEffect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* margin: auto auto auto auto; */ }
+
+div.outerBorder {
+  position: relative;
+  top: 30%;
+  margin: auto auto auto auto; }
+
+#loadingText {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem; }
+
+.loader {
+  color: #000000;
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: load4 1.3s infinite linear;
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+@keyframes fade-in {
+  0% {
+    display: none;
+    opacity: 0; }
+  1% {
+    display: block;
+    opacity: 0; }
+  100% {
+    display: block;
+    opacity: 1; } }
+
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }
+
+.progress-circle {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000; }
+
+/* ローディング用ここまで*/
+/*
+    .col.picture-item.picture-item--h2{
+        height: 322px;
+    }
+
+    .col.picture-item{
+        width: 45%;
+    }
+
+    @media(min-width: 980px){
+        .col.picture-item{
+            width: 22%;
+        }
+    }
+*/

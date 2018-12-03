@@ -1,0 +1,644 @@
+
+
+<!DOCTYPE html> <!--
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-->
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="fujitsu.com">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" href="assets/_con/images/icon.png">
+    <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+
+    <title>neXessary - ダッシュボード</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+<!-- nanoScroller -->
+<link rel="stylesheet" type="text/css" href="bower_components/nanoscroller/bin/css/nanoscroller.css" /> <!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css" /> <!-- Material Design Icons -->
+<link rel="stylesheet" type="text/css" href="assets/material-design-icons/css/material-design-icons.min.css" /> <!-- IonIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css" /> <!-- WeatherIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/weather-icons/css/weather-icons.min.css" />  <!-- nvd3 -->
+<link rel="stylesheet" type="text/css" href="bower_components/nvd3/build/nv.d3.min.css" />               
+
+<!-- Main -->
+<link rel="stylesheet" type="text/css" href="assets/_con/css/con-base.css" />
+
+<!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+<style>
+    .content-wrap {
+        min-height: 100%;
+        min-height: 100vh;
+        margin-left: 0px;
+    }
+</style>
+<!--
+  Body
+    Options:
+      .boxed - boxed layout for content
+-->
+
+<body class="yay-hide">
+    <style>
+    .yaybar .nano-content>ul>li.active,
+    .yaybar .nano-content>ul>li.open>a,
+    .yaybar .nano-content>ul>li.open>.sp-cancel,
+    .yaybar .nano-content>ul>li>ul {
+        background: white;
+        color: black;
+    }
+
+    .my-shuffle-container {
+        margin-right: 0.2rem;
+    }
+
+    .newsLike,
+    .newsGood {
+        font-size: 2rem;
+    }
+
+    .content-p {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom i {
+        color: #039be5;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom {
+        text-align: right;
+        margin: 0.3rem;
+    }
+
+    .card-title-span {
+        font-size: 2.5rem;
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .content-p {
+            text-align: left;
+            font-size: 1rem;
+        }
+        .card .content {
+            padding: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+        }
+        .content-wrap {
+            min-height: 100%;
+            min-height: 100vh;
+            padding: 0.5rem;
+
+            padding-top: calc(55px + 2rem);
+            background: #fff;
+            transition: margin-left 300ms ease-in-out;
+            background: #F5F5F5;
+        }
+        .picture-item .topic_figure_photo {
+            width: 100%;
+            height: 9rem;
+        }
+        nav .brand-logo {
+            display: inline;
+        }
+        .navbar-top .brand-logo>img {
+            height: 70%;
+            width: auto;
+            vertical-align: middle;
+        }
+        .picture-item .topic_figure_contents .topic_figure_bottom div {
+            font-size: 0.7rem;
+        }
+        .picture-item .topic_figure_contents .topic_figure_title {
+            font-size: 1rem;
+            height: 3rem;
+            text-align: left;
+
+        }
+        figure {
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .newsLike,
+        .newsGood {
+            font-size: 1.8rem;
+            padding-right: 0.5rem
+        }
+        #searchCardTitleDiv,
+        #cardTitleDiv {
+            line-height: 1rem;
+            padding-left: 8px;
+        }
+        #searchCardTitleSpan,
+        #cardTitleSpan {
+            font-size: 1.1rem;
+
+        }
+
+
+    }
+</style>
+<nav class="navbar-top navbar-under">
+    <div class="nav-wrapper">
+
+
+        <!-- Sidebar toggle -->
+
+        <!-- Logo -->
+        <a href="my-page.html" class="brand-logo">
+            <img src="assets/_con/images/logo.png" alt="neXessary">
+        </a>
+        <!-- /Logo -->
+
+        <!-- Menu -->
+        <ul>
+            <!-- 検索 -->
+            <!-- <li>
+                <a href="#!" class="search-bar-toggle">
+                    <i class="mdi-action-search"></i>
+                </a>
+            </li> -->
+            <!-- <li>
+                <a class="dropdown-button" data-activates="test-dropdown" href="#!">
+                    <i class="mdi-communication-email"></i>
+                    <span class="badge new">2</span>
+                </a>
+                <div id="test-dropdown" class="dropdown-content dropdown-media">
+                    <div class="card-panel">
+
+                        <div class="media-heading">Messages
+                            <a href="#!">
+                                <i class="mdi-content-add-circle-outline"></i>
+                            </a>
+                        </div>
+
+                        <div class="media-footer">
+                            <a href="#!">
+                                <i class="mdi-hardware-keyboard-control"></i>
+                            </a>
+                        </div>
+
+                        <div class="row mt-0">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u2.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">今日 9:02</span>
+                                <a href="#" class="media-title">北上 康平 (営業二部)</a>
+                                <span>
+                                    昨日質問のあった、住所変更手続きですが、今回のケースでは住民票は必要ないそうです。田村様の...
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u1.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">3日前</span>
+                                <a href="#" class="media-title">吉村 匡士 (渉外部)</a>
+                                <span>
+                                    渉外の吉村です。木下様の契約書に一点記入漏れがありました。添付のとおり記載をお願いしいたし...
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </li> -->
+            <li class="user">
+                <a class="dropdown-button" data-activates="user-dropdown" href="#!">
+                    <img id="userIcon" src="assets/_con/images/user.jpg" alt="" class="circle">
+                    <span id="userName"></span>
+                    <!--<i class="mdi-navigation-expand-more right"></i>-->
+                </a>
+
+                <ul id="user-dropdown" class="dropdown-content">
+                    <!-- <li>
+                        <a href="#!">
+                            <i class="fa fa-user"></i> プロフィール
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-envelope"></i> メッセージ
+                            <span class="badge new">2 new</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-cogs"></i> 設定
+                        </a>
+                    </li>
+                    <li class="divider"></li> -->
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-sign-out"></i> ログアウト
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- /Menu -->
+
+    </div>
+</nav>
+<script>
+    window.onload = function () {
+        // ユーザー名字を設定する
+        //   localStorage.getItem("login_userName")
+        $("#userName").text(localStorage.getItem("login_userName"));
+        // $("#user-dropdown").css("top","55px");
+        // width: 145px; position: absolute; top: 0px; left: 0px; opacity: 1; display: block;
+    }
+    // お気に入りをクリックする時
+    function onNewsLike(id) {
+        //  alert(id)
+        if ($("#" + id).css("color") == "rgb(205, 92, 92)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "rgb(205, 92, 92)")
+        }
+
+
+    }
+    // 「いいね」をクリクリする時
+    function onNewsGood(id) {
+        // alert(id)
+        if ($("#" + id).css("color") == "rgb(30, 144, 255)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "dodgerblue")
+        }
+
+    }
+</script>
+<!-- /Top Navbar --> 
+
+  <!--
+  Yay Sidebar
+  Options [you can use all of theme classnames]:
+    .yay-hide-to-small         - no hide menu, just set it small with big icons
+    .yay-static                - stop using fixed sidebar (will scroll with content)
+    .yay-gestures              - to show and hide menu using gesture swipes
+    .yay-light                 - light color scheme
+    .yay-hide-on-content-click - hide menu on content click
+
+  Effects [you can use one of these classnames]:
+    .yay-overlay  - overlay content
+    .yay-push     - push content to right
+    .yay-shrink   - shrink content width
+-->
+  
+  <!-- /Yay Sidebar --> 
+
+    <!-- Main Content -->
+    <section class="content-wrap">
+        
+<div class="ecommerce-customers">
+    <!-- Breadcrumb -->
+<style>
+  nav ul.left {
+    float: left;
+    width: 40rem;
+  }
+  .ecommerce-title nav {
+    background: none;
+    box-shadow: none !important;
+    overflow-x: hidden;
+}
+</style>
+
+<div class="ecommerce-title">
+
+  <div class="row">
+    <div class="col s12 m12 l10">
+
+      <nav>
+        <ul class="left">
+          <li>
+            <a href="my-page.html" name="マイページ" onclick="alink(this)">マイページ</a>
+            </li><li>
+            <a href="comment.html" name="コメント入り" onclick="alink(this)">コメント入り</a>
+            </li><li class="active">
+            <a href="economy.html" name="経済" onclick="alink(this)">経済</a>
+            </li><li>
+            <a href="it-science.html" name="IT・科学" onclick="alink(this)">IT・科学</a>
+            </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+</div>
+<script>
+  function alink(obj) {
+
+    if (obj.innerText == "業種話題") {
+      var companyData = JSON.parse(localStorage.getItem('cr_company_data'));
+      var $business_type_codes = $("#business_type_code");
+      var file = "./assets/_con/dataTables/business-types.json";
+      var businessCode = formatnumber(companyData.detailInfo.business.businessTypeSubdivideCode1);
+      var industrycode;
+      var industryName;
+      $.ajaxSetup({
+        async: false
+      });
+      $.getJSON(file, function (json) {
+        $.each(json, function (i, optgroup) {
+
+          if (businessCode) {
+            var busCode = businessCode.toString().substr(0, 2);
+            for (var i = 0; i < optgroup.Groups.length; i++) {
+              if (optgroup.Groups[i].Code == busCode) {
+                industryName = optgroup.Name;
+                industrycode = optgroup.Code;
+                return;
+              }
+            }
+          }
+
+        });
+      });
+
+      var targetIndustry = { code: industrycode, name: industryName };
+      //alert(targetIndustry.name)
+      window.open(
+        "https://demo.finplex.global.fujitsu.com/nexessary/poc/NLP2/topics-multi_trendwords_list_view.html?industrycode=" + industrycode + "&&industryName=" + industryName);
+      //window.open(
+      //  "http://localhost:3000/nexessary/poc/NLP/topics-multi_trendwords_list_view.html?industrycode=" + industrycode + "&&industryName=" + industryName);
+    }
+
+  }
+  function formatnumber(num) {
+    var len = num.toString().length;
+    while (len < 4) {
+      num = "0" + num;
+      len++;
+    }
+    return num;
+  }
+</script>
+<!-- /Breadcrumb -->
+    <div class="company_data">
+    </div>
+
+    <!-- News Topics -->
+    <div id="modal_content_box" class="modal modal-fixed-footer modal-fixed-header">
+    </div>
+    <div style="display: hidden">
+        <a href="#modal_content_box" id="modal_open_trigger"></a>
+    </div>
+    <!-- /News Topics -->
+
+</div>
+
+    </section>
+    <!-- /Main Content -->
+
+    <!-- Search Bar -->
+<div class="search-bar">
+    <div class="layer-overlay"></div>
+    <div class="layer-content">
+        <form action="#!">
+            <!-- Header -->
+            <a class="search-bar-toggle grey-text text-darken-2" href="#!"><i class="mdi-navigation-close"></i></a>
+
+            <!-- Search Input -->
+            <div class="input-field">
+                <i class="mdi-action-search prefix"></i>
+                <input type="text" name="con-search" placeholder="検索する語句を入力">
+            </div>
+
+            <!-- Search Results -->
+            <div class="search-results">
+
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h4>個人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user2.jpg" alt="立花 芙美" class="circle photo">
+                            <div class="title">立花 芙美</div>
+                            <div class="label">最終訪問日 2016/08/12</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user3.jpg" alt="今野 美奈" class="circle photo">
+                            <div class="title">今野 美奈</div>
+                            <div class="label">最終訪問日 2016/09/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user4.jpg" alt="高田 理恵" class="circle photo">
+                            <div class="title">高田 理恵</div>
+                            <div class="label">最終訪問日 2016/10/04</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user6.jpg" alt="豊中 新祐" class="circle photo">
+                            <div class="title">豊中 新祐</div>
+                            <div class="label">最終訪問日 2016/10/12</div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>法人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通 株式会社" class="photo">
+                            <div class="title">富士通 株式会社</div>
+                            <div class="label">最終訪問日 2017/01/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="トヨタ自動車 株式会社" class="photo">
+                            <div class="title">トヨタ自動車 株式会社</div>
+                            <div class="label">最終訪問日 2016/12/18</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="FDK 株式会社" class="photo">
+                            <div class="title">FDK 株式会社</div>
+                            <div class="label">最終訪問日 2016/11/11</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通エフ・アイ・ピー 株式会社" class="photo">
+                            <div class="title">富士通エフ・アイ・ピー 株式会社</div>
+                            <div class="label">最終訪問日 2016/10/02</div>
+                        </div>
+
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>Posts</h4>
+
+                        <div class="no-result">No results were found ;(</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- /Search Bar -->  <!-- <footer>&copy; 2017 <strong>neXessary</strong>. All rights reserved. </footer> -->
+
+    <!-- DEMO [REMOVE IT ON PRODUCTION] -->
+    <script type="text/javascript" src="assets/_con/js/_demo.js"></script> <!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- extensions  -->
+<script type="text/javascript" src="assets/_con/js/extensions.js"></script>
+
+<!-- jQuery RAF (improved animation performance) -->
+<script type="text/javascript" src="bower_components/jquery-requestAnimationFrame/dist/jquery.requestAnimationFrame.min.js"></script>
+
+<!-- nanoScroller -->
+<script type="text/javascript" src="bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+<!-- Materialize -->
+<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script> <!-- Simple Weather -->
+<script type="text/javascript" src="bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>   <!-- d3 -->
+<script type="text/javascript" src="bower_components/d3/d3.min.js"></script>  <!-- nvd3 -->
+<script type="text/javascript" src="bower_components/nvd3/build/nv.d3.min.js"></script>               <!-- Data Tables -->
+<script type="text/javascript" src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+<script type="text/javascript" src="bower_components/datatables-scroller/js/dataTables.scroller.js"></script>
+
+<!-- Moment -->
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>     
+
+<!-- Main -->
+<script type="text/javascript" src="assets/_con/js/_con.js"></script> <!-- Google Prettify -->
+<script type="text/javascript" src="bower_components/code-prettify/src/prettify.js"></script> <!-- jsrender -->
+<script type="text/javascript" src="bower_components/jsrender/jsrender.js"></script> 
+<!-- parts -->
+<script type="text/javascript" src="assets/_con/js/parts_core.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic_list.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_company_profile.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_relation.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_utils.js"></script>
+<!-- deserialize -->
+<script type="text/javascript" src="bower_components/jquery-deserialize/dist/jquery.deserialize.min.js"></script>
+<!-- lodash -->
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+<!-- css-element-queries -->
+<script type="text/javascript" src="bower_components/css-element-queries/src/ResizeSensor.js"></script>
+<script type="text/javascript" src="bower_components/css-element-queries/src/ElementQueries.js"></script> 
+<script>
+    $(function () {
+        // render companyData
+        $finplex_company_profile.drawItem("company_data", "cr_item4", function () {
+            var companyData = JSON.parse(localStorage.getItem('cr_company_data'));
+            $("#cardTitleSpan").text("経済ニュース")
+            if (companyData &&
+                companyData.president) {
+                var hobby = "経済";
+
+                // 初期ロード時のニュース表示
+                $("#topic-freeword").val(hobby);
+                var condition = createSearchCondition();
+                drawTopics(condition, "#finplex_topics", "c");
+            }
+
+
+            $("#search_news_button").click(function () {
+                var condition = createSearchCondition();
+                drawTopics(condition, "#finplex_topics", "c");
+            });
+
+        });
+
+    });
+
+
+    /*
+     * 話題検索条件用 連想配列作成
+     */
+    function createSearchCondition() {
+        var condition = {
+            sellerCode: "SE0001",
+            genres: []
+        };
+
+        // フリーテキスト対応
+        var freeText = $("#topic-freeword").val();
+        //if (freeText) {
+        var freeGenre = {
+            id: 0,
+            name: "ニュース",
+            keywords: freeText.split(",")
+        };
+        condition.genres.push(freeGenre);
+        //}
+        var outputLimit = $("#topic_outputLimit").val();
+        if (!outputLimit) {
+            outputLimit = 10;
+        }
+        var hasPicture = $("#topic-hasPicture").prop('checked');
+
+        condition.outputLimit = outputLimit;
+        condition.hasPicture = hasPicture;
+
+        // console.log(condition);
+        return condition;
+    }
+
+    function drawTopics(condition, topics_id, prefix) {
+
+        var topics = $(topics_id);
+        topics.show();
+        topics.empty();
+
+        $.each(condition.genres, function (i, genre) {
+            var topicId = $finplex_utils.formatString("finplex_topic_{0}_{1}", prefix, genre.id);
+            var topicDiv = $($finplex_utils.formatString('<div id="{0}" class="contents-topics-topic">',
+                topicId));
+            topics.append(topicDiv);
+            $finplex_core.drawPart({
+                targetElementId: topicId,
+                partName: "topic",
+                options: {
+                    sellerCode: condition.sellerCode,
+                    genre: genre,
+                    outputLimit: condition.outputLimit,
+                    hasPicture: condition.hasPicture,
+                    searchMethod: search
+                }
+            });
+        });
+
+    }
+
+    function search(keyword) {
+        //alert(keyword);
+        $('.lean-overlay').trigger('click');
+        $("#topic-freeword").val(keyword);
+        var condition = createSearchCondition();
+        drawTopics(condition, "#finplex_topics", "c");
+    }
+</script> 
+</body>
+
+</html>

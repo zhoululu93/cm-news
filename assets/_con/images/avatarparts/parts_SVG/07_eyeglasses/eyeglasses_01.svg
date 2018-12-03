@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;opacity:0.3;}.cls-2{fill:#3d3736;} .mainfill{fill:#3d3736;} .subfill{fill:#fff;}
+        </style>
+    </defs>
+    <title>
+        eyeglasses
+    </title>
+    <g id="eyeglasses">
+        <g id="glasses">
+            <circle cx="44.76" cy="66.51" r="9.2" class="cls-1 subfill"/>
+            <circle cx="77.24" cy="66.51" r="9.2" class="cls-1 subfill"/>
+        </g>
+        <path id="_frames" d="M95.21,65.51H87.57a10.2,10.2,0,0,0-20.25-.37,23.79,23.79,0,0,0-6.22-1.33A22.34,22.34,0,0,0,55,65.13a10.2,10.2,0,0,0-20.25.38h-8a1,1,0,0,0,0,2h8a10.2,10.2,0,0,0,20.32-.29,22.57,22.57,0,0,1,6-1.41,24.12,24.12,0,0,1,6.16,1.41,10.2,10.2,0,0,0,20.32.28h7.64a1,1,0,0,0,0-2Zm-50.27,9.2a8.2,8.2,0,1,1,8.2-8.2A8.21,8.21,0,0,1,44.93,74.71Zm32.48,0a8.2,8.2,0,1,1,8.2-8.2A8.21,8.21,0,0,1,77.42,74.71Z" class="cls-2 mainfill" data-name=" frames"/>
+    </g>
+</svg>

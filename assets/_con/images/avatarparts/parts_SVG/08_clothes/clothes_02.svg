@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+    <defs>
+        <style>
+            .cls-1{fill:#5a5858;stroke:#3d3736;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.13px;}
+        </style>
+    </defs>
+    <title>
+        clothes
+    </title>
+    <g id="clothes">
+        <path d="M101.08,128c-14.63-7.14-26.46-8.52-26.46-8.52h0l.8-5.2A50.86,50.86,0,0,1,60,116.85a50.86,50.86,0,0,1-15.42-2.58l.8,5.2h0S33.55,120.84,18.92,128,1.67,157.58,1.67,157.58H118.33S115.72,135.13,101.08,128Z" class="cls-1"/>
+    </g>
+</svg>

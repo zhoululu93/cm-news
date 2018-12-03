@@ -1,0 +1,399 @@
+/*!-----------------------------------------------------------------
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-------------------------------------------------------------------*/
+@charset "UTF-8";
+#nodes {
+  transition: all 300ms 0s ease;
+  height: 100%;
+  position: relative;
+  background-color: white; }
+
+.left-pane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none; }
+  .left-pane .left-pane-content {
+    pointer-events: all; }
+
+.company-count {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.company-count div {
+  padding-left: 1rem;
+  padding-bottom: 1rem; }
+
+.right-pane {
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  width: 2rem;
+  height: 100%;
+  padding-left: 2rem;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0rem;
+  display: -ms-flexbox;
+  display: flex;
+  transition: all 500ms 0s ease;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+  .right-pane .right-pane-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: white;
+    transition: all 500ms 0s ease;
+    opacity: 0;
+    -webkit-transition: all 500ms 0s ease;
+    -o-transition: all 500ms 0s ease;
+    -moz-transition: all 500ms 0s ease; }
+    .right-pane .right-pane-content .companyCommands {
+      position: absolute;
+      top: 1rem;
+      right: 0; }
+  .right-pane .companyInfo .companyName {
+    color: #404040;
+    font-weight: bold;
+    font-size: 1.2rem; }
+  .right-pane .companyInfo .companyScore .commands {
+    margin-left: 1rem; }
+  .right-pane .companyInfo .companyScore span {
+    vertical-align: top; }
+  .right-pane .companyInfo .ratingStars {
+    margin-bottom: auto;
+    font-size: 2rem; }
+  .right-pane .companyInfo .companyAccess td,
+  .right-pane .companyInfo .companyAccess th {
+    padding: inherit;
+    vertical-align: middle; }
+  .right-pane .tab-content {
+    overflow-y: auto !important;
+    width: 100%;
+    height: calc(100% - 1rem);
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .right-pane .companyData {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    height: calc(100% - 9.5rem); }
+    .right-pane .companyData .col:nth-child(1) {
+      padding-bottom: 1rem; }
+  .right-pane .companylist {
+    height: 100%;
+    -ms-overflow-y: auto;
+    overflow-y: auto; }
+  .right-pane .content-card {
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    padding: .5rem; }
+    .right-pane .content-card .command {
+      color: #1a237e; }
+      .right-pane .content-card .command a {
+        margin-right: .5rem;
+        margin-bottom: .5rem; }
+    .right-pane .content-card .info {
+      margin-left: 3rem; }
+
+.tagchip {
+  font-size: 1rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  margin-left: .5rem; }
+
+.visible.right-pane {
+  width: 38rem;
+  right: 0rem; }
+  .visible.right-pane .right-pane-content {
+    padding: 1rem;
+    opacity: 1.0; }
+
+.vistool {
+  padding: .5rem; }
+  .vistool h5 {
+    font-size: 1.2rem;
+    font-weight: 500; }
+
+div .vis-tooltip {
+  border: none;
+  background-color: white;
+  color: #404040;
+  opacity: 0.8; }
+  div .vis-tooltip td {
+    padding: 0;
+    padding-left: .5rem; }
+
+.box {
+  /* background: #000000; */
+  display: none;
+  /* height: 240px; */
+  opacity: 0;
+  /* width: 240px; */ }
+
+.visible.box {
+  display: block;
+  opacity: 1;
+  animation-duration: 0.9s;
+  animation-name: fade-in;
+  -moz-animation-duration: 0.9s;
+  -moz-animation-name: fade-in;
+  -webkit-animation-duration: 0.9s;
+  -webkit-animation-name: fade-in; }
+
+.actable {
+  border-bottom: none; }
+  .actable .ac {
+    background-color: #404040;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    vertical-align: middle; }
+    .actable .ac button {
+      background-color: transparent;
+      border: none;
+      font-weight: 800;
+      width: 2rem;
+      height: 1.5rem;
+      background-image: url("../assets/_con/images/ic_add_white_24dp_1x.png"); }
+  .actable .ac:hover {
+    background-color: #404040;
+    color: white; }
+  .actable .visiblegroup {
+    background-image: url("../assets/_con/images/ic_remove_white_24dp_1x.png"); }
+  .actable tr {
+    height: 0; }
+  .actable .visiblerow {
+    height: 1.5rem; }
+
+.hanrei {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  /*border-radius: 1rem;*/
+  background-color: transparent;
+  margin-bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.9;
+  width: 9.5rem;
+  height: 8.5rem;
+  overflow: hidden;
+  transition: all 500ms 0s ease;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+  .hanrei table {
+    width: auto; }
+
+.visible.hanrei {
+  background-color: white;
+  opacity: 0.9;
+  width: 40rem;
+  height: 25rem;
+  margin-bottom: .2rem; }
+
+.filters {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  /*border-radius: 1rem;*/
+  background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.9;
+  width: 9.5rem;
+  height: 8.5rem;
+  overflow: hidden;
+  transition: all 500ms 0s ease;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+  .filters .hotfilterbutton:nth-child(n+2) {
+    opacity: 0.9;
+    transition: all 500ms 0s ease;
+    -webkit-transition: all 500ms 0s ease;
+    -o-transition: all 500ms 0s ease;
+    -moz-transition: all 500ms 0s ease; }
+  .filters .hotfilterbutton:nth-child(n+2) {
+    opacity: 1.0; }
+
+.visible.filters {
+  margin-top: 2rem;
+  background-color: white;
+  opacity: 0.9;
+  width: 34rem;
+  height: 10.5rem;
+  margin-bottom: .2rem; }
+
+.hotfilterbutton {
+  text-align: center;
+  min-width: 8rem;
+  display: inline;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer; }
+  .hotfilterbutton div {
+    margin-top: 1rem; }
+
+.filterbox {
+  position: relative;
+  width: 50%;
+  /*padding-bottom: 2rem;*/
+  margin-left: 2rem;
+  margin-bottom: .2rem;
+  background-color: white;
+  opacity: 0.0;
+  height: 0 !important;
+  overflow: hidden;
+  transition: all 500ms 0s ease;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+  .filterbox .titletext {
+    margin-left: 2rem;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+
+.visible.filterbox {
+  height: 19rem !important;
+  /*min-height: 19rem;*/
+  opacity: 0.9; }
+
+#company-list {
+  overflow-y: auto;
+  height: 100%; }
+
+.depth-select {
+  display: block;
+  z-index: 10000;
+  width: 13rem;
+  margin: 1rem; }
+
+.setting-area {
+  width: 3.5rem;
+  height: 8.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  transition: all 500ms 0s ease;
+  overflow: hidden;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+
+.setting-input {
+  opacity: 0.0;
+  display: block;
+  transition: all 500ms 0s ease;
+  overflow: hidden;
+  width: 0 !important;
+  -webkit-transition: all 500ms 0s ease;
+  -o-transition: all 500ms 0s ease;
+  -moz-transition: all 500ms 0s ease; }
+
+.visible.setting-input {
+  width: 15rem !important;
+  opacity: 0.9;
+  display: -ms-flexbox;
+  display: flex; }
+
+.visible.setting-area {
+  background-color: white;
+  opacity: 0.9;
+  width: 20rem;
+  height: 10rem; }
+
+.setting-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 1.0; }
+
+.depth-limit-select {
+  display: block;
+  z-index: 10000;
+  width: 13rem;
+  margin: 1rem; }
+
+.reflesh-button {
+  margin: auto;
+  width: 3rem;
+  opacity: 0.9;
+  z-index: 10000; }
+
+/*ローディング用  */
+#loadingEffect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* margin: auto auto auto auto; */ }
+
+div.outerBorder {
+  position: relative;
+  top: 30%;
+  margin: auto auto auto auto; }
+
+#text {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem; }
+
+.loader {
+  color: #000000;
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: load4 1.3s infinite linear;
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+@keyframes fade-in {
+  0% {
+    display: none;
+    opacity: 0; }
+  1% {
+    display: block;
+    opacity: 0; }
+  100% {
+    display: block;
+    opacity: 1; } }
+
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }

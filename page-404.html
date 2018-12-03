@@ -1,0 +1,539 @@
+
+
+<!DOCTYPE html> <!--
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-->
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="fujitsu.com">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" href="assets/_con/images/icon.png">
+    <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+
+    <title>neXessary - ダッシュボード</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+<!-- nanoScroller -->
+<link rel="stylesheet" type="text/css" href="bower_components/nanoscroller/bin/css/nanoscroller.css" /> <!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css" /> <!-- Material Design Icons -->
+<link rel="stylesheet" type="text/css" href="assets/material-design-icons/css/material-design-icons.min.css" /> <!-- IonIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css" /> <!-- WeatherIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/weather-icons/css/weather-icons.min.css" />                 
+
+<!-- Main -->
+<link rel="stylesheet" type="text/css" href="assets/_con/css/con-base.css" />
+
+<!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+<style>
+    .content-wrap {
+        min-height: 100%;
+        min-height: 100vh;
+        margin-left: 0px;
+    }
+</style>
+<!--
+  Body
+    Options:
+      .boxed - boxed layout for content
+-->
+
+<body class="yay-hide">
+    <style>
+    .yaybar .nano-content>ul>li.active,
+    .yaybar .nano-content>ul>li.open>a,
+    .yaybar .nano-content>ul>li.open>.sp-cancel,
+    .yaybar .nano-content>ul>li>ul {
+        background: white;
+        color: black;
+    }
+
+    .my-shuffle-container {
+        margin-right: 0rem;
+    }
+
+    .newsLike,
+    .newsGood {
+        font-size: 2rem;
+    }
+
+    .content-p {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom i {
+        color: #039be5;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom {
+        text-align: right;
+        margin: 0.3rem;
+    }
+
+    .card-title-span {
+        font-size: 2.5rem;
+    }
+
+    /* .company_data {
+        position: absolute;
+        top: 11rem;
+        left: 2rem;
+        right: 2rem;
+    } */
+
+    .listItemShowCommt {
+        width: 100%;
+
+        /* display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        margin-block-start: 0.4rem;
+        margin-block-end: 0rem;
+
+        text-align: left;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_title {
+        height: 4rem;
+        text-align: left;
+
+
+    }
+
+    @media only screen and (max-width: 767px) {
+        .content-p {
+            text-align: left;
+            font-size: 1rem;
+        }
+        .card .content {
+            padding: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+        }
+        .content-wrap {
+            min-height: 100%;
+            min-height: 100vh;
+            padding: 0.5rem;
+
+            padding-top: calc(55px + 2rem);
+            background: #fff;
+            transition: margin-left 300ms ease-in-out;
+            background: #F5F5F5;
+        }
+        .picture-item .topic_figure_photo {
+            width: 100%;
+            height: auto;
+            ;
+        }
+        nav .brand-logo {
+            display: inline;
+        }
+        .navbar-top .brand-logo>img {
+            height: 70%;
+            width: auto;
+            vertical-align: middle;
+        }
+        .picture-item .topic_figure_contents .topic_figure_bottom div {
+            font-size: 0.7rem;
+        }
+        .picture-item .topic_figure_contents .topic_figure_title {
+            font-size: 1rem;
+            height: 3rem;
+            text-align: left;
+
+
+        }
+        figure {
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .newsLike,
+        .newsGood {
+            font-size: 1.8rem;
+            padding-right: 0.5rem
+        }
+        #searchCardTitleDiv,
+        #cardTitleDiv {
+            line-height: 1rem;
+            padding-left: 8px;
+        }
+        #searchCardTitleSpan,
+        #cardTitleSpan {
+            font-size: 1.1rem;
+
+        }
+        /* .com
+        pany_data {
+            position: absolute;
+            top: 9.5rem;
+            left: 0.5rem;
+            right: 0.5rem;
+        } */
+    }
+</style>
+<nav class="navbar-top navbar-under">
+    <div class="nav-wrapper">
+
+
+        <!-- Sidebar toggle -->
+
+        <!-- Logo -->
+        <a href="my-page.html" class="brand-logo">
+            <img src="assets/_con/images/logo.png" alt="neXessary">
+        </a>
+        <!-- /Logo -->
+
+        <!-- Menu -->
+        <ul>
+            <!-- 検索 -->
+            <!-- <li>
+                <a href="#!" class="search-bar-toggle">
+                    <i class="mdi-action-search"></i>
+                </a>
+            </li> -->
+            <!-- <li>
+                <a class="dropdown-button" data-activates="test-dropdown" href="#!">
+                    <i class="mdi-communication-email"></i>
+                    <span class="badge new">2</span>
+                </a>
+                <div id="test-dropdown" class="dropdown-content dropdown-media">
+                    <div class="card-panel">
+
+                        <div class="media-heading">Messages
+                            <a href="#!">
+                                <i class="mdi-content-add-circle-outline"></i>
+                            </a>
+                        </div>
+
+                        <div class="media-footer">
+                            <a href="#!">
+                                <i class="mdi-hardware-keyboard-control"></i>
+                            </a>
+                        </div>
+
+                        <div class="row mt-0">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u2.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">今日 9:02</span>
+                                <a href="#" class="media-title">北上 康平 (営業二部)</a>
+                                <span>
+                                    昨日質問のあった、住所変更手続きですが、今回のケースでは住民票は必要ないそうです。田村様の...
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u1.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">3日前</span>
+                                <a href="#" class="media-title">吉村 匡士 (渉外部)</a>
+                                <span>
+                                    渉外の吉村です。木下様の契約書に一点記入漏れがありました。添付のとおり記載をお願いしいたし...
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </li> -->
+            <li class="user">
+                <a class="dropdown-button" data-activates="user-dropdown" href="#!">
+                    <img id="userIcon" src="assets/_con/images/user.jpg" alt="" class="circle" style="display: none">
+                    <span id="userName"></span>
+                    <!--<i class="mdi-navigation-expand-more right"></i>-->
+                </a>
+
+                <ul id="user-dropdown" class="dropdown-content">
+                    <!-- <li>
+                        <a href="#!">
+                            <i class="fa fa-user"></i> プロフィール
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-envelope"></i> メッセージ
+                            <span class="badge new">2 new</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-cogs"></i> 設定
+                        </a>
+                    </li>
+                    <li class="divider"></li> -->
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-sign-out"></i> ログアウト
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- /Menu -->
+
+    </div>
+</nav>
+<script>
+
+    // ユーザー名字を設定する
+
+    $("#userName").text(localStorage.getItem("login_userName"));
+    $("#userIcon").css("display", "");
+
+    // お気に入りをクリックする時
+    function onNewsLike(id) {
+        //  alert(id)
+        if ($("#" + id).css("color") == "rgb(205, 92, 92)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "rgb(205, 92, 92)")
+        }
+
+
+    }
+    // 「いいね」をクリクリする時
+    function onNewsGood(id) {
+        // alert(id)
+        if ($("#" + id).css("color") == "rgb(30, 144, 255)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "dodgerblue")
+        }
+
+    }
+    // window.onload = function () {
+    //     var commentList = ["Aさん：9月のNHKのクローズアップ現代で今の状況を放送していたが、「純国産」ということを前面に打ち出したのが、ケチのつきはじめだった・・・",
+    //         "Bさん：兎に角、2020年の就航開始を実現しないと何も始まらない。MRJ90が就航し、顧客の信頼を獲得出来ればMRJ70や夫々の長距離型等で次への展望も見えて来るかも知れない。",
+    //         "Cさん：スリーダイヤモンドの意地だね。 かなり遅れをとってしまったが、マーケットにリリースすることが大事。それが次世代機、また更にその次に生きてくるはず"];
+
+    //     $(".listItemShowCommt").each(function () {
+    //         var x = 2;
+    //         var y = 0;
+    //         var rand = parseInt(Math.random() * (x - y + 1) + y);
+    //         $(this).text(commentList[rand])
+    //     });
+
+    // }
+
+
+
+
+
+</script>
+<!-- /Top Navbar --> 
+
+  <!--
+  Yay Sidebar
+  Options [you can use all of theme classnames]:
+    .yay-hide-to-small         - no hide menu, just set it small with big icons
+    .yay-static                - stop using fixed sidebar (will scroll with content)
+    .yay-gestures              - to show and hide menu using gesture swipes
+    .yay-light                 - light color scheme
+    .yay-hide-on-content-click - hide menu on content click
+
+  Effects [you can use one of these classnames]:
+    .yay-overlay  - overlay content
+    .yay-push     - push content to right
+    .yay-shrink   - shrink content width
+-->
+  
+  <!-- /Yay Sidebar --> 
+
+    <!-- Main Content -->
+    <section class="content-wrap">
+        
+  <!-- Breadcrumb -->
+<div class="page-title">
+
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <h1>Page Not Found</h1>
+
+      <ul>
+        <li>
+          <a href="#"><i class="fa fa-home"></i> Home</a> /
+        </li>
+
+        <li>
+          <a href="#">メニュー</a> /
+        </li>
+
+        <li>
+          <a href='page-404.html'>Page Not Found</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<!-- /Breadcrumb -->
+
+  <div id="page-message">
+    <h2>404</h2>
+    <h3>Page not Found ;(</h3>
+  </div>
+  
+
+    </section>
+    <!-- /Main Content -->
+
+    <!-- Search Bar -->
+<div class="search-bar">
+    <div class="layer-overlay"></div>
+    <div class="layer-content">
+        <form action="#!">
+            <!-- Header -->
+            <a class="search-bar-toggle grey-text text-darken-2" href="#!"><i class="mdi-navigation-close"></i></a>
+
+            <!-- Search Input -->
+            <div class="input-field">
+                <i class="mdi-action-search prefix"></i>
+                <input type="text" name="con-search" placeholder="検索する語句を入力">
+            </div>
+
+            <!-- Search Results -->
+            <div class="search-results">
+
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h4>個人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user2.jpg" alt="立花 芙美" class="circle photo">
+                            <div class="title">立花 芙美</div>
+                            <div class="label">最終訪問日 2016/08/12</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user3.jpg" alt="今野 美奈" class="circle photo">
+                            <div class="title">今野 美奈</div>
+                            <div class="label">最終訪問日 2016/09/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user4.jpg" alt="高田 理恵" class="circle photo">
+                            <div class="title">高田 理恵</div>
+                            <div class="label">最終訪問日 2016/10/04</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user6.jpg" alt="豊中 新祐" class="circle photo">
+                            <div class="title">豊中 新祐</div>
+                            <div class="label">最終訪問日 2016/10/12</div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>法人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通 株式会社" class="photo">
+                            <div class="title">富士通 株式会社</div>
+                            <div class="label">最終訪問日 2017/01/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="トヨタ自動車 株式会社" class="photo">
+                            <div class="title">トヨタ自動車 株式会社</div>
+                            <div class="label">最終訪問日 2016/12/18</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="FDK 株式会社" class="photo">
+                            <div class="title">FDK 株式会社</div>
+                            <div class="label">最終訪問日 2016/11/11</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通エフ・アイ・ピー 株式会社" class="photo">
+                            <div class="title">富士通エフ・アイ・ピー 株式会社</div>
+                            <div class="label">最終訪問日 2016/10/02</div>
+                        </div>
+
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>Posts</h4>
+
+                        <div class="no-result">No results were found ;(</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- /Search Bar -->  <!-- <footer>&copy; 2017 <strong>neXessary</strong>. All rights reserved. </footer> -->
+
+    <!-- DEMO [REMOVE IT ON PRODUCTION] -->
+    <script type="text/javascript" src="assets/_con/js/_demo.js"></script> <!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- extensions  -->
+<script type="text/javascript" src="assets/_con/js/extensions.js"></script>
+
+<!-- jQuery RAF (improved animation performance) -->
+<script type="text/javascript" src="bower_components/jquery-requestAnimationFrame/dist/jquery.requestAnimationFrame.min.js"></script>
+
+<!-- nanoScroller -->
+<script type="text/javascript" src="bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+<!-- Materialize -->
+<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>                     <!-- Data Tables -->
+<script type="text/javascript" src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+<script type="text/javascript" src="bower_components/datatables-scroller/js/dataTables.scroller.js"></script>
+
+<!-- Moment -->
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>     
+
+<!-- Main -->
+<script type="text/javascript" src="assets/_con/js/_con.js"></script> <!-- Google Prettify -->
+<script type="text/javascript" src="bower_components/code-prettify/src/prettify.js"></script>  
+<!-- parts -->
+<script type="text/javascript" src="assets/_con/js/parts_core.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic_list.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_company_profile.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_relation.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_utils.js"></script>
+<!-- deserialize -->
+<script type="text/javascript" src="bower_components/jquery-deserialize/dist/jquery.deserialize.min.js"></script>
+<!-- lodash -->
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+
+<!-- css-element-queries -->
+<script type="text/javascript" src="bower_components/css-element-queries/src/ResizeSensor.js"></script>
+<script type="text/javascript" src="bower_components/css-element-queries/src/ElementQueries.js"></script> 
+</body>
+
+</html>

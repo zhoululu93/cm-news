@@ -1,0 +1,106 @@
+{
+    "categories": [
+        {
+            "ipctCode": "01000000",
+            "name": "文化",
+            "default": false,
+            "sortNumber": 7
+        },
+        {
+            "ipctCode": "02000000",
+            "name": "犯罪・司法",
+            "default": false,
+            "sortNumber": 8
+        },
+        {
+            "ipctCode": "03000000",
+            "name": "災害・事故",
+            "default": true,
+            "sortNumber": 5
+        },
+        {
+            "ipctCode": "04000000",
+            "name": "経済・産業",
+            "default": true,
+            "sortNumber": 2
+        },
+        {
+            "ipctCode": "05000000",
+            "name": "教育",
+            "default": true,
+            "sortNumber": 6
+        },
+        {
+            "ipctCode": "06000000",
+            "name": "環境",
+            "default": false,
+            "sortNumber": 9
+        },
+        {
+            "ipctCode": "07000000",
+            "name": "健康",
+            "default": false,
+            "sortNumber": 10
+        },
+        {
+            "ipctCode": "08000000",
+            "name": "人間的興味",
+            "default": false,
+            "sortNumber": 17
+        },
+        {
+            "ipctCode": "09000000",
+            "name": "労働",
+            "default": false,
+            "sortNumber": 11
+        },
+        {
+            "ipctCode": "10000000",
+            "name": "生活・余暇",
+            "default": true,
+            "sortNumber": 3
+        },
+        {
+            "ipctCode": "11000000",
+            "name": "政治",
+            "default": false,
+            "sortNumber": 12
+        },
+        {
+            "ipctCode": "12000000",
+            "name": "宗教・思想",
+            "default": false,
+            "sortNumber": 13
+        },
+        {
+            "ipctCode": "13000000",
+            "name": "科学・技術",
+            "default": true,
+            "sortNumber": 4
+        },
+        {
+            "ipctCode": "14000000",
+            "name": "社会",
+            "default": false,
+            "sortNumber": 14
+        },
+        {
+            "ipctCode": "15000000",
+            "name": "スポーツ",
+            "default": true,
+            "sortNumber": 1
+        },
+        {
+            "ipctCode": "16000000",
+            "name": "戦争・紛争",
+            "default": false,
+            "sortNumber": 15
+        },
+        {
+            "ipctCode": "17000000",
+            "name": "気象",
+            "default": false,
+            "sortNumber": 16
+        }
+    ]
+}

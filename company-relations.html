@@ -1,0 +1,2341 @@
+
+
+<!DOCTYPE html> <!--
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-->
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="fujitsu.com">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" href="assets/_con/images/icon.png">
+    <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+
+    <title>neXessary - ダッシュボード</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+<!-- nanoScroller -->
+<link rel="stylesheet" type="text/css" href="bower_components/nanoscroller/bin/css/nanoscroller.css" /> <!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css" /> <!-- Material Design Icons -->
+<link rel="stylesheet" type="text/css" href="assets/material-design-icons/css/material-design-icons.min.css" /> <!-- IonIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css" /> <!-- WeatherIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/weather-icons/css/weather-icons.min.css" />  <!-- nvd3 -->
+<link rel="stylesheet" type="text/css" href="bower_components/nvd3/build/nv.d3.min.css" />               <!-- vis -->
+<link rel="stylesheet" type="text/css" href="bower_components/vis/dist/vis-network.min.css" />
+
+<!-- Main -->
+<link rel="stylesheet" type="text/css" href="assets/_con/css/con-base.css" />
+
+<!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+<style>
+    .content-wrap {
+        min-height: 100%;
+        min-height: 100vh;
+        margin-left: 0px;
+    }
+</style>
+<!--
+  Body
+    Options:
+      .boxed - boxed layout for content
+-->
+
+<body class="yay-hide">
+    <style>
+    .yaybar .nano-content>ul>li.active,
+    .yaybar .nano-content>ul>li.open>a,
+    .yaybar .nano-content>ul>li.open>.sp-cancel,
+    .yaybar .nano-content>ul>li>ul {
+        background: white;
+        color: black;
+    }
+
+    .my-shuffle-container {
+        margin-right: 0rem;
+    }
+
+    .newsLike,
+    .newsGood {
+        font-size: 2rem;
+    }
+
+    .content-p {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom i {
+        color: #039be5;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_bottom {
+        text-align: right;
+        margin: 0.3rem;
+    }
+
+    .card-title-span {
+        font-size: 2.5rem;
+    }
+
+    /* .company_data {
+        position: absolute;
+        top: 11rem;
+        left: 2rem;
+        right: 2rem;
+    } */
+
+    .listItemShowCommt {
+        width: 100%;
+
+        /* display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        margin-block-start: 0.4rem;
+        margin-block-end: 0rem;
+
+        text-align: left;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .picture-item .topic_figure_contents .topic_figure_title {
+        height: 4rem;
+        text-align: left;
+
+
+    }
+
+    @media only screen and (max-width: 767px) {
+        .content-p {
+            text-align: left;
+            font-size: 1rem;
+        }
+        .card .content {
+            padding: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+        }
+        .content-wrap {
+            min-height: 100%;
+            min-height: 100vh;
+            padding: 0.5rem;
+
+            padding-top: calc(55px + 2rem);
+            background: #fff;
+            transition: margin-left 300ms ease-in-out;
+            background: #F5F5F5;
+        }
+        .picture-item .topic_figure_photo {
+            width: 100%;
+            height: auto;
+            ;
+        }
+        nav .brand-logo {
+            display: inline;
+        }
+        .navbar-top .brand-logo>img {
+            height: 70%;
+            width: auto;
+            vertical-align: middle;
+        }
+        .picture-item .topic_figure_contents .topic_figure_bottom div {
+            font-size: 0.7rem;
+        }
+        .picture-item .topic_figure_contents .topic_figure_title {
+            font-size: 1rem;
+            height: 3rem;
+            text-align: left;
+
+
+        }
+        figure {
+            margin: auto;
+            margin-top: 2rem;
+        }
+        .newsLike,
+        .newsGood {
+            font-size: 1.8rem;
+            padding-right: 0.5rem
+        }
+        #searchCardTitleDiv,
+        #cardTitleDiv {
+            line-height: 1rem;
+            padding-left: 8px;
+        }
+        #searchCardTitleSpan,
+        #cardTitleSpan {
+            font-size: 1.1rem;
+
+        }
+        /* .com
+        pany_data {
+            position: absolute;
+            top: 9.5rem;
+            left: 0.5rem;
+            right: 0.5rem;
+        } */
+    }
+</style>
+<nav class="navbar-top navbar-under">
+    <div class="nav-wrapper">
+
+
+        <!-- Sidebar toggle -->
+
+        <!-- Logo -->
+        <a href="my-page.html" class="brand-logo">
+            <img src="assets/_con/images/logo.png" alt="neXessary">
+        </a>
+        <!-- /Logo -->
+
+        <!-- Menu -->
+        <ul>
+            <!-- 検索 -->
+            <!-- <li>
+                <a href="#!" class="search-bar-toggle">
+                    <i class="mdi-action-search"></i>
+                </a>
+            </li> -->
+            <!-- <li>
+                <a class="dropdown-button" data-activates="test-dropdown" href="#!">
+                    <i class="mdi-communication-email"></i>
+                    <span class="badge new">2</span>
+                </a>
+                <div id="test-dropdown" class="dropdown-content dropdown-media">
+                    <div class="card-panel">
+
+                        <div class="media-heading">Messages
+                            <a href="#!">
+                                <i class="mdi-content-add-circle-outline"></i>
+                            </a>
+                        </div>
+
+                        <div class="media-footer">
+                            <a href="#!">
+                                <i class="mdi-hardware-keyboard-control"></i>
+                            </a>
+                        </div>
+
+                        <div class="row mt-0">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u2.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">今日 9:02</span>
+                                <a href="#" class="media-title">北上 康平 (営業二部)</a>
+                                <span>
+                                    昨日質問のあった、住所変更手続きですが、今回のケースでは住民票は必要ないそうです。田村様の...
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s2">
+                                <img src="assets/_con/images/u1.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                                <span class="media-date">3日前</span>
+                                <a href="#" class="media-title">吉村 匡士 (渉外部)</a>
+                                <span>
+                                    渉外の吉村です。木下様の契約書に一点記入漏れがありました。添付のとおり記載をお願いしいたし...
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </li> -->
+            <li class="user">
+                <a class="dropdown-button" data-activates="user-dropdown" href="#!">
+                    <img id="userIcon" src="assets/_con/images/user.jpg" alt="" class="circle" style="display: none">
+                    <span id="userName"></span>
+                    <!--<i class="mdi-navigation-expand-more right"></i>-->
+                </a>
+
+                <ul id="user-dropdown" class="dropdown-content">
+                    <!-- <li>
+                        <a href="#!">
+                            <i class="fa fa-user"></i> プロフィール
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-envelope"></i> メッセージ
+                            <span class="badge new">2 new</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa fa-cogs"></i> 設定
+                        </a>
+                    </li>
+                    <li class="divider"></li> -->
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-sign-out"></i> ログアウト
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- /Menu -->
+
+    </div>
+</nav>
+<script>
+
+    // ユーザー名字を設定する
+
+    $("#userName").text(localStorage.getItem("login_userName"));
+    $("#userIcon").css("display", "");
+
+    // お気に入りをクリックする時
+    function onNewsLike(id) {
+        //  alert(id)
+        if ($("#" + id).css("color") == "rgb(205, 92, 92)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "rgb(205, 92, 92)")
+        }
+
+
+    }
+    // 「いいね」をクリクリする時
+    function onNewsGood(id) {
+        // alert(id)
+        if ($("#" + id).css("color") == "rgb(30, 144, 255)") {
+            $("#" + id).css("color", "#a4a7aa")
+        } else {
+            $("#" + id).css("color", "dodgerblue")
+        }
+
+    }
+    // window.onload = function () {
+    //     var commentList = ["Aさん：9月のNHKのクローズアップ現代で今の状況を放送していたが、「純国産」ということを前面に打ち出したのが、ケチのつきはじめだった・・・",
+    //         "Bさん：兎に角、2020年の就航開始を実現しないと何も始まらない。MRJ90が就航し、顧客の信頼を獲得出来ればMRJ70や夫々の長距離型等で次への展望も見えて来るかも知れない。",
+    //         "Cさん：スリーダイヤモンドの意地だね。 かなり遅れをとってしまったが、マーケットにリリースすることが大事。それが次世代機、また更にその次に生きてくるはず"];
+
+    //     $(".listItemShowCommt").each(function () {
+    //         var x = 2;
+    //         var y = 0;
+    //         var rand = parseInt(Math.random() * (x - y + 1) + y);
+    //         $(this).text(commentList[rand])
+    //     });
+
+    // }
+
+
+
+
+
+</script>
+<!-- /Top Navbar --> 
+
+  <!--
+  Yay Sidebar
+  Options [you can use all of theme classnames]:
+    .yay-hide-to-small         - no hide menu, just set it small with big icons
+    .yay-static                - stop using fixed sidebar (will scroll with content)
+    .yay-gestures              - to show and hide menu using gesture swipes
+    .yay-light                 - light color scheme
+    .yay-hide-on-content-click - hide menu on content click
+
+  Effects [you can use one of these classnames]:
+    .yay-overlay  - overlay content
+    .yay-push     - push content to right
+    .yay-shrink   - shrink content width
+-->
+  
+  <!-- /Yay Sidebar --> 
+
+    <!-- Main Content -->
+    <section class="content-wrap">
+        
+<link href="assets/_con/css/company-relations.css" rel="stylesheet" type="text/css" />
+<div class="ecommerce-customers">
+    <!-- Breadcrumb -->
+<style>
+  nav ul.left {
+    float: left;
+    width: 55rem;
+    ;
+  }
+
+  .ecommerce-title nav {
+    background: none;
+    box-shadow: none !important;
+  }
+</style>
+
+<div class="ecommerce-title">
+
+  <div class="row" id="tabDiv">
+    <div class="col s12 m12 l10">
+
+      <nav>
+        <ul class="left">
+          <li>
+            <a href="my-page.html" name="マイページ" onclick="alink(this)">マイページ</a>
+            </li><li>
+            <a href="comment.html" name="コメント入り" onclick="alink(this)">コメント入り</a>
+            </li><li>
+            <a href="society.html" name="社会" onclick="alink(this)">社会</a>
+            </li><li>
+            <a href="international.html" name="国際" onclick="alink(this)">国際</a>
+            </li><li>
+            <a href="political-economic.html" name="政治・経済" onclick="alink(this)">政治・経済</a>
+            </li><li>
+            <a href="market.html" name="マーケット" onclick="alink(this)">マーケット</a>
+            </li><li>
+            <a href="science-environment.html" name="科学・環境" onclick="alink(this)">科学・環境</a>
+            </li><li>
+            <a href="medical-health.html" name="医療・健康" onclick="alink(this)">医療・健康</a>
+            </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+</div>
+<script>
+
+  // tabの処理
+  $("#tabDiv").css("margin-right", "0rem");
+  $("#tabDiv").css("overflow-x", "auto");
+  var clickedTab = localStorage.getItem("clickTabPosition");
+  // switch (clickedTab) {
+  //   case "国際":
+  //     $("#tabDiv").scrollLeft(100);
+  //     break;
+  //   case "政治・経済":
+  //     $("#tabDiv").scrollLeft(200);
+  //     break;
+  //   case "マーケット":
+  //     $("#tabDiv").scrollLeft(300);
+  //     break;
+  //   case "科学・環境":
+  //     $("#tabDiv").scrollLeft(400);
+  //     break;
+  //   case "医療・健康":
+  //     $("#tabDiv").scrollLeft(500);
+  //     break;
+  // }
+  if (clickedTab) {
+
+    $("#tabDiv").scrollLeft(parseInt(clickedTab.split(",")[1]));
+  }
+
+  function alink(obj) {
+    // $("#hdnvalue").val(document.documentElement.scrollTop); 
+    // alert(obj.name)
+    // switch (obj.name) {
+    //   case "国際":
+    //   $("#tabDiv").scrollLeft(100);
+    //     break;
+    //   case "政治・経済":
+    //     $("a[name='" + obj.name + "']").scrollLeft(200);
+    //     break;
+    //   case "マーケット":
+    //     $("a[name='" + obj.name + "']").scrollLeft(300);
+    //     break;
+    //   case "科学・環境":
+    //     $("a[name='" + obj.name + "']").scrollLeft(400);
+    //     break;
+    //   case "医療・健康":
+    //     $("a[name='" + obj.name + "']").scrollLeft(500);
+    //     break;
+
+    // }
+    // clicktabの処理
+    localStorage.setItem("clickTabPosition", [obj.name, $("#tabDiv").scrollLeft()]);
+    // alert($("#tabDiv").scrollLeft())
+    if (obj.innerText == "業種話題") {
+      var companyData = JSON.parse(localStorage.getItem('cr_company_data'));
+      var $business_type_codes = $("#business_type_code");
+      var file = "./assets/_con/dataTables/business-types.json";
+      var businessCode = formatnumber(companyData.detailInfo.business.businessTypeSubdivideCode1);
+      var industrycode;
+      var industryName;
+      $.ajaxSetup({
+        async: false
+      });
+      $.getJSON(file, function (json) {
+        $.each(json, function (i, optgroup) {
+
+          if (businessCode) {
+            var busCode = businessCode.toString().substr(0, 2);
+            for (var i = 0; i < optgroup.Groups.length; i++) {
+              if (optgroup.Groups[i].Code == busCode) {
+                industryName = optgroup.Name;
+                industrycode = optgroup.Code;
+                return;
+              }
+            }
+          }
+
+        });
+      });
+
+      var targetIndustry = { code: industrycode, name: industryName };
+      //alert(targetIndustry.name)
+      window.open(
+        "https://demo.finplex.global.fujitsu.com/nexessary/poc/NLP2/topics-multi_trendwords_list_view.html?industrycode=" + industrycode + "&&industryName=" + industryName);
+      //window.open(
+      //  "http://localhost:3000/nexessary/poc/NLP/topics-multi_trendwords_list_view.html?industrycode=" + industrycode + "&&industryName=" + industryName);
+    }
+
+  }
+  function formatnumber(num) {
+    var len = num.toString().length;
+    while (len < 4) {
+      num = "0" + num;
+      len++;
+    }
+    return num;
+  }
+</script>
+<!-- /Breadcrumb -->
+
+    <div class="company_relations" style="height: calc(100vh - 147px);margin: 0;">
+        <div class="row" style="height: 100%;margin:0;position:relative;">
+            <div class="col" style="width: 100%; height: 100%; padding-bottom:0; padding-right:0;padding-top:0rem; position:relative;">
+                <!-- nodes -->
+                <div id="nodes" class="box visible z-depth-1" style="position:relative;">
+                    <div id="loadingEffect">
+                        <div class="outerBorder">
+                            <div class="loader">Loading...</div>
+                            <div id="text">0%</div>
+                        </div>
+                    </div>
+                    <div id="mynetwork" style="height: 100%;position:relative;">
+                    </div>
+                    <div id="chips" style="position:absolute;top:-4.4rem;right:0;text-align:right;">
+
+                    </div>
+                    <!-- 左パネル -->
+                    <div id="left-pane" class="left-pane">
+                        <!-- ホットフィルタ -->
+                        <div style="background-color:transparent;">
+                            <!-- 戻るボタン -->
+                            <!-- <div id="backbutton" class="filters left-pane-content">
+                                <div class="hotfilterbutton" id="back-button">
+                                    <a class="waves-effect btn-floating btn-large green"><i class="mdi mdi-navigation-arrow-back"></i></a>
+                                    <div>戻る</div>
+                                </div>
+                            </div> -->
+
+                            <!-- ホットフィルタボタン -->
+                            <div id="hotfilters" class="filters left-pane-content">
+                                <div class="hotfilterbutton" id="filter-button">
+                                    <a class="waves-effect btn-floating btn-large orange">
+                                        <i class="mdi-action-search"></i>
+                                    </a>
+                                    <div class="filter-text">フィルタ</div>
+                                </div>
+
+                                <div class="hotfilterbutton" id="scoreFilter">
+                                    <a class="waves-effect btn-floating btn-large red">
+                                        <i class="mdi-social-whatshot"></i>
+                                    </a>
+                                    <div class="filter-text">高スコア企業</div>
+                                </div>
+
+                                <div class="hotfilterbutton" id="settlementFilter">
+                                    <a class="waves-effect btn-floating btn-large deep-orange" id="button1">
+                                        <i class="mdi-editor-attach-money"></i>
+                                    </a>
+                                    <div class="filter-text grey-text">黒字仕入販売先</div>
+                                </div>
+                                <!-- 詳細フィルターボタン -->
+                                <!-- <div style="position:absolute; top:2rem; right:2rem; padding: 1rem; border-radius: 1rem; background-color:white; opacity: 0.8;"> -->
+                                <!-- </div>-->
+                                <div class="hotfilterbutton" id="detailFilter">
+                                    <a class="waves-effect btn-floating btn-large deep-purple">
+                                        <i class="mdi-device-dvr"></i>
+                                    </a>
+                                    <div class="filter-text grey-text">詳細なフィルター</div>
+                                </div>
+                            </div>
+
+                            <!-- 詳細フィルターボックス -->
+                            <div id="filterbox" class="filterbox left-pane-content">
+                                <div style="position:absolute; top:2rem; right:2.3rem;">
+                                    <div id="detailFilterDone" class="hotfilterbutton" style="display: block;margin-bottom:2rem;">
+                                        <a class="waves-effect btn-floating btn-large deep-purple">
+                                            <i class="mdi-navigation-check"></i>
+                                        </a>
+                                        <div>フィルター実行</div>
+                                    </div>
+                                    <div id="detailFilterClear" class="hotfilterbutton" style="display: block;">
+                                        <a class="waves-effect btn-floating btn-large deep-purple">
+                                            <i class="ion-reply-all"></i>
+                                        </a>
+                                        <div>フィルタークリア</div>
+                                    </div>
+                                </div>
+
+                                <div class="titletext">
+                                    <span>詳細なフィルター条件</span>
+                                </div>
+                                <div class="row" style="width: calc(100% - 16rem); margin-left:2rem; margin-right: auto;">
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">関係性</span>
+                                            <select id="relationTypeFilter" class="browser-default">
+                                                <option disabled>関係性</option>
+                                                <option value="">すべて</option>
+                                                <option value="1">仕入・販売</option>
+                                                <option value="2">出資・株主</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">利益</span>
+                                            <select id="profitFilter" class="browser-default">
+                                                <option disabled>利益</option>
+                                                <option value="">すべて</option>
+                                                <option value="1">A: 黒字</option>
+                                                <option value="2">B: 赤字</option>
+                                                <option value="99">不明</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">売上</span>
+                                            <select id="salesAmmountFilter" class="browser-default">
+                                                <option disabled>売上</option>
+                                                <option value="">すべて</option>
+                                                <option value="1">A: 1,000億円以上</option>
+                                                <option value="2">B: 100～1,000億円未満</option>
+                                                <option value="3">C: 10～100億円未満</option>
+                                                <option value="4">D: 1～10億円未満</option>
+                                                <option value="5">E: 1億円未満</option>
+                                                <option value="99">Z: 不明</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">地域</span>
+                                            <select id="locationFilter" class="browser-default">
+                                                <option disabled>地域</option>
+                                                <option value="">すべて</option>
+                                                <option value="A">A: 北海道</option>
+                                                <option value="B">B: 東北</option>
+                                                <option value="C">C: 関東</option>
+                                                <option value="D">D: 中部</option>
+                                                <option value="E">E: 近畿</option>
+                                                <option value="F">F: 中国</option>
+                                                <option value="G">G: 四国</option>
+                                                <option value="H">H: 九州</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">業種</span>
+                                            <select id="businessTypeFilter" class="browser-default">
+                                                <option disabled>業種</option>
+                                                <option value="">すべて</option>
+                                                <option value="A">A: 農業・林業</option>
+                                                <option value="B">B: 漁業</option>
+                                                <option value="C">C: 鉱業・採石業・砂利採集業</option>
+                                                <option value="D">D: 建設業</option>
+                                                <option value="E">E: 製造業</option>
+                                                <option value="F">F: 電気・ガス・熱供給・水道業</option>
+                                                <option value="G">G: 情報通信業</option>
+                                                <option value="H">H: 運輸業・郵便業</option>
+                                                <option value="I">I: 卸売業・小売業</option>
+                                                <option value="J">J: 金融業・保険業</option>
+                                                <option value="K">K: 不動産業・物品賃貸業</option>
+                                                <option value="L">L: 学術研究・専門サービス業</option>
+                                                <option value="M">M: 宿泊業・給食サービス業</option>
+                                                <option value="N">N: 生活関連サービス業・娯楽業</option>
+                                                <option value="O">O: 教育・学習支援業</option>
+                                                <option value="P">P: 医療・福祉</option>
+                                                <option value="Q">Q: 複合サービス事業</option>
+                                                <option value="R">R: 他に分類されないサービス業</option>
+                                                <option value="S">S: 公務</option>
+                                                <option value="T">T: 分類不能</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 m4 l4">
+                                        <div style="margin-top: .5rem;">
+                                            <span style="font-weight: 600;">上場区分</span>
+                                            <select id="listingFilter" class="browser-default">
+                                                <option disabled>上場区分</option>
+                                                <option value="">すべて</option>
+                                                <option value="東証1部">A: 東証一部</option>
+                                                <option value="東証二部">B: 東証二部</option>
+                                                <option value="地方上場">C: 地方上場</option>
+                                                <option value="ジャスダック">D: JASDAQ</option>
+                                                <option value="マザーズ">E: マザーズ</option>
+                                                <option value="非上場">F: 未上場</option>
+                                                <option value="Z">Z: データなし</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 凡例ボタン -->
+                            <div id="hanrei" class="hanrei left-pane-content">
+                                <div class="hotfilterbutton" id="hanrei-button">
+                                    <a class="waves-effect btn-floating btn-large blue">
+                                        <i class="mdi mdi-maps-local-offer"></i>
+                                    </a>
+                                    <div>凡例</div>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">仕入・販売</td>
+                                        <td style="padding:.5rem .5rem;">
+                                            <svg width="90" height="5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <line x1="0" y1="0" x2="90" y2="0" stroke="rgba(76,175,80 ,0.5)" stroke-width="8" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">出資・株主</td>
+                                        <td style="padding:.5rem .5rem;">
+                                            <svg width="90" height="5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <line x1="0" y1="0" x2="90" y2="0" stroke="rgba(255,87,34 ,0.7)" stroke-width="8" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">業務提携</td>
+                                        <td style="padding:.5rem .5rem;">
+                                            <svg width="90" height="5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <line x1="0" y1="0" x2="90" y2="0" stroke="rgb(129,212,250)" stroke-width="8" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">自社顧客企業</td>
+                                        <td style="padding:.5rem .5rem;text-align:center;">
+                                            <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="11" cy="11" r="10" fill="rgb(239,83,80)" stroke="gray" stroke-width="1" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">他社顧客企業</td>
+                                        <td style="padding:.5rem .5rem;text-align:center;">
+                                            <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="11" cy="11" r="10" fill="rgb(121,134,203)" stroke="gray" stroke-width="1" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">自社所有データ企業</td>
+                                        <td style="padding:.5rem .5rem;text-align:center;">
+                                            <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="11" cy="11" r="10" fill="none" stroke="rgb(255,238,88)" stroke-width="1.5" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">有償データ企業</td>
+                                        <td style="padding:.5rem .5rem;text-align:center;">
+                                            <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="11" cy="11" r="10" fill="none" stroke="rgb(255,138,101)" stroke-width="1.5" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:.5rem .5rem;">LODデータ企業</td>
+                                        <td style="padding:.5rem .5rem;text-align:center;">
+                                            <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="11" cy="11" r="10" fill="none" stroke="rgba(255,171,145 ,1)" stroke-width="1.5" />
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <!-- 人脈探索ボタン -->
+                            <div id="routebutton" class="filters left-pane-content" style="display: none;">
+                                <div class="hotfilterbutton" id="route-button">
+                                    <a class="waves-effect btn-floating btn-large indigo">
+                                        <i class="mdi mdi-maps-navigation"></i>
+                                    </a>
+                                    <div>人脈探索</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 右パネル -->
+                    <div id="right-pane" class="right-pane">
+                        <div class="widget-pane-toggle-button-container" style="position:relative;z-index: 999;">
+                            <button id="right-pane-button" class="z-depth-2" style="border: none; background-color: white;width:3rem;height:3rem;text-align:center;">
+                                <i class="mdi mdi-navigation-chevron-left" style="font-size: 1.5rem;"></i>
+                            </button>
+
+                            <div style="position:absolute; bottom:3rem; right:3rem;z-index: 200;background-color:white; opacity: 0.8; padding: 1rem; border-radius: 1rem;">
+                                <div class="hotfilterbutton">
+                                    <a class="btn-floating btn-large green" id="toLists">
+                                        <i class="mdi-action-list"></i>
+                                    </a>
+                                    <div>リスト表示</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="right-pane-content" id="right-pane-content">
+                        </div>
+                    </div>
+                    <!-- 表示企業件数 -->
+                    <div id="viewCompanyCount" class="company-count" style="display: none;">
+                        <div id="DBTime" class=""></div>
+                        <div id="visCreateTime" class=""></div>
+                        <div id="companyCount" class=""></div>
+                    </div>
+                </div>
+                <!-- lists -->
+                <div id="lists" class="card box" style="transition: all 300ms 0s ease; height:100%;position:relative;margin-top:0;padding:2rem;">
+                    <div style="position:absolute; bottom:1rem; right:1rem;">
+                        <button id="toNodes" class="btn submit_button" style="border-radius: 4rem;width:4rem;height:4rem;text-align:center;padding-left:.95rem;">
+                            <i class="mdi-action-group-work" style="font-size: 2rem;"></i>
+                        </button>
+                    </div>
+                    <div id="company-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <!-- /Main Content -->
+
+    <!-- Search Bar -->
+<div class="search-bar">
+    <div class="layer-overlay"></div>
+    <div class="layer-content">
+        <form action="#!">
+            <!-- Header -->
+            <a class="search-bar-toggle grey-text text-darken-2" href="#!"><i class="mdi-navigation-close"></i></a>
+
+            <!-- Search Input -->
+            <div class="input-field">
+                <i class="mdi-action-search prefix"></i>
+                <input type="text" name="con-search" placeholder="検索する語句を入力">
+            </div>
+
+            <!-- Search Results -->
+            <div class="search-results">
+
+                <div class="row">
+                    <div class="col s12 l4">
+                        <h4>個人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user2.jpg" alt="立花 芙美" class="circle photo">
+                            <div class="title">立花 芙美</div>
+                            <div class="label">最終訪問日 2016/08/12</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user3.jpg" alt="今野 美奈" class="circle photo">
+                            <div class="title">今野 美奈</div>
+                            <div class="label">最終訪問日 2016/09/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user4.jpg" alt="高田 理恵" class="circle photo">
+                            <div class="title">高田 理恵</div>
+                            <div class="label">最終訪問日 2016/10/04</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/user6.jpg" alt="豊中 新祐" class="circle photo">
+                            <div class="title">豊中 新祐</div>
+                            <div class="label">最終訪問日 2016/10/12</div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>法人顧客</h4>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通 株式会社" class="photo">
+                            <div class="title">富士通 株式会社</div>
+                            <div class="label">最終訪問日 2017/01/10</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="トヨタ自動車 株式会社" class="photo">
+                            <div class="title">トヨタ自動車 株式会社</div>
+                            <div class="label">最終訪問日 2016/12/18</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="FDK 株式会社" class="photo">
+                            <div class="title">FDK 株式会社</div>
+                            <div class="label">最終訪問日 2016/11/11</div>
+                        </div>
+
+                        <div class="each-result">
+                            <img src="assets/_con/images/ic_domain_black_24dp_2x.png" alt="富士通エフ・アイ・ピー 株式会社" class="photo">
+                            <div class="title">富士通エフ・アイ・ピー 株式会社</div>
+                            <div class="label">最終訪問日 2016/10/02</div>
+                        </div>
+
+                    </div>
+                    <div class="col s12 l4">
+                        <h4>Posts</h4>
+
+                        <div class="no-result">No results were found ;(</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- /Search Bar -->  <!-- <footer>&copy; 2017 <strong>neXessary</strong>. All rights reserved. </footer> -->
+
+    <!-- DEMO [REMOVE IT ON PRODUCTION] -->
+    <script type="text/javascript" src="assets/_con/js/_demo.js"></script> <!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- extensions  -->
+<script type="text/javascript" src="assets/_con/js/extensions.js"></script>
+
+<!-- jQuery RAF (improved animation performance) -->
+<script type="text/javascript" src="bower_components/jquery-requestAnimationFrame/dist/jquery.requestAnimationFrame.min.js"></script>
+
+<!-- nanoScroller -->
+<script type="text/javascript" src="bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script><!-- vis -->
+<script type="text/javascript" src="bower_components/vis/dist/vis.min.js"></script>
+<!-- Materialize -->
+<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>    <!-- d3 -->
+<script type="text/javascript" src="bower_components/d3/d3.min.js"></script> <!-- techan -->
+<script type="text/javascript" src="bower_components/techan/dist/techan.min.js"></script> <!-- nvd3 -->
+<script type="text/javascript" src="bower_components/nvd3/build/nv.d3.min.js"></script>               <!-- Data Tables -->
+<script type="text/javascript" src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+<script type="text/javascript" src="bower_components/datatables-scroller/js/dataTables.scroller.js"></script>
+
+<!-- Moment -->
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>     
+
+<!-- Main -->
+<script type="text/javascript" src="assets/_con/js/_con.js"></script>  <!-- jsrender -->
+<script type="text/javascript" src="bower_components/jsrender/jsrender.js"></script> 
+<!-- parts -->
+<script type="text/javascript" src="assets/_con/js/parts_core.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic_list.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_company_profile.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_relation.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_utils.js"></script>
+<!-- deserialize -->
+<script type="text/javascript" src="bower_components/jquery-deserialize/dist/jquery.deserialize.min.js"></script>
+<!-- lodash -->
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+
+<!-- css-element-queries -->
+<script type="text/javascript" src="bower_components/css-element-queries/src/ResizeSensor.js"></script>
+<script type="text/javascript" src="bower_components/css-element-queries/src/ElementQueries.js"></script> 
+<script>
+    /*
+     *相関図
+     */
+    var network;
+
+    //色変更時のスコア閾値
+    var LOW_SCORE = 35,
+        HIGH_SCORE = 45,
+        TOP_RANK = 55;
+
+    var LENGTH_MAIN = 25,
+        LENGTH_MAX = 170,
+        LENGTH_MIN = 100,
+        MAX_RANK = 6,
+        MAX_CHILD = 0,
+        WIDTH_SCALE = 4,
+        bc = 'rgba(0,112,192,0.5)',
+        oc = '#ea9600';
+
+    //nodeIDカウンター
+    var nodesIdCounter;
+    //各IDごとの子供nodeの数を格納
+    var idCountMap;
+    //再帰処理用未処理edge格納
+    var recursiveEdges = [];
+    //再帰処理用処理済edge格納
+    var viewEdgelist = [];
+    // ノードdataset
+    var nodeDataSet;
+    var edgeDataSet
+    var selectedNode;
+
+    //フィルター用データ
+    var minScore = 39;
+    var depth = 2;
+    var depthLimit = 100;
+
+    // コマンドボタン関連
+    var commandButtonSize = 20;
+    var commandButtonEdgeLength = 80;
+    var commandCircleRadius = commandButtonEdgeLength - commandButtonSize / 2;
+
+    // RootノードからみたHierarchyMap
+    var nodeHierarchyMap;
+
+    // LocalTsrDataデータ
+    var localTsrData;
+
+    //相関図オプション
+    var options = {
+        nodes: {
+            shape: 'dot',
+            size: 20,
+            chosen: false,
+            font: {
+                align: 'center',
+                color: '#404040',
+                face: 'Meiryo'
+            },
+            shadow: {
+                enabled: true,
+                color: 'rgba(0,0,0,0.4)',
+                x: 0,
+                y: 5
+            },
+        },
+        edges: {
+            color: bc,
+            smooth: false,
+            length: LENGTH_MAIN,
+            width: WIDTH_SCALE
+        },
+        physics: {
+            enabled: true,
+            barnesHut: {
+                gravitationalConstant: -10000,
+                centralGravity: 0.01,
+                // springLength: 200,
+                springConstant: 0.01,
+                damping: 0.3,
+                avoidOverlap: 0
+            },
+            forceAtlas2Based: {
+                gravitationalConstant: -50,
+                centralGravity: 0.00,
+                springConstant: 0.1,
+                // springLength: 100,
+                damping: 0.4,
+                avoidOverlap: 0
+            },
+            maxVelocity: 50,
+            minVelocity: 0.1,
+            solver: 'barnesHut',
+            stabilization: {
+                enabled: true,
+                iterations: 1000,
+                updateInterval: 100,
+                onlyDynamicEdges: false,
+                fit: true
+            },
+            timestep: 0.5,
+            adaptiveTimestep: true
+        },
+        groups: {
+            lowScore: {
+                color: 'rgb(241,248,233)', // litest lime,
+                size: 5,
+            },
+            middleScore: {
+                color: 'rgb(241,248,233)', // litest lime,
+                //color: {
+                //border: "rgb(255,138,101)",
+                //background: "rgb(255,171,145)" // orange
+                //},
+                size: 10,
+            },
+            highScore: {
+                color: 'rgb(241,248,233)', // litest lime,
+                //color: {
+                //border: "rgb(229,57,53)",
+                //background: "rgb(244,67,54)" // red
+                //},
+                size: 15,
+            },
+            topRank: {
+                color: 'rgb(229,57,53)'
+                //color: {
+                //border: "rgb(229,57,53)",
+                //background: "rgb(244,67,54)" // red
+                //},
+                //size: 50,
+            }
+        },
+        layout: {
+            randomSeed: 1,
+            improvedLayout: false
+        },
+        interaction: {
+            //tooltipDelay: 500,
+            navigationButtons: true,
+            hover: true,
+            multiselect: true
+        }
+    };
+
+    $(function () {
+        $.when(
+            $finplex_core.lazyGetTemplate("hover", "hover_company"),
+            $finplex_core.lazyGetTemplate("hover", "hover_relation"),
+            $finplex_core.lazyGetTemplate("cr", "cr_rel_company1"),
+            $finplex_core.lazyGetTemplate("cr", "cr_setting"),
+            $finplex_core.lazyGetTemplate("cr", "cr_relation_list")
+        ).done(function () {
+            var right_pane_content = $("#right-pane-content");
+
+            //パラメータ切り出し
+            var parameterUrl = location.search.substring(1).split("&");
+
+            var parameters = {};
+            parameterUrl.forEach(function (param) {
+                var paramSplit = param.split("=");
+                parameters[paramSplit[0]] = paramSplit[1];
+            })
+
+            var company_code;
+
+            if (!parameters.center) {
+                var l = localStorage['cr_company_code'];
+                if (l) {
+                    company_code = l;
+                } else {
+                    company_code = 100000001;
+                }
+            } else {
+                company_code = parameters.center;
+                localStorage['cr_company_code'] = company_code;
+            }
+            // if (!company_code) {
+            //     company_code = 100000001;
+            // }
+            CreateNetwork(company_code);
+
+            $("#settlementFilter").on("click", function () {
+
+                // 黒字仕入販売先
+                $(this).find(".filter-text").toggleClass("grey-text");
+                var isFiltered = !$(this).find(".filter-text").hasClass("grey-text");
+
+                if (isFiltered) {
+                    //関係種別
+                    $("#relationTypeFilter").val("1");
+                    //利益
+                    $("#profitFilter").val("1");
+                } else {
+                    //関係種別
+                    $("#relationTypeFilter").val("");
+                    //利益
+                    $("#profitFilter").val("");
+
+                }
+
+                //売上
+                $("#salesAmmountFilter").val("");
+                // 地域
+                $("#locationFilter").val("");
+                //上場区分 
+                $("#listingFilter").val("");
+                //業種 
+                $("#businessTypeFilter").val("");
+
+                // 詳細フィルター実行
+                detailFilter();
+            });
+            $("#scoreFilter").on("click", function () {
+                // 高スコア企業フィルタ
+                $(this).find(".filter-text").toggleClass("grey-text");
+                var isFiltered = !$(this).find(".filter-text").hasClass("grey-text");
+                minScore = isFiltered ? 39 : 0;
+                if (isFiltered) {
+
+                    // 業績上昇重視を解除
+                    $("#settlementFilter").find(".filter-text").addClass("grey-text");
+
+                    // 消去
+                    destroy();
+                    //再構築
+                    CreateNetwork(company_code);
+                } else {
+                    if (confirm("フィルターを解除した場合、データ量が大量となるため描画に時間がかかります。\nそれでも実行しますか?")) {
+                        // 業績上昇重視を解除
+                        $("#settlementFilter").find(".filter-text").addClass("grey-text");
+                        $('#loadingEffect').show();
+                        $('#text').empty();
+                        $('#text').append('0%');
+
+                        // 消去
+                        destroy();
+                        //再構築
+                        CreateNetwork(company_code);
+                    };
+                };
+            });
+            $("#detailFilterClear").on("click", function () {
+                // 業績上昇重視を解除
+                $("#settlementFilter").find(".filter-text").addClass("grey-text");
+
+                //関係種別
+                $("#relationTypeFilter").val("");
+                //利益
+                $("#profitFilter").val("");
+                //売上
+                $("#salesAmmountFilter").val("");
+                // 地域
+                $("#locationFilter").val("");
+                //上場区分 
+                $("#listingFilter").val("");
+                //業種 
+                $("#businessTypeFilter").val("");
+
+                // 詳細フィルター実行
+                detailFilter();
+
+            });
+            $("#detailFilter").on("click", function () {
+                // 詳細フィルタ
+                $(this).find(".filter-text").toggleClass("grey-text");
+                $("#filterbox").toggleClass("visible");
+                $("#filterbox").toggleClass("z-depth-2");
+            });
+            $("#detailFilterDone").on("click", function () {
+                // 業績上昇重視を解除
+                $("#settlementFilter").find(".filter-text").addClass("grey-text");
+
+                // 詳細フィルター実行
+                detailFilter($("#relationTypeFilter").val());
+            });
+            //人脈探索ボタン
+            $("#routebutton").on("click", function () {
+                var parameters = {}
+                //自社企業は決め打ち
+                parameters.startCompanyCode = "100000001";
+                $('#chips').children('div').each(function (i, element) {
+                    parameters['endCompanyCode' + i] = element.dataset.value;
+                });
+                console.log(parameters);
+
+                var urlParameter = "";
+                Object.keys(parameters).forEach(function (key, i) {
+                    urlParameter += key + "=" + parameters[key];
+                    if (i < Object.keys(parameters).length - 1) {
+                        urlParameter += "&";
+                    }
+                });
+
+                location.href = 'route-search.html' + `\?` + urlParameter;
+            });
+            $("#toNodes").on("click", function () {
+                $("#nodes").toggleClass("visible");
+                $("#lists").toggleClass("visible");
+            });
+            $("#toLists").on("click", function () {
+                $("#lists").toggleClass("visible");
+                $("#nodes").toggleClass("visible");
+            });
+            $(".ac_button").on("click", function () {
+                var group = $(this).attr("group");
+                $(this).toggleClass("visiblegroup");
+                $("." + group).toggleClass("visiblerow");
+            });
+            $("#hanrei-button").on("click", function () {
+                $("#hanrei").toggleClass("visible");
+                $("#hanrei").toggleClass("z-depth-2");
+            });
+            $("#filter-button").on("click", function () {
+                if ($("#filterbox").hasClass("visible")) {
+                    $("#filterbox").toggleClass("visible");
+                    $("#filterbox").removeClass("z-depth-2");
+                }
+                $("#hotfilters").toggleClass("visible");
+                $("#hotfilters").toggleClass("z-depth-2");
+            });
+            $("#right-pane-button").on("click", function () {
+                $("#right-pane").toggleClass("visible");
+                $("#right-pane").find(".right-pane-content").first().toggleClass(
+                    "z-depth-2");
+                $("#right-pane-button").find("i").first().toggleClass(
+                    "mdi-navigation-chevron-right");
+                $("#right-pane-button").find("i").first().toggleClass(
+                    "mdi-navigation-chevron-left");
+            });
+        });
+    });
+
+    $(window).load(function () {
+        $('ul.tabs').tabs('select_tab', 'test1');
+    });
+
+    function CreateNetwork(company_code) {
+
+        //再帰処理用に初期化
+        nodesIdCounter = 1;
+        idCountMap = {};
+        recursiveEdges = [];
+        viewEdgelist = [];
+        nodeDataSet = {};
+
+        //計測用
+        var startTime = Date.now();
+        $.when(
+            getApiData(company_code),
+            getTsrCategory(),
+            getlocation(),
+            getLocalTsrData(),
+        ).done(function (data, tsrCategoryData, locationData, localData) {
+            localTsrData = localData;
+            nodesIdCounter = 1;
+
+            //Json取得時間
+            $('#DBTime').empty();
+            $('#DBTime').append('DB取得時間：' + ((Date.now() - startTime) / 1000) + '秒');
+
+            // DB取得完了時点からネットワーク生成時間を計測し始める
+            startTime = Date.now();
+
+            data = convertJson(data[0], tsrCategoryData[0], locationData[0]);
+
+            var centerNode = data.nodes.find(n => n.company_code == company_code);
+
+            var right_pane_content = $("#right-pane-content");
+            var content = $.templates.cr_cr_rel_company1.render(centerNode);
+            right_pane_content.empty();
+            right_pane_content.append(content);
+
+            var listTable = $.templates.cr_cr_relation_list.render({
+                nodes: data.nodes
+            });
+            $('#company-list').empty();
+            $('#company-list').append(listTable);
+
+            // 中心企業Idはindex 0 に対して personality_idを設定する
+            data.edges.forEach(function (edge, index) {
+                var pushEdge = {};
+                Object.keys(edge).forEach(function (key, index) {
+                    pushEdge[key] = edge[key];
+                })
+
+                //企業名をセット
+                var fromCompany = data.nodes.find(function (element, index, array) {
+                    return element.personality_id == edge.from_id;
+                });
+                if (fromCompany) {
+                    pushEdge.from_company = fromCompany.company_name_kanji;
+
+                };
+                var toCompany = data.nodes.find(function (element, index, array) {
+                    return element.personality_id == edge.to_id;
+                });
+                if (toCompany) {
+                    pushEdge.to_company = toCompany.company_name_kanji;
+                }
+
+                recursiveEdges.push(pushEdge);
+            });
+
+            makeNativeEdges();
+
+            var nodes = new vis.DataSet(makeNativeNodes(data.nodes));
+            nodeDataSet = nodes;
+            // Create a data table with links.
+            var edges = new vis.DataSet(viewEdgelist);
+            edgeDataSet = edges;
+            initNetwork(nodes, edges, company_code, startTime);
+            if (edges.length == 0) {
+                onStabilizationIterationsDone(startTime);
+            }
+        });
+    }
+
+    var currentLowScore = LOW_SCORE;
+
+    //詳細フィルター
+    function detailFilter() {
+
+        var nodeIds = [];
+        var visibleEdges = [];
+        var visibleNodeIds = [];
+        var hiddenNodeIdList = [];
+
+        //企業情報によるフィルター
+
+        //利益
+        var profitCode = $("#profitFilter").val();
+        var profitFilter = function (node) {
+            if (profitCode) {
+                return node.profit_filter_range == profitCode;
+            } else {
+                return true;
+            };
+        };
+
+        //売上
+        var salesAmmountCode = $("#salesAmmountFilter").val();
+        var salesAmmountFilter = function (node) {
+            if (salesAmmountCode) {
+                return node.sales_amount_filter_range == salesAmmountCode;
+            } else {
+                return true;
+            };
+        };
+
+        //地域
+        var locationCode = $("#locationFilter").val();
+        var locationTypeFilter = function (node) {
+            if (locationCode) {
+                return node.location_code == locationCode;
+            } else {
+                return true
+            };
+        };
+
+        //上場区分 
+        var listingCode = $("#listingFilter").val();
+        var listingFilter = function (node) {
+            if (listingCode) {
+                return node.listing_type == listingCode;
+            } else {
+                return true;
+            };
+        }
+
+        //業種 
+        var categoryCode = $("#businessTypeFilter").val();
+        var businessTypeFilter = function (node) {
+            if (categoryCode) {
+                return node.category_code == categoryCode;
+            } else {
+                return true
+            };
+        };
+
+        //関係種別のみedgeに情報があるので別枠でフィルター
+        var relationType = $("#relationTypeFilter").val();
+        var updateEdges = [];
+        if (relationType != 0) {
+            //選択した関係のみ見えなくする
+            edgeDataSet.forEach(function (e) {
+                if (e.relation_type != relationType) {
+                    e.hidden = true;
+                    e.physics = false;
+                    updateEdges.push(e);
+                    //繋がっていないnodeのみ消す
+
+                    if (nodeIds.indexOf(e.from_id) == -1) {
+                        nodeIds.push(e.from_id);
+                    }
+
+                    if (nodeIds.indexOf(e.to_id) == -1) {
+                        nodeIds.push(e.to_id);
+                    }
+
+                } else {
+                    e.hidden = false;
+                    e.physics = true;
+                    updateEdges.push(e);
+                    visibleEdges.push(e);
+                }
+            });
+
+            edgeDataSet.update(updateEdges);
+
+            //見えなくなる関係にのみ繋がっているノードのみhiddenにする
+            nodeIds.forEach(function (nId) {
+                var filteredEdges = visibleEdges.filter(e => (e.from_id == nId || e.to_id ==
+                    nId));
+                if (filteredEdges.length == 0 && hiddenNodeIdList.indexOf(nId) == -1) {
+                    hiddenNodeIdList.push(nId);
+                }
+            });
+
+            var updateNodes = [];
+            nodeDataSet.forEach(function (n) {
+                if (hiddenNodeIdList.filter(nId => nId == n.personality_id).length > 0) {
+                    //中央企業は無視
+                    if (n.id != localStorage['cr_company_code']) {
+                        n.hidden = true;
+                        n.physics = false;
+                        updateNodes.push(n);
+                    }
+                } else {
+                    n.hidden = false;
+                    n.physics = true;
+                    updateNodes.push(n);
+                    visibleNodeIds.push(n.personality_id);
+                }
+            });
+            nodeDataSet.update(updateNodes);
+
+        } else {
+            //すべて表示する
+            updateEdges = [];
+            edgeDataSet.forEach(function (e) {
+                e.hidden = false;
+                e.physics = true;
+                updateEdges.push(e);
+
+            });
+            edgeDataSet.update(updateEdges);
+
+            updateNodes = [];
+            nodeDataSet.forEach(function (n) {
+                n.hidden = false;
+                n.physics = true;
+                updateNodes.push(n);
+            });
+            nodeDataSet.update(updateNodes);
+        }
+
+        var hiddenPersonalityIdList = [];
+        //見えているノードに対してフィルターをかけていく
+        updateNodes = [];
+        nodeDataSet.get({
+            filter: function (n) {
+                return visibleNodeIds.indexOf(n.personality_id);
+            }
+        }).forEach(function (node) {
+            if (profitFilter(node) &&
+                salesAmmountFilter(node) &&
+                listingFilter(node) &&
+                businessTypeFilter(node) &&
+                locationTypeFilter(node)) {} else {
+                if (node.id != localStorage['cr_company_code']) {
+                    node.hidden = true;
+                    node.physics = false;
+                    updateNodes.push(node)
+
+                    if (hiddenPersonalityIdList.indexOf(node.personality_id) == -1) {
+                        hiddenPersonalityIdList.push(node.personality_id);
+                    }
+                }
+            }
+        });
+        nodeDataSet.update(updateNodes);
+
+        //ノード側のfilter条件をedgeにも適用する
+        updateEdges = [];
+        hiddenPersonalityIdList.forEach(function (nPId) {
+            edgeDataSet.get({
+                filter: function (e) {
+                    return (e.from_id == nPId || e.to_id == nPId);
+                }
+            }).forEach(function (e) {
+                e.hidden = true;
+                e.physics = false;
+                updateEdges.push(e)
+            });
+        });
+        edgeDataSet.update(updateEdges);
+
+        //見えているrelationにつながっていない企業を消す
+        updateNodes = [];
+        nodeDataSet.get({
+            filter: function (n) {
+                return !n.hidden;
+            }
+        }).forEach(function (n) {
+            var visible = false;
+            edgeDataSet.forEach(function (e) {
+                if (e.from == n.id) {
+                    if (nodeDataSet.get(e.to) && !nodeDataSet.get(e.to).hidden) {
+                        visible = true;
+                    }
+                } else if (e.to == n.id) {
+                    if (nodeDataSet.get(e.from) && !nodeDataSet.get(e.from).hidden) {
+                        visible = true;
+                    }
+                };
+            });
+            if (!visible) {
+                n.hidden = true;
+                n.physics = false;
+                updateNodes.push(n);
+            };
+        });
+        nodeDataSet.update(updateNodes);
+
+        $('#companyCount').empty();
+        $('#companyCount').append(nodeDataSet.get({
+            filter: n => !n.hidden
+        }).length);
+
+    }
+
+    //階層の加工なしで表示する
+    function makeNativeEdges() {
+        recursiveEdges.forEach(function (edge) {
+
+            //表示用にfrom_idとto_idを詰め替える
+            edge.to = edge.to_id;
+            edge.from = edge.from_id;
+
+            //relationtypeで色を変える
+            if (edge.relation_type == 1) {
+                //緑色：仕入・販売
+                edge.color = "rgba(76,175,80 ,0.5)";
+            } else if (edge.relation_type == 3) {
+                //オレンジ：株主・出資
+                edge.color = "rgba(255,87,34 ,0.7)";
+            } else if (edge.relation_type == 2) {
+                //青：業務提携
+                edge.color = "rgb(129,212,250)"
+            } else {
+                edge.color = bc;
+            };
+            viewEdgelist.push(edge);
+        });
+    }
+
+    function makeNativeNodes(nodes) {
+        var newNodes = [];
+
+        //表示用にノードを加工
+        nodes.forEach(function (data, index) {
+            //オブジェクトのコピー
+            //IEにassignが未対応のためJSON変換で実現
+            var newData = JSON.parse(JSON.stringify(data));
+            newData.id = newData.company_code;
+            newData.label = newData.company_name_kanji;
+            //newData.title = $.templates.hover_hover_company.render(data);
+            if (newData.latest_score < LOW_SCORE) {
+                newData.group = "lowScore";
+            } else if (newData.latest_score < HIGH_SCORE) {
+                newData.group = "middleScore";
+            } else {
+                newData.group = "highScore";
+            };
+
+            if (newData.company_code % 10 == 0) {
+                // ランダムに自社顧客として表示
+                // 着色
+                if (!newData.color) newData.color = {};
+
+                newData.color.background = "rgb(239, 83, 80)"; // DeepOrange
+            };
+            if (newData.company_code % 9 == 0 && newData.company_code % 10 != 0) {
+                // ランダムに他社顧客として表示
+                // 着色
+                if (!newData.color) newData.color = {};
+                newData.color.background = "rgb(121,134,203)"; // Indigo
+            };
+
+            //ランダムにデータタイプを表示
+            if (newData.company_code % 5 == 0) {
+                // LODデータとして表示
+                // ボーダー付与
+                newData.borderWidth = 1.5;
+                if (!newData.color) newData.color = {};
+                newData.color.border = "rgba(255,171,145 ,1)"; // Indigo
+            } else if (newData.company_code % 3 == 0) {
+                // 自社データとして表示
+                // ボーダー付与
+                newData.borderWidth = 1.5;
+                if (!newData.color) newData.color = {};
+                newData.color.border = "rgb(255,238,88)"; // Indigo
+            } else {
+                // TSRデータとして表示
+                // ボーダー付与
+                newData.borderWidth = 1.5;
+                if (!newData.color) newData.color = {};
+                newData.color.border = "rgb(239,83,80)"; // Indigo
+            };
+
+
+            //子供の数でサイズを変更
+            var relationEdges = recursiveEdges.filter(function (edge) {
+                return (edge.to == newData.id || edge.from == newData.id);
+            });
+
+            if (0 < relationEdges.length) {
+                newData.size = 10 + 3 * Math.log((relationEdges.length + 1));
+
+            }
+            newNodes.push(newData);
+        });
+
+        return newNodes;
+    }
+
+    function initNetwork(nodes, edges, centerCompanyCode, startTime) {
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+
+        // 中心企業を目立たせる
+        var node = nodes.get({
+            filter: function (i) {
+                return i.company_code == centerCompanyCode;
+            }
+        })[0];
+
+        node.size = 20;
+        node.shape = "icon";
+
+        node.icon = {};
+        node.icon.face = "FontAwesome";
+        node.icon.code = "\uf1ad";
+        node.icon.color = "#ccc";
+
+        node.physics = false;
+
+        if (!node.color) node.color = {};
+        node.color.background = "orange";
+        nodes.update(node);
+
+        //計測用
+        //var startTime = Date.now();
+        network = new vis.Network(container, data, options);
+
+        $('.vis-navigation').hide();
+
+        network.on("stabilizationProgress", function (params) {
+            $('#loadingEffect').show();
+            var widthFactor = params.iterations / params.total;
+
+            document.getElementById('text').innerHTML = Math.round(widthFactor * 100) + '%';
+        });
+        network.once("afterDrawing", function () {
+            document.getElementById('text').innerHTML = '100%';
+            network.setOptions({
+                physics: true
+            });
+            $('#companyCount').empty();
+            $('#companyCount').append('表示企業件数：' + nodeDataSet.get({
+                filter: n => !n.hidden
+            }).length);
+            $('#visCreateTime').empty();
+            $('#visCreateTime').append('相関図作成時間：' + ((Date.now() - startTime) / 1000) + '秒');
+            setTimeout(function () {
+
+                $('#loadingEffect').fadeOut();
+
+            }, 1000);
+
+            createSettingButton();
+
+        });
+
+        var highlightingNodes = [];
+
+        network.on('selectNode', function (params) {
+            // 選択されたノードを特定する
+            var nodeId = params.nodes[0];
+            var node = nodes.get(nodeId);
+            // 人格ID
+            var personality_id = node.personality_id;
+            if (!personality_id) return;
+
+            selectedNode = node;
+
+            // 同じ人格IDをもつノードすべてを抽出
+            var samePersonalityNodes = nodes.get({
+                filter: function (subject) {
+                    return (subject.personality_id == personality_id);
+                }
+            });
+            // すでに強調表示されているノードをデフォルト状態に戻す
+            highlightingNodes.forEach(function (n) {
+                if (!n.color) n.color = {};
+                n.color.border = options.groups[n.group].color.border;
+                n.borderWidth = 1;
+                nodes.update(n);
+            });
+            // 今回強調表示するノードを変更する
+            samePersonalityNodes.forEach(function (n) {
+                if (!n.color) n.color = {};
+                n.color.border = "#00b050";
+                n.borderWidth = 3;
+                nodes.update(n);
+            });
+            highlightingNodes = samePersonalityNodes;
+            // デモ用企業の場合右ペインを書き換え
+            // 右ペインを書き換え
+            var right_pane_content = $("#right-pane-content");
+            right_pane_content.empty();
+
+            // ローカルファイルの設定をマージ
+            var localCompanyNode = _.find(localTsrData[0].nodes, function (node) {
+                return node.tsr_company_code == selectedNode.company_code;
+            });
+            if (localCompanyNode) {
+                selectedNode = $.extend({}, localCompanyNode, selectedNode);
+            }
+
+            var content = $.templates.cr_cr_rel_company1.render(selectedNode);
+            right_pane_content.append(content);
+
+            // 右ペインが非表示なら表示する
+            if (!$("#right-pane").hasClass("visible")) {
+                $("#right-pane").addClass("visible");
+                $("#right-pane").find(".right-pane-content").first().addClass("z-depth-2");
+
+            }
+            // いったんコマンドアイコンは使わないことに
+            //return;
+
+            // すでにサブコマンドノードを追加したノードをデフォルト状態に戻す
+            removeCommandNodes(nodes)
+            removeCommandEdges(edges)
+            // サブコマンドノードを追加する
+            var nodePoint = network.getPositions([node.id])[node.id];
+            params.pointer.nodeX = nodePoint.x;
+            params.pointer.nodeY = nodePoint.y;
+            addCommandNodes(nodes, params.pointer, nodeId);
+            addCommandEdges(edges, nodeId);
+        });
+        network.on('deselectNode', function (params) {
+            // すでに強調表示されているノードをデフォルト状態に戻す
+            highlightingNodes.forEach(function (n) {
+                if (!n.color) n.color = {};
+                n.color.border = options.groups[n.group].color.border;
+                n.borderWidth = 1;
+                nodes.update(n);
+            });
+            highlightingNodes = [];
+
+            // ヒットテストをして、カーソル位置にノードがないことを確認する
+            if (!network.getNodeAt(params.pointer.DOM)) {
+                // すでにサブコマンドノードを追加したノードをデフォルト状態に戻す
+                removeCommandNodes(nodes)
+                removeCommandEdges(edges)
+            }
+        });
+        network.on('doubleClick', function (params) {
+
+            // 選択されたノードを特定する
+            var nodeId = params.nodes[0];
+            if (!nodeId) return;
+
+            var node = nodeDataSet.get(nodeId);
+
+            localStorage['cr_company_code'] = node.company_code;
+
+            // 消去
+            destroy();
+            // 再構築
+            CreateNetwork(node.company_code);
+        });
+        network.on('click', function (params) {
+            // 選択されたノードを特定する
+            var nodeId = params.nodes[0];
+            // コマンドノードでない場合は無視する
+            if (-101 < nodeId) return;
+            switch (nodeId) {
+                case -101:
+                    // 企業情報
+                    selectedNode.official && window.open(selectedNode.official, '_blank');
+                    break;
+                case -102:
+                    // 代表者
+                    //location.href = 'company_president.html';
+                    break;
+                case -103:
+                    // ﾊﾟﾜｰｽﾄﾗｸﾁｬ
+                    location.href = 'relations.html';
+                    break;
+                case -104:
+                    // 人脈経路探索
+                    var node = nodeDataSet.get(nodeId);
+                    //自社企業は決め打ち
+                    location.href = 'route-search.html?startCompanyCode=100000001&endCompanyCode=' + node.company_code;
+                    break;
+                case -105:
+                    // 周辺情報
+                    //location.href = 'company_access2.html';
+                    break;
+                case -106:
+                    // FB
+                    selectedNode.facebook && window.open(selectedNode.facebook, '_blank');
+                    break;
+                case -107:
+                    // TW
+                    selectedNode.twitter && window.open(selectedNode.twitter, '_blank');
+                    break;
+            }
+            // すでにサブコマンドノードを追加したノードをデフォルト状態に戻す
+            removeCommandNodes(nodes)
+            removeCommandEdges(edges)
+        });
+        network.once('stabilized', function () {
+            var scaleOption = {
+                scale: 1.2
+            };
+            //network.moveTo(scaleOption);
+            var selectedNodeId = 0;
+            network.focus(selectedNodeId, scaleOption);
+        });
+
+    }
+
+    function onStabilizationIterationsDone(startTime) {
+        document.getElementById('text').innerHTML = '100%';
+        $('#companyCount').empty();
+        $('#companyCount').append('表示企業件数：' + nodeDataSet.get({
+            filter: n => !n.hidden
+        }).length);
+        $('#visCreateTime').empty();
+        $('#visCreateTime').append('相関図作成時間：' + ((Date.now() - startTime) / 1000) + '秒');
+        setTimeout(function () {
+            $('#loadingEffect').fadeOut();
+
+        }, 1000);
+
+        //naviのいらないボタンは排除し位置を調整
+        $('.vis-navigation').hide();
+
+        //階層選択ボックス追加
+        createSettingButton()
+
+    }
+
+    function destroy() {
+        if (network !== null) {
+            network.destroy();
+            network = null;
+            //nodesIdCounter = 0;
+        };
+    }
+
+    function addCommandNodes(nodes, pointer, parentNodeId) {
+        // オフィシャルHP (Light Green)
+        addNode(nodes, pointer, -101, "cb_5_g.png", 'rgb(51,105,30)', 'rgb(51,105,30)', "オフィシャルHP", parentNodeId);
+        // 代表者 (Lime)
+        //addNode(nodes, pointer, -102, "cb_4.png", 'rgb(130,119,23)', 'rgb(130,119,23)', "代表者情報");
+        addNode(nodes, pointer, -102, "cb_4_g.png", '#444', '#444', "代表者情報", parentNodeId);
+        // ﾊﾟﾜｰｽﾄﾗｸﾁｬ (BlueGray)
+        addNode(nodes, pointer, -103, "cb_1.png", 'rgb(38,50,56)', 'rgb(38,50,56)', "ﾊﾟﾜｰｽﾄﾗｸﾁｬ");
+        // 人脈探索 (Teal)
+        addNode(nodes, pointer, -104, "cb_2.png", 'rgb(0,77,64)', 'rgb(0,77,64)', "人脈探索", parentNodeId);
+        // 周辺情報 (Deep Orange)
+        //addNode(nodes, pointer, -105, "cb_3.png", 'rgb(191,54,12)', 'rgb(191,54,12)', "周辺情報");
+        addNode(nodes, pointer, -105, "cb_3_g.png", '#444', '#444', "周辺情報", parentNodeId);
+
+        // FB (facebook official color)
+        if (selectedNode.facebook) {
+            addNode(nodes, pointer, -106, "cb_6.png", '#3664a2', '#3664a2', "facebook", parentNodeId);
+        } else {
+            addNode(nodes, pointer, -106, "cb_6_g.png", '#444', '#444', "facebook", parentNodeId);
+        }
+        // TW (twitter official color)
+        if (selectedNode.twitter) {
+            addNode(nodes, pointer, -107, "cb_7.png", '#1da1f2', '#1da1f2', "Twitter", parentNodeId);
+        } else {
+            addNode(nodes, pointer, -107, "cb_7_g.png", '#444', '#444', "Twitter", parentNodeId);
+        }
+    }
+
+    function removeCommandNodes(nodes) {
+        removeNode(nodes, -101);
+        removeNode(nodes, -102);
+        removeNode(nodes, -103);
+        removeNode(nodes, -104);
+        removeNode(nodes, -105);
+        removeNode(nodes, -106);
+        removeNode(nodes, -107);
+    }
+
+    function removeNode(nodes, nodeId) {
+        try {
+            nodes.remove({
+                id: nodeId
+            });
+        } catch (err) {
+            //   alert(err);
+        }
+    }
+
+    function addNode(nodes, pointer, newId, image, border, background, label, parentNodeId) {
+        var path = "assets/_con/images/";
+        var index = Math.abs(newId) - 101;
+        var parentNode = nodes.get(parentNodeId);
+        nodes.add({
+            id: newId,
+            shape: 'circularImage',
+            image: path + image,
+            color: {
+                border: 'transparent', // border,　一時的に変更
+                background: 'transparent', // background,　一時的に変更
+            },
+            font: {
+                color: background,
+            },
+            label: label,
+            margin: 100,
+            company_code: parentNode.company_code,
+            size: commandButtonSize,
+            mass: 1,
+            x: pointer.canvas.x + Math.cos(Math.PI * 2 / 7 * index) * commandCircleRadius,
+            y: pointer.canvas.y + Math.sin(Math.PI * 2 / 7 * index) * commandCircleRadius,
+            physics: false,
+            scaling: {
+                max: commandButtonSize / 2,
+            },
+        });
+    }
+
+    function addCommandEdges(edges, nodeId) {
+        addEdge(edges, -10001, nodeId, -101);
+        addEdge(edges, -10002, nodeId, -102);
+        addEdge(edges, -10003, nodeId, -103);
+        addEdge(edges, -10004, nodeId, -104);
+        addEdge(edges, -10005, nodeId, -105);
+        addEdge(edges, -10006, nodeId, -106);
+        addEdge(edges, -10007, nodeId, -107);
+    }
+
+    function addEdge(edges, edgeId, fromId, toId) {
+        try {
+            edges.add({
+                id: edgeId,
+                from: fromId,
+                to: toId,
+                color: 'lightgray',
+                width: 1,
+                length: commandButtonEdgeLength
+            });
+        } catch (err) {
+            // alert(err);
+        }
+    }
+
+    function removeCommandEdges(edges) {
+        removeEdge(edges, -10001);
+        removeEdge(edges, -10002);
+        removeEdge(edges, -10003);
+        removeEdge(edges, -10004);
+        removeEdge(edges, -10005);
+        removeEdge(edges, -10006);
+        removeEdge(edges, -10007);
+    }
+
+    function removeEdge(edges, edgeId) {
+        try {
+            edges.remove({
+                id: edgeId
+            });
+        } catch (err) {
+            // alert(err);
+        }
+    }
+
+    function addChip() {
+        // chipを追加する
+        var name = $(".keep-check").first().data("name");
+        var code = $(".keep-check").first().data("companycode");
+        var chipRemoved = false;
+        _.find($(".chip"), function (chip) {
+            if (chip.innerHTML == name) {
+                chip.remove();
+                chipRemoved = true;
+            }
+
+        });
+        if (chipRemoved) return;
+
+        var chip = $('<div data-value="' + code + '" class="chip tagchip blue lighten-1 white-text">' + name +
+            '</div>');
+        $("#chips").append(chip);
+        $("#routebutton").show();
+    }
+
+
+    function getData() {
+        return $.getJSON("data/CompanyRelation.json");
+    }
+
+    function getLocalTsrData() {
+        return $.getJSON("data/tsr_data.json");
+    }
+
+    function getApiData(companyCode) {
+
+        //var url = "http://d140123q.g01.fujitsu.local:9091/h-cr-inner/profiles/" + companyCode + "/relationList";
+        //var url = "https://demo.finplex.global.fujitsu.com/h-cr-outer/profiles/" + companyCode + "/relationList";
+        var url = "https://demo.finplex.global.fujitsu.com/h-cr-inner/profiles/" + companyCode + "/relationList";
+
+        return $.getJSON(url, {
+            // APIGeeを経由しないため、APIKEYは不要
+            //apikey: 'E9nshqqumYoF7yG6QYetsX0EJgJGMor0',
+            companyCode: 'fpt',
+            score: minScore,
+            companyCode: "fpt",
+            depth: depth,
+            limit: depthLimit
+        });
+    }
+
+    function getTsrCategory() {
+        return $.getJSON("data/tsrCategory.json");
+    }
+
+    function getlocation() {
+        return $.getJSON("data/location.json");
+    }
+
+    //API取得データのコンバート関数
+    function convertJson(json, tsrCategoryData, locationData) {
+
+        var newCompanies = [];
+        //企業情報
+        json.profiles.forEach(function (profile) {
+            var company = {};
+
+            if (profile.headerInfo) {
+                company.personality_id = profile.headerInfo.crCompanyCode;
+                company.company_code = profile.headerInfo.crCompanyCode;
+            };
+            if (profile.outline) {
+                company.company_name_kanji = profile.outline.companyNameKanji;
+                company.company_name_kana = profile.outline.companyNameKana;
+            };
+            if (profile.basicInfo) {
+                if (profile.basicInfo.location) {
+                    company.zip_code = profile.basicInfo.location.zipCode;
+                    company.location_text = profile.basicInfo.location.locationText;
+                };
+                if (profile.basicInfo.telNumber) {
+                    if (profile.basicInfo.telNumberText) {
+                        company.tel_number_text = profile.basicInfo.telNumber.telNumber1 +
+                            "-" + profile.basicInfo.telNumber.telNumber2 +
+                            "-" + profile.basicInfo.telNumber.telNumber3;
+                    };
+                };
+                if (profile.basicInfo.score) {
+                    company.hasScore = true;
+                    company.latest_score = profile.basicInfo.score.latestScore;
+                } else {
+                    company.hasScore = false;
+                };
+
+                company.capital = profile.basicInfo.capital;
+                company.employees_count = profile.basicInfo.employeesCount;
+                company.listing_type = profile.basicInfo.listingInfo;
+            };
+
+            //地域filterRange
+            if (company.location_text) {
+                var isMatched = false;
+                locationData.some(function (location) {
+                    location.prefectures.some(function (prefecture) {
+                        if (company.location_text.indexOf(prefecture) != -1) {
+                            company.location_code = location.code;
+                            isMatched = true;
+                            return true;
+                        };
+                    });
+                    if (isMatched == true) {
+                        return true;
+                    };
+                });
+            };
+
+            //上場区分
+            if (!company.listing_type) {
+                company.listing_type = "Z";
+            };
+
+            if (profile.detailInfo && profile.detailInfo.business) {
+                company.business_type_code = profile.detailInfo.business.businessTypeSubdivideCode1;
+                company.business_type_name = profile.detailInfo.business.businessTypeSubdivideName1;
+            };
+
+            //業種filterRange
+            if (company.business_type_code) {
+                var isMatched = false;
+                tsrCategoryData.some(function (category) {
+                    category.groups.some(function (group) {
+                        var groupCode = ("0" + company.business_type_code).slice(-4).slice(
+                            2);
+                        if (groupCode == group.code) {
+                            company.category_code = category.code;
+                            isMatched = true;
+                            return true;
+                        };
+                    });
+                    if (isMatched == true) {
+                        return true;
+                    };
+                });
+            } else {
+                company.category_code = "T";
+            };
+
+            if (profile.briefing && profile.briefing.briefingText) {
+                company.briefingText = profile.briefing.briefingText;
+            };
+
+            if (profile.performance && profile.performance.performanceList) {
+                //最新を取得するため、最後尾のデータを取得する
+                var thisPerformance =
+                    profile.performance.performanceList[profile.performance.performanceList.length - 1];
+                // sales_amount
+                company.sales_amount = thisPerformance.salesAmount;
+                // profit
+                company.profit = thisPerformance.profit;
+            };
+
+            //利益filterRange
+            if (company.profit) {
+                if (0 <= company.profit) {
+                    company.profit_filter_range = 1;
+                } else if (company.profit < 0) {
+                    company.profit_filter_range = 2;
+                };
+            } else {
+                company.profit_filter_range = 99;
+            };
+
+            //売上filterRange
+            if (company.sales_amount) {
+                if (100000000 <= company.sales_amount) {
+                    company.sales_amount_filter_range = 1;
+                } else if (10000000 < company.sales_amount && company.sales_amount < 100000000) {
+                    company.sales_amount_filter_range = 2;
+                } else if (1000000 < company.sales_amount && company.sales_amount < 10000000) {
+                    company.sales_amount_filter_range = 3;
+                } else if (100000 < company.sales_amount && company.sales_amount < 1000000) {
+                    company.sales_amount_filter_range = 4;
+                } else if (company.sales_amount < 100000) {
+                    company.sales_amount_filter_range = 5;
+                };
+            } else {
+                company.sales_amount_filter_range = 99;
+            };
+
+            if (profile.president) {
+                // president_kanji
+                company.president_kanji = profile.president.presidentKanji;
+                // president_kana
+                company.president_kana = profile.president.presidentKana;
+            };
+            newCompanies.push(company);
+        });
+
+        var newRelations = [];
+        // 相関情報
+        json.relations.forEach(function (relation) {
+            var newRelation = {};
+
+            newRelation.relation_id = relation.relationId;
+            newRelation.from_id = relation.fromId;
+            newRelation.from_company_status = relation.fromCompanyStatus;
+            newRelation.relation_type = relation.relationType;
+            newRelation.to_id = relation.toId;
+            newRelation.to_company_status = relation.toCompanyStatus;
+
+            newRelations.push(newRelation);
+        });
+
+        var newRelationData = {};
+        newRelationData.nodes = newCompanies;
+        newRelationData.edges = newRelations;
+        return newRelationData;
+    }
+
+    function createSettingButton() {
+
+        $('.vis-up').hide();
+        $('.vis-down').hide();
+        $('.vis-left').hide();
+        $('.vis-right').hide();
+        $('.vis-zoomExtends').hide();
+        $('.vis-zoomIn').css("right");
+        $('.vis-zoomIn').css("left", "2rem");
+        $('.vis-zoomIn').css("bottom", "5rem");
+        $('.vis-zoomIn').css("margin-bottom", "1rem");
+        //iconのためにbackground排除後、ボタンを埋め込み
+        $('.vis-zoomIn').css('background-image', "none");
+        $('.vis-zoomIn').addClass('btn-floating');
+        $('.vis-zoomIn').append('<i class="fa fa-search-plus"></i>');
+        $('.vis-zoomOut').css("right");
+        $('.vis-zoomOut').css("left", "2rem");
+        $('.vis-zoomOut').css("bottom", "2rem");
+        $('.vis-zoomOut').css('background-image', "none");
+        $('.vis-zoomOut').css("margin-bottom", "1rem");
+        $('.vis-zoomOut').addClass('btn-floating');
+        $('.vis-zoomOut').append('<i class="fa fa-search-minus"></i>');
+        $('.vis-navigation').show();
+
+        var mynetworkSelecter = $('#mynetwork');
+
+        var settingButton = $.templates.cr_cr_setting.render();
+
+        mynetworkSelecter.append(settingButton).ready(function () {
+
+            $("#settingButton").on("click", function () {
+                $("#settingArea").toggleClass("visible");
+                $("#settingInput").toggleClass("visible");
+                $("#settingButton").children('a').toggleClass("grey");
+                $("#settingButton").children('a').toggleClass("blue-grey");
+            });
+
+            var depthSelect = $('#depthSelect');
+
+            depthSelect.val(depth);
+            depthSelect.on('change', function () {
+                depth = $(this).val();
+            })
+
+            var depthLimitBox = $('#depthLimitSelect');
+            depthLimitBox.val(depthLimit);
+            depthLimitBox.on('change', function () {
+                depthLimit = depthLimitBox.val();
+            })
+
+            $('#refleshButton').on('click', function () {
+                // 消去
+                destroy();
+                // 再構築
+                CreateNetwork(localStorage['cr_company_code']);
+            });
+        });
+    }
+</script> 
+</body>
+
+</html>

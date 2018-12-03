@@ -1,0 +1,153 @@
+<div class="card">
+    <div class="title">
+        <h3>({{:headerInfo.crCompanyCode onerror=''}}) {{:outline.companyNameKanji onerror=''}}</h3>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>ヘッダ情報</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>法人番号</th>
+                    <td>{{:headerInfo.crCompanyCode onerror=''}}</td>
+                    <!-- <th>法人番号</th>
+                        <td>{{:headerInfo.corporateNumber onerror=''}}</td> -->
+                    <th>与信変動フラグ</th>
+                    <td>{{:headerInfo.creditInfo.creditChanged onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>倒産判明年月日</th>
+                    <td>{{:headerInfo.creditInfo.dateTurnOutToGetBunkrupt onerror=''}}</td>
+                    <th>倒産経過明細</th>
+                    <td>{{:headerInfo.bankruptcyHistoryDetail onerror=''}}</td>
+                    <th>更新年月</th>
+                    <td>{{:headerInfo.updateMonth onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>概要情報</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>商号</th>
+                    <td class="provide">{{:outline.companyNameKanji onerror=''}}</td>
+
+                    <th>英文商号</th>
+                    <td class="provide">{{:outline.companyNameEnglish onerror=''}}</td>
+                    <th>カナ商号</th>
+                    <td class="provide">{{:outline.companyNameKana onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>旧商号</th>
+                    <td>{{:outline.companyNameOld onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>基本情報</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>郵便番号</th>
+                    <td>{{:basicInfo.location.zipCode onerror=''}}</td>
+
+                    <th>所在地JISコード</th>
+                    <td>{{:basicInfo.location.locationJisCode onerror=''}}</td>
+
+                    <th>所在地住所コード</th>
+                    <td>{{:basicInfo.location.locationCode onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>所在地（編集済）</th>
+                    <td colspan="7" class="provide">{{:basicInfo.location.locationText onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>電話番号（編集済）</th>
+                    <td class="provide">{{:basicInfo.telNumber.telNumberText onerror=''}}</td>
+
+                    <th>電話番号（市外局番）</th>
+                    <td>{{:basicInfo.telNumber.telNumber1 onerror=''}}</td>
+
+                    <th>電話番号（市内局番）</th>
+                    <td>{{:basicInfo.telNumber.telNumber2 onerror=''}}</td>
+
+                    <th>電話番号（局番）</th>
+                    <td>{{:basicInfo.telNumber.telNumber3 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>FAX番号（編集済）</th>
+                    <td>{{:basicInfo.faxNumber.faxNumberText onerror=''}}</td>
+
+                    <th>FAX番号（市外局番）</th>
+                    <td>{{:basicInfo.faxNumber.faxNumber1 onerror=''}}</td>
+
+                    <th>FAX番号（市内局番）</th>
+                    <td>{{:basicInfo.faxNumber.faxNumber2 onerror=''}}</td>
+
+                    <th>FAX番号（局番）</th>
+                    <td>{{:basicInfo.faxNumber.faxNumber3 onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>資本金</th>
+                    <td>{{:basicInfo.capital onerror=''}}</td>
+
+                    <th>上場情報</th>
+                    <td>{{:basicInfo.listingInfo onerror=''}}</td>
+                    <th>株式コード</th>
+                    <td>{{:basicInfo.tickerSymbol onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>従業員数</th>
+                    <td class="provide">{{:basicInfo.employeesCount onerror=''}}</td>
+
+                    <th>評点</th>
+                    <td>{{:basicInfo.tickerSymbol onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>創業年月</th>
+                    <td>{{:basicInfo.initiation.initiationMonth onerror=''}}</td>
+                    <th>明治以前創業年</th>
+                    <td>{{:basicInfo.initiation.initiationMonthBeforeMeiji onerror=''}}</td>
+                    <th>設立年月日</th>
+                    <td>{{:basicInfo.establishDate onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>概況</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>概況</th>
+                    <td class="provide">{{:briefing.briefingText onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

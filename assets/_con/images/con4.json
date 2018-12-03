@@ -1,0 +1,95 @@
+{
+    "nodes": [{
+            "ind": 1,
+            "name": "仕入先",
+            "type": 1,
+            "image": "track.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 2,
+            "name": "販売先",
+            "type": 2,
+            "image": "money.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+
+        {
+            "ind": 3,
+            "name": "（株）富士通アドバンストエンジニアリング",
+            "type": 0,
+            "image": "c1.jpg",
+            "group": 0,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 4,
+            "name": "富士通",
+            "type": 1,
+            "image": "c1.jpg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 5,
+            "name": "富士通",
+            "type": 2,
+            "image": "c1.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        }
+    ],
+    "links": [{
+            "source": 2,
+            "target": 0,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "value": {
+                "width": 5,
+                "color": "orange",
+                "connectionStrength": 1
+            }
+        }
+    ]
+}

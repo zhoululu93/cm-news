@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+    <defs>
+        <style>
+            .cls-1{fill:#f3d696;}.cls-1,.cls-2{stroke:#3d3736;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.13px;}.cls-2{fill:none;} .mainfill{fill:#f3d696;} .subfill{fill:none;}
+        </style>
+    </defs>
+    <title>
+        clothes
+    </title>
+    <g id="clothes">
+        <path d="M101.08,128c-14.63-7.14-25.69-8.52-25.69-8.52h-.78v.07s-2.51,9-14.61,9-14.61-9-14.61-9v-.07H44.6S33.55,120.84,18.92,128,1.67,157.58,1.67,157.58H118.33S115.72,135.13,101.08,128Z" class="cls-1 mainfill"/>
+        <path d="M37.78,120.91s1.36,15.3,22,15.3" class="cls-2 subfill"/>
+        <path d="M81.84,120.91s-1.36,15.3-22,15.3" class="cls-2 subfill"/>
+    </g>
+</svg>

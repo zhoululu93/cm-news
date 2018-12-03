@@ -1,0 +1,281 @@
+{
+	"alarm_types": [
+		{
+			"id": 1,
+			"name": "企業情報",
+			"image": "ic_alarm_kigyo_joho.png",
+			"isLarge": true
+		},
+		{
+			"id": 2,
+			"name": "組織更改",
+			"image": "ic_alarm_soshiki_henko.png",
+			"isLarge": true
+		},
+		{
+			"id": 3,
+			"name": "公的情報",
+			"image": "ic_alarm_public.png",
+			"isLarge": true
+		},
+		{
+			"id": 4,
+			"name": "人事",
+			"image": "ic_alarm_jinji.png",
+			"isLarge": true
+		},
+		{
+			"id": 5,
+			"name": "自社情報",
+			"image": "ic_alarm_jisya.png",
+			"isLarge": true
+		},
+		{
+			"id": 6,
+			"name": "SNS更新",
+			"image": "ic_alarm_sns.png",
+			"isLarge": true
+		},
+		{
+			"id": 101,
+			"name": "新設法人",
+			"image": "ic_alarm_shinki_kigyo.png",
+			"isLarge": false,
+			"notify": 1
+		},
+		{
+			"id": 102,
+			"name": "倒産企業",
+			"image": "ic_alarm_tosan_kigyo.png",
+			"isLarge": false
+		},
+		{
+			"id": 103,
+			"name": "HP更新",
+			"image": "ic_alarm_renew_webpage.png",
+			"isLarge": false
+		},
+		{
+			"id": 104,
+			"name": "プレスリリース",
+			"image": "ic_alarm_press_release.png",
+			"isLarge": false,
+			"notify": 1
+		},
+		{
+			"id": 105,
+			"name": "合併",
+			"image": "ic_alarm_tohaigo.png",
+			"isLarge": false,
+			"notify": 1
+		},
+		{
+			"id": 201,
+			"name": "移転",
+			"image": "ic_alarm_iten.png",
+			"isLarge": false
+		},
+		{
+			"id": 202,
+			"name": "拠点追加",
+			"image": "ic_alarm_kyoten_tsuika.png",
+			"isLarge": false
+		},
+		{
+			"id": 301,
+			"name": "入札・落札",
+			"image": "ic_alarm_nyuraku.png",
+			"isLarge": false,
+			"notify": 2
+		},
+		{
+			"id": 302,
+			"name": "労基違反",
+			"image": "ic_alarm_black.png",
+			"isLarge": false
+		},
+		{
+			"id": 303,
+			"name": "知的財産・特許",
+			"image": "ic_alarm_chizai_tokkyo.png",
+			"isLarge": false
+		},
+		{
+			"id": 304,
+			"name": "株価情報",
+			"image": "ic_alarm_kabuka_joho.png",
+			"isLarge": false,
+			"notify": 2
+		},
+		{
+			"id": 401,
+			"name": "代表者",
+			"image": "ic_alarm_daihyo.png",
+			"isLarge": false
+		},
+		{
+			"id": 402,
+			"name": "役員",
+			"image": "ic_alarm_yakuin.png",
+			"isLarge": false
+		},
+		{
+			"id": 403,
+			"name": "おくやみ",
+			"image": "ic_alarm_okuyami.png",
+			"isLarge": false
+		},
+		{
+			"id": 501,
+			"name": "返済日",
+			"image": "ic_alarm_hensaibi.png",
+			"isLarge": false
+		},
+		{
+			"id": 502,
+			"name": "契約更新日",
+			"image": "ic_alarm_keiyaku_koushin.png",
+			"isLarge": false
+		},
+		{
+			"id": 503,
+			"name": "推進顧客",
+			"image": "ic_alarm_suishin.png",
+			"isLarge": false,
+			"notify": 1
+		},
+		{
+			"id": 504,
+			"name": "顧客アクション",
+			"image": "ic_alarm_kijitsu_joho.png",
+			"isLarge": false
+		}
+	],
+	"alarm_type_rels": [
+		{
+			"from": 1,
+			"to": 2,
+			"length": "long"
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"length": "long"
+		},
+		{
+			"from": 2,
+			"to": 4,
+			"length": "long"
+		},
+		{
+			"from": 3,
+			"to": 5,
+			"length": "long"
+		},
+		{
+			"from": 1,
+			"to": 101,
+			"length": "short"
+		},
+		{
+			"from": 1,
+			"to": 102,
+			"length": "short"
+		},
+		{
+			"from": 1,
+			"to": 103,
+			"length": "short"
+		},
+		{
+			"from": 1,
+			"to": 104,
+			"length": "short"
+		},
+		{
+			"from": 1,
+			"to": 105,
+			"length": "short"
+		},
+		{
+			"from": 2,
+			"to": 201,
+			"length": "short"
+		},
+		{
+			"from": 2,
+			"to": 202,
+			"length": "short"
+		},
+		{
+			"from": 3,
+			"to": 301,
+			"length": "short"
+		},
+		{
+			"from": 3,
+			"to": 302,
+			"length": "short"
+		},
+		{
+			"from": 3,
+			"to": 303,
+			"length": "short"
+		},
+		{
+			"from": 3,
+			"to": 304,
+			"length": "short"
+		},
+		{
+			"from": 3,
+			"to": 105,
+			"length": "short"
+		},
+		{
+			"from": 4,
+			"to": 401,
+			"length": "short"
+		},
+		{
+			"from": 4,
+			"to": 402,
+			"length": "short"
+		},
+		{
+			"from": 4,
+			"to": 403,
+			"length": "short"
+		},
+		{
+			"from": 5,
+			"to": 501,
+			"length": "short"
+		},
+		{
+			"from": 5,
+			"to": 502,
+			"length": "short"
+		},
+		{
+			"from": 5,
+			"to": 503,
+			"length": "short"
+		},
+		{
+			"from": 5,
+			"to": 504,
+			"length": "short"
+		},
+		{
+			"from": 1,
+			"to": 6,
+			"length": "short"
+		},
+		{
+			"from": 401,
+			"to": 6,
+			"length": "short"
+		}
+	]
+}

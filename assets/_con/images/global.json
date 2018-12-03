@@ -1,0 +1,178 @@
+{
+    "search_bar": true,
+    "chat": true,
+    "top_navbar": true,
+    "sidebar": true,
+    "footer_copyright": true,
+    "sidebar_classes": "yay-shrink yay-hide-to-small yay-gestures",
+
+    "plugins": {
+        "fa_icons": true,
+        "mdi_icons": true,
+        "ion_icons": true,
+        "wi_icons": true,
+
+        "rickshaw": false,
+        "nvd3": false,
+        "flot": false,
+        "sparkline": false,
+
+        "markitup": false,
+        "ckeditor": false,
+        "squire": false,
+
+        "select2": false,
+        "dropzone": false,
+        "tagsinput": false,
+        "clockpicker": false,
+        "pikaday": false,
+        "spectrum": false,
+        "inputmask": false,
+        "parsley": false,
+        "nestable": false,
+        "jstree": false,
+
+        "gmaps": false,
+        "jvectormap": false,
+
+        "datatables": false,
+        "fullcalendar": false,
+        "simpleweather": false,
+        "prettify": true,
+        "animatecss": false,
+        "wowjs": false,
+        "photoswipe": false,
+        "videojs": false,
+        "vivagraph": true
+    },
+
+    "navigation_persons": {
+        "persons_today.html": {
+            "name": "本日訪問予定顧客"
+        },
+        "persons_desc.html": {
+            "name": "最近会った顧客"
+        },
+        "persons_asc.html": {
+            "name": "最も会っていない顧客"
+        }
+    },
+
+    "navigation_companies": {
+        "companies_today.html": {
+            "name": "本日訪問予定顧客"
+        },
+        "companies_desc.html": {
+            "name": "最近会った顧客"
+        },
+        "companies_asc.html": {
+            "name": "最も会っていない顧客"
+        }
+    },
+
+    "navigation_ecommerce": {
+        "ecommerce-dashboard.html": {
+            "name": "Dashboard"
+        },
+        "ecommerce-products.html": {
+            "name": "Products"
+        },
+        "ecommerce-orders.html": {
+            "name": "Orders"
+        },
+        "ecommerce-customers.html": {
+            "name": "Customers"
+        },
+        "ecommerce-settings.html": {
+            "name": "Settings"
+        },
+        "ecommerce-pricing-tables.html": {
+            "name": "Pricing"
+        }
+    },
+
+    "navigation_company_profile": {
+        "company_data.html": {
+            "name": "企業情報"
+        },
+        "company_deal.html": {
+            "name": "取引情報"
+        },
+        "company_stock.html": {
+            "name": "財政・経営"
+        },
+        "company_news.html": {
+            "name": "関連ニュース"
+        }
+    },
+
+    "navigation": {
+
+        "label---1": {
+            "name": "メニュー",
+            "label": true
+        },
+        "dashboard.html": {
+            "name": "ダッシュボード",
+            "icon": "mdi mdi-action-dashboard"
+        },
+        "page-calendar.html": {
+            "name": "スケジュール",
+            "icon": "mdi mdi-notification-event-note"
+        },
+
+        "label---2": {
+            "name": "顧客情報",
+            "label": true
+        },
+
+        "persons.html": {
+            "name": "顧客（個人）",
+            "icon": "mdi mdi-social-person",
+            "sub": {
+                "persons_today.html": {
+                    "name": "本日訪問予定顧客",
+                    "icon": "mdi-social-people"
+                },
+                "persons_desc.html": {
+                    "name": "最近会った顧客",
+                    "icon": "mdi-social-people"
+                },
+                "persons_asc.html": {
+                    "name": "最も会っていない顧客",
+                    "icon": "mdi-social-people-outline"
+                },
+                "persons_search.html": {
+                    "name": "検索",
+                    "icon": "mdi-action-search",
+                    "search": true
+                }
+            }
+        },
+
+        "companies_desc.html": {
+            "name": "顧客（法人）",
+            "icon": "mdi mdi-social-domain",
+            "sub": {
+                "companies_today.html": {
+                    "name": "本日訪問予定顧客",
+                    "icon": "mdi-social-people"
+                },
+                "companies_desc.html": {
+                    "name": "最近会った顧客",
+                    "icon": "mdi-social-people"
+                },
+                "companies_asc.html": {
+                    "name": "最も会っていない顧客",
+                    "icon": "mdi-social-people-outline"
+                },
+                "companies_search.html": {
+                    "name": "検索",
+                    "icon": "mdi-action-search",
+                    "search": true
+                }
+            }
+        }
+    }
+
+}

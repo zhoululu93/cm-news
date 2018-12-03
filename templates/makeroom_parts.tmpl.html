@@ -1,0 +1,39 @@
+<ul id="partsTabs" class="tabs">
+    {{for parts}} {{if #index == 1}}
+    <li class="tab col s3"><a class="active" href="#{{>name}}Tab">{{>subject}}</a></li>
+    {{else}}
+    <li class="tab col s3"><a href="#{{>name}}Tab">{{>subject}}</a></li>
+    {{/if}} {{/for}}
+</ul>
+{{for parts itemVar="~part"}}
+<div id="{{>name}}Tab" class="col s12 tabitem">
+    <div class="row avatarpartsOuter">
+        {{for files}}
+        <div class="col s2">
+            <div class="card partsitem z-depth-2" id="{{>id}}" data-part="{{>~part.name}}Tab" data-partssvg="{{>svg}}">
+                <img src="assets/_con/images/avatarparts/parts_thumbnail/{{>thum}}" />
+            </div>
+        </div> {{/for}}
+    </div>
+    <div class="row colorParretOuter">
+        <div class="col s3">
+            <div class="colorParret">
+                {{if discardable}}
+                <button class="btn-floating btn-extra z-depth-2 discardButton" data-part="{{>~part.name}}Tab">
+                    <i class="ion-trash-a"></i>
+                </button> {{else}} &nbsp; {{/if}}
+            </div>
+        </div>
+        <div class="col s9">
+            {{if colors}}
+            <div class="colorParret">
+                {{for colors}}
+                <button class="btn-floating btn-extra z-depth-2 partscolor" style="background-color:{{>mainfill}};" data-part="{{>~part.name}}Tab"
+                    data-mainfill="{{>mainfill}}" data-subfill="{{>subfill}}"></button> {{/for}}
+            </div>
+            {{/if}}
+        </div>
+    </div>
+
+</div>
+{{/for}}

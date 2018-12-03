@@ -1,0 +1,284 @@
+{
+    "nodes": [{
+            "ind": 1,
+            "name": "仕入先",
+            "type": 1,
+            "image": "track.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 2,
+            "name": "販売先",
+            "type": 2,
+            "image": "money.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+
+        {
+            "ind": 3,
+            "name": "ＦＤＫ（株）",
+            "type": 0,
+            "image": "c3.jpg",
+            "group": 0,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 4,
+            "name": "ＦＤＫエナジー",
+            "type": 1,
+            "image": "company.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 5,
+            "name": "ＦＤＫ鳥取",
+            "type": 1,
+            "image": "company.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 6,
+            "name": "ＳＵＺＨＯＵ　ＦＤＫ",
+            "type": 1,
+            "image": "company.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 7,
+            "name": "ＦＵＣＨＩエレクトロニクス",
+            "type": 1,
+            "image": "company.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 8,
+            "name": "ＰＴ　ＦＤＫ　ＩＮＤＯＮＥＳＩＡ",
+            "type": 1,
+            "image": "company.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 9,
+            "name": "富士通",
+            "type": 2,
+            "image": "c1.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 10,
+            "name": "ＦＤＫアメリカ",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 11,
+            "name": "ＦＤＫ香港",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 12,
+            "name": "三洋電機",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 13,
+            "name": "トーカドエナジー",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 14,
+            "name": "佐鳥エス・テック",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 15,
+            "name": "プラス",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 14,
+            "name": "東亜無線電機",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        }
+    ],
+    "links": [{
+            "source": 2,
+            "target": 0,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 11,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 12,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 13,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 14,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 15,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        }
+    ]
+}
