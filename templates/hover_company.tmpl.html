@@ -1,0 +1,55 @@
+<div>
+    <table id="companies_table" class="table" style="border: none;">
+        <tbody>
+            <tr>
+                <th>
+                    代表者氏名
+                </th>
+                <td>
+                    {{>president_kana}}<br>{{>president_kanji}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    企業名
+                </th>
+                <td>
+                    {{>company_name_kana}}
+                    <br>{{>company_name_kanji}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    所在地
+                </th>
+                <td>
+                    〒 {{>zip_code}} <br>{{>location_text}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    電話番号
+                </th>
+                <td>
+                    ☎ {{>tel_number_text}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    資本金
+                </th>
+                <td>
+                    {{>capital}}（千円）
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    従業員数
+                </th>
+                <td>
+                    {{>employees_count}} 人
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

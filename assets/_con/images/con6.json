@@ -1,0 +1,140 @@
+{
+    "nodes": [{
+            "ind": 1,
+            "name": "仕入先",
+            "type": 1,
+            "image": "track.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 2,
+            "name": "販売先",
+            "type": 2,
+            "image": "money.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+
+        {
+            "ind": 3,
+            "name": "オリコン（株）",
+            "type": 0,
+            "image": "c6.jpg",
+            "group": 0,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 4,
+            "name": "オリコン・リサーチ",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 5,
+            "name": "ｏｒｉｃｏｎ　ＭＥ",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 6,
+            "name": "オリコン・エナジー",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 7,
+            "name": "オリコンＮｅｗＳ",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 8,
+            "name": "オリコンＤサイエンス",
+            "type": 2,
+            "image": "company.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        }
+    ],
+    "links": [{
+            "source": 2,
+            "target": 0,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        }
+    ]
+}

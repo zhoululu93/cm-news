@@ -1,0 +1,55 @@
+{
+	"row_types": [
+		{},
+		{
+			"name": "新規企業情報",
+			"color": "blue",
+			"icon": "mdi-content-add-box"
+		},
+		{
+			"name": "倒産企業情報",
+			"color": "grey",
+			"icon": "mdi-content-block"
+		},
+		{
+			"name": "株価情報 ストップ高",
+			"color": "green",
+			"icon": "mdi-action-trending-up"
+		},
+		{
+			"name": "株価情報 伸長率 高",
+			"color": "green",
+			"icon": "mdi-action-trending-up"
+		},
+		{
+			"name": "プレス公開",
+			"color": "orange",
+			"icon": "mdi-editor-insert-comment"
+		},
+		{
+			"name": "会社移転",
+			"color": "indigo",
+			"icon": "mdi-content-forward"
+		},
+		{
+			"name": "",
+			"color": "blue",
+			"icon": ""
+		},
+		{
+			"name": "",
+			"color": "blue",
+			"icon": ""
+		},
+		{
+			"name": "",
+			"color": "blue",
+			"icon": ""
+		},
+		{
+			"name": "",
+			"color": "blue",
+			"icon": ""
+		}
+	]
+}

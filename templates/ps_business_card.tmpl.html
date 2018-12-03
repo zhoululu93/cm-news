@@ -1,0 +1,12 @@
+{{for businessCards}}
+<div class="item z-depth-1" data-id="{{>id}}" data-org="{{>org}}" data-deprt1="{{>deprt1}}" data-deprt2="{{>deprt2}}" data-title1id="{{>title1}}"
+    data-last_name="{{>last_name}}" data-first_name="{{>first_name}}">
+    <div class="itemcard">
+        {{if card}}
+        <img src="assets/_con/images/{{>card}}" /> {{/if}}
+    </div>
+    <div class="itemcap">
+        {{>org}}<br />{{>deprt1}}<br />{{>deprt2}}<br/>{{>title1}}<br />{{>last_name}} {{>first_name}}
+    </div>
+</div>
+{{/for}}

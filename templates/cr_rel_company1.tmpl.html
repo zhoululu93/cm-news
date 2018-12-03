@@ -1,0 +1,597 @@
+<style>
+    text {
+        fill: #404040;
+        font-size: 5px;
+    }
+
+    text.symbol {
+        fill: #404040;
+    }
+
+    path {
+        fill: none;
+        stroke-width: 1;
+    }
+
+    path.candle {
+        stroke: #404040;
+    }
+
+    path.candle.body {
+        stroke-width: 0;
+    }
+
+    path.candle.up {
+        fill: #00AA00;
+        stroke: #00AA00;
+    }
+
+    path.candle.down {
+        fill: #FF0000;
+        stroke: #FF0000;
+    }
+
+    .close.annotation.up path {
+        fill: #00AA00;
+    }
+
+    path.volume {
+        fill: #DDDDDD;
+    }
+
+    .indicator-plot path.line {
+        fill: none;
+        stroke-width: 1;
+    }
+
+    .ma-0 path.line {
+        stroke: #1f77b4;
+    }
+
+    text.ma-0 {
+        fill: #1f77b4;
+    }
+
+    .ma-1 path.line {
+        stroke: #aec7e8;
+    }
+
+    text.ma-1 {
+        fill: #aec7e8;
+    }
+
+    .ma-2 path.line {
+        stroke: #ff7f0e;
+    }
+
+    text.ma-2 {
+        fill: #ff7f0e;
+    }
+    /* button {
+        position: absolute;
+        right: 110px;
+        top: 25px;
+    } */
+
+    path.signal {
+        stroke: #FF9999;
+    }
+
+    path.zero {
+        stroke: #BBBBBB;
+        stroke-dasharray: 0;
+        stroke-opacity: 0.5;
+    }
+
+    path.difference {
+        fill: #BBBBBB;
+        opacity: 0.5;
+    }
+
+    path.overbought,
+    path.oversold {
+        stroke: #FF9999;
+        stroke-dasharray: 5, 5;
+    }
+
+    path.middle,
+    path.zero {
+        stroke: #BBBBBB;
+        stroke-dasharray: 5, 5;
+    }
+
+    .analysis path,
+    .analysis circle {
+        stroke: blue;
+        stroke-width: 0.8;
+    }
+
+    .trendline circle {
+        stroke-width: 0;
+        display: none;
+    }
+
+    .mouseover .trendline path {
+        stroke-width: 1.2;
+    }
+
+    .mouseover .trendline circle {
+        stroke-width: 1;
+        display: inline;
+    }
+
+    .dragging .trendline path,
+    .dragging .trendline circle {
+        stroke: darkblue;
+    }
+
+    .interaction path,
+    .interaction circle {
+        pointer-events: all;
+    }
+
+    .interaction .body {
+        cursor: move;
+    }
+
+    .trendlines .interaction .start,
+    .trendlines .interaction .end {
+        cursor: nwse-resize;
+    }
+
+    .supstance path {
+        stroke-dasharray: 2, 2;
+    }
+
+    .supstances .interaction path {
+        pointer-events: all;
+        cursor: ns-resize;
+    }
+
+    .mouseover .supstance path {
+        stroke-width: 1.5;
+    }
+
+    .dragging .supstance path {
+        stroke: darkblue;
+    }
+
+    .crosshair {
+        cursor: crosshair;
+    }
+
+    .crosshair path.wire {
+        stroke: #DDDDDD;
+        stroke-dasharray: 1, 1;
+    }
+
+    .crosshair .axisannotation path {
+        fill: #DDDDDD;
+    }
+</style>
+
+<!-- <div class="companyCommands">
+    <input type="checkbox" id="checkbox1" />
+    <label for="checkbox1" class="keep-check" data-name="{{>company_name_kanji}}" data-companyCode="{{>company_code}}" onclick="addChip();">この企業をキープ</label>
+</div> -->
+<div class="companyInfo">
+    <div class="companyName">{{>company_name_kanji}}</div>
+    <div class="companyScore">
+        <!-- Ratings with Stars -->
+        {{if hasScore}}
+        <span class="ratingStars">
+            <i class="ion-star orange-text"></i>
+            {{if 20
+            < latest_score }}<i class="ion-star orange-text">
+                </i>{{else}}
+                <i class="ion-star grey-text"></i>{{/if}} {{if 40
+                < latest_score }}<i class="ion-star orange-text">
+                    </i>{{else}}
+                    <i class="ion-star grey-text"></i>{{/if}} {{if 60
+                    < latest_score }}<i class="ion-star orange-text">
+                        </i>{{else}}
+                        <i class="ion-star grey-text"></i>{{/if}} {{if 80
+                        < latest_score }}<i class="ion-star orange-text">
+                            </i>{{else}}
+                            <i class="ion-star grey-text"></i>{{/if}}
+        </span>
+        <!-- /Ratings with Stars -->
+        <span class="red-text fw-700" style="font-size: 2.5rem;">{{>latest_score}}</span> {{/if}}
+        <span class="commands">
+            <a class="btn-floating btn-small indigo lighten-1" href="https://www.facebook.com/FujitsuJapan/" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="btn-floating btn-small blue" href="https://twitter.com/fujitsuofficial" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="btn-floating btn-small deep-orange lighten-1" href="https://maps.google.co.jp/maps?q={{>location_text}}" target="_blank">
+                <i class="mdi-maps-local-restaurant"></i>
+            </a>
+            <a class="btn-floating btn-small blue-grey" href="route-search.html?startCompanyCode=100000001&endCompanyCode={{>company_code}}">
+                <i class="mdi-maps-navigation"></i>
+            </a>
+            <a class="btn-floating btn-small green" href="http://www.fujitsu.com/jp/" target="_blank">
+                <i class="mdi-social-public"></i>
+            </a>
+        </span>
+
+    </div>
+    <div class="companyAccess">
+        <table>
+            <tr>
+                <th>
+                    <i class="mdi mdi-maps-place red-text"></i>所在地：</th>
+                <td>
+                    〒{{>zip_code}}
+                    <br/>{{>location_text}}
+                    <a href="https://maps.google.co.jp/maps?q={{>location_text}}" target="_blank" class="waves-effect btn-floating btn-small blue">
+                        <i class="mdi mdi-maps-directions"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <i class="mdi mdi-communication-phone green-text"></i>電話：</th>
+                <td>{{>tel_number_text}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="companyData row">
+    <div id="test1" class="tab-content">
+        <div class="content-card z-depth-2">
+            <div class="command">
+                <a class="waves-effect btn-floating btn-small pink">
+                    <i class="mdi-action-trending-up"></i>
+                </a>業績上昇
+            </div>
+            <div class="info">
+                売上前年同月比 15.5%増
+            </div>
+        </div>
+
+        <div class="content-card z-depth-2" {{if hiddenFinanceCard}} style="display:none;" {{/if}}>
+            <div class="command">
+                <a class="waves-effect btn-floating btn-small pink">
+                    <i class="mdi-action-trending-up"></i>
+                </a>株価変動
+            </div>
+            <div class="info">
+                終値（移動平均線割り込み）
+                <div id="kabukaChart"></div>
+            </div>
+        </div>
+
+        <div class="content-card z-depth-2">
+            <div class="command">
+                <a class="waves-effect btn-floating btn-small cyan">
+                    <i class="mdi-device-gps-fixed"></i>
+                </a>概況
+            </div>
+            <div class="info ">
+                {{>briefingText}}
+            </div>
+        </div>
+
+        <div class="content-card z-depth-2">
+            <div class="command">
+                <a class="waves-effect btn-floating btn-small cyan">
+                    <i class="mdi-device-gps-fixed"></i>
+                </a>近距離
+            </div>
+            <div class="info">
+                あなたの事務所からの距離：2.3 km
+            </div>
+        </div>
+
+        <div class="content-card z-depth-2">
+            <div class="command">
+                <a class="waves-effect btn-floating btn-small deep-orange">
+                    <i class="mdi-editor-attach-money"></i>
+                </a>予算編成
+            </div>
+            <div class="info">
+                決算月になりました：3月
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var dim = {
+        width: 330, height: 188,
+        margin: { top: 10, right: 25, bottom: 27, left: 25 },
+        ohlc: { height: 151, padding: 2 },
+        hanrei: { margintop: 12 },
+    };
+    dim.plot = {
+        width: dim.width - dim.margin.left - dim.margin.right,
+        height: dim.height - dim.margin.top - dim.margin.bottom
+    };
+
+    var parseDate = d3.timeParse("%Y-%m-%d");
+
+    var zoom = d3.zoom()
+        .on("zoom", zoomed);
+
+    var x = techan.scale.financetime()
+        .range([0, dim.plot.width]);
+
+    var y = d3.scaleLinear()
+        .range([dim.ohlc.height, 0]);
+
+
+    var yPercent = y.copy();   // Same as y at this stage, will get a different domain later
+
+    var yInit, yPercentInit, zoomableInit;
+
+    var yVolume = d3.scaleLinear()
+        .range([y(0), y(0.2)]);
+
+    var candlestick = techan.plot.candlestick()
+        .xScale(x)
+        .yScale(y);
+
+    var sma0 = techan.plot.sma()
+        .xScale(x)
+        .yScale(y);
+
+    var sma1 = techan.plot.sma()
+        .xScale(x)
+        .yScale(y);
+
+    var ema2 = techan.plot.ema()
+        .xScale(x)
+        .yScale(y);
+
+    var volume = techan.plot.volume()
+        .accessor(candlestick.accessor())   // Set the accessor to a ohlc accessor so we get highlighted bars
+        .xScale(x)
+        .yScale(yVolume);
+
+    var trendline = techan.plot.trendline()
+        .xScale(x)
+        .yScale(y);
+
+    var supstance = techan.plot.supstance()
+        .xScale(x)
+        .yScale(y);
+
+    //var xAxis = d3.axisBottom(x);
+
+    var xAxis = d3.axisBottom(x)
+        .ticks(10)
+        .tickFormat(d3.timeFormat("%Y/%m/%d"))
+        .tickPadding(10);
+
+    var timeAnnotation = techan.plot.axisannotation()
+        .axis(xAxis)
+        .orient('bottom')
+        .format(d3.timeFormat('%Y/%m/%d'))
+        .width(65)
+        .translate([0, dim.plot.height]);
+
+    var yAxis = d3.axisRight(y);
+
+    var ohlcAnnotation = techan.plot.axisannotation()
+        .axis(yAxis)
+        .orient('right')
+        .format(d3.format(',.2f'))
+        .translate([x(1), 0]);
+
+    var closeAnnotation = techan.plot.axisannotation()
+        .axis(yAxis)
+        .orient('right')
+        .accessor(candlestick.accessor())
+        .format(d3.format(',.2f'))
+        .translate([x(1), 0]);
+
+    var percentAxis = d3.axisLeft(yPercent)
+        .tickFormat(d3.format('+.1%'));
+
+    var percentAnnotation = techan.plot.axisannotation()
+        .axis(percentAxis)
+        .orient('left');
+
+    var volumeAxis = d3.axisRight(yVolume)
+        .ticks(3)
+        .tickFormat(d3.format(",.3s"));
+
+    var volumeAnnotation = techan.plot.axisannotation()
+        .axis(volumeAxis)
+        .orient("right")
+        .width(35);
+
+    var ohlcCrosshair = techan.plot.crosshair()
+        .xScale(timeAnnotation.axis().scale())
+        .yScale(ohlcAnnotation.axis().scale())
+        .xAnnotation(timeAnnotation)
+        .yAnnotation([ohlcAnnotation, percentAnnotation, volumeAnnotation])
+        //.yAnnotation([ohlcAnnotation, percentAnnotation])
+        .verticalWireRange([0, dim.plot.height]);
+
+
+    var svg = d3.select("#kabukaChart").append("svg")
+        .attr("width", dim.width)
+        .attr("height", dim.height);
+
+    var defs = svg.append("defs");
+
+    defs.append("clipPath")
+        .attr("id", "ohlcClip")
+        .append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", dim.plot.width)
+        .attr("height", dim.ohlc.height);
+
+    svg = svg.append("g")
+        .attr("transform", "translate(" + dim.margin.left + "," + dim.margin.top + ")");
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + (dim.plot.height + 5) + ")");
+
+    svg.append('text')
+        .attr("class", "symbol")
+        .attr("x", 20)
+        .attr("y", 20)
+        .text("東証一部 9x51 {{:outline.companyNameKanji onerror=''}}");
+
+    svg.append('text')
+        .attr("class", "ma-0")
+        .attr("x", 10)
+        .attr("y", dim.plot.height + dim.hanrei.margintop + 5)
+        .text("——— 5日移動平均線");
+
+    svg.append('text')
+        .attr("class", "ma-1")
+        .attr("x", 55)
+        .attr("y", dim.plot.height + dim.hanrei.margintop + 5)
+        .text("——— 25日移動平均線");
+
+    svg.append('text')
+        .attr("class", "ma-2")
+        .attr("x", 100)
+        .attr("y", dim.plot.height + dim.hanrei.margintop + 5)
+        .text("——— 75日移動平均線");
+
+    var ohlcSelection = svg.append("g")
+        .attr("class", "ohlc")
+        .attr("transform", "translate(0,0)");
+
+    ohlcSelection.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(" + x(1) + ",0)")
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", -12)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("価格 (円)");
+
+    ohlcSelection.append("g")
+        .attr("class", "close annotation up");
+
+    ohlcSelection.append("g")
+        .attr("class", "volume")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    ohlcSelection.append("g")
+        .attr("class", "candlestick")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    ohlcSelection.append("g")
+        .attr("class", "indicator sma ma-0")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    ohlcSelection.append("g")
+        .attr("class", "indicator sma ma-1")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    ohlcSelection.append("g")
+        .attr("class", "indicator ema ma-2")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    ohlcSelection.append("g")
+        .attr("class", "percent axis");
+
+    ohlcSelection.append("g")
+        .attr("class", "volume axis");
+
+    // Add trendlines and other interactions last to be above zoom pane
+    svg.append('g')
+        .attr("class", "crosshair ohlc");
+
+    svg.append("g")
+        .attr("class", "trendlines analysis")
+        .attr("clip-path", "url(#ohlcClip)");
+    svg.append("g")
+        .attr("class", "supstances analysis")
+        .attr("clip-path", "url(#ohlcClip)");
+
+    d3.select("button").on("click", reset);
+
+    d3.csv("./data/dummy_kabuka.csv", function (error, data) {
+        var accessor = candlestick.accessor(),
+            indicatorPreRoll = 33;  // Don't show where indicators don't have data
+
+        data = data.map(function (d) {
+            return {
+                date: parseDate(d.Date),
+                open: +d.Open,
+                high: +d.High,
+                low: +d.Low,
+                close: +d.Close,
+                volume: +d.Volume
+            };
+        }).sort(function (a, b) { return d3.ascending(accessor.d(a), accessor.d(b)); });
+
+        x.domain(techan.scale.plot.time(data).domain());
+        y.domain(techan.scale.plot.ohlc(data.slice(indicatorPreRoll)).domain());
+        yPercent.domain(techan.scale.plot.percent(y, accessor(data[indicatorPreRoll])).domain());
+        yVolume.domain(techan.scale.plot.volume(data).domain());
+
+        var trendlineData = [
+            { start: { date: new Date(2014, 2, 11), value: 72.50 }, end: { date: new Date(2014, 5, 9), value: 63.34 } },
+            { start: { date: new Date(2013, 10, 21), value: 43 }, end: { date: new Date(2014, 2, 17), value: 70.50 } }
+        ];
+
+        var supstanceData = [
+            { start: new Date(2014, 2, 11), end: new Date(2014, 5, 9), value: 63.64 },
+            { start: new Date(2013, 10, 21), end: new Date(2014, 2, 17), value: 55.50 }
+        ];
+
+        svg.select("g.candlestick").datum(data).call(candlestick);
+        svg.select("g.close.annotation").datum([data[data.length - 1]]).call(closeAnnotation);
+        svg.select("g.volume").datum(data).call(volume);
+        svg.select("g.sma.ma-0").datum(techan.indicator.sma().period(5)(data)).call(sma0);
+        svg.select("g.sma.ma-1").datum(techan.indicator.sma().period(25)(data)).call(sma1);
+        svg.select("g.ema.ma-2").datum(techan.indicator.ema().period(75)(data)).call(ema2);
+
+        svg.select("g.crosshair.ohlc").call(ohlcCrosshair).call(zoom);
+        svg.select("g.trendlines").datum(trendlineData).call(trendline).call(trendline.drag);
+        svg.select("g.supstances").datum(supstanceData).call(supstance).call(supstance.drag);
+
+        // Stash for zooming
+        zoomableInit = x.zoomable().domain([indicatorPreRoll, data.length]).copy(); // Zoom in a little to hide indicator preroll
+        yInit = y.copy();
+        yPercentInit = yPercent.copy();
+
+        draw();
+    });
+
+    function reset() {
+        zoom.scale(1);
+        zoom.translate([0, 0]);
+        draw();
+    }
+
+    function zoomed() {
+        x.zoomable().domain(d3.event.transform.rescaleX(zoomableInit).domain());
+        y.domain(d3.event.transform.rescaleY(yInit).domain());
+        yPercent.domain(d3.event.transform.rescaleY(yPercentInit).domain());
+
+        draw();
+    }
+
+    function draw() {
+        svg.select("g.x.axis").call(xAxis);
+        svg.select("g.ohlc .axis").call(yAxis);
+        svg.select("g.volume.axis").call(volumeAxis);
+        svg.select("g.percent.axis").call(percentAxis);
+
+        // We know the data does not change, a simple refresh that does not perform data joins will suffice.
+        svg.select("g.candlestick").call(candlestick.refresh);
+        svg.select("g.close.annotation").call(closeAnnotation.refresh);
+        svg.select("g.volume").call(volume.refresh);
+        svg.select("g .sma.ma-0").call(sma0.refresh);
+        svg.select("g .sma.ma-1").call(sma1.refresh);
+        svg.select("g .ema.ma-2").call(ema2.refresh);
+        svg.select("g.crosshair.ohlc").call(ohlcCrosshair.refresh);
+        svg.select("g.trendlines").call(trendline.refresh);
+        svg.select("g.supstances").call(supstance.refresh);
+    }
+
+</script>

@@ -1,0 +1,23 @@
+<tr data-content_code='{{:contentCode}}'>
+    <th>{{:~topicCodeToDate(date)}}</th>
+    <td class="photo_cell">
+        <div style="background-image: url('./assets/_con/images/loading-spin-s.gif');background-repeat: no-repeat;background-position: center center;width:2.5rem;height:2.5rem;">
+        </div>
+    </td>
+    <td>
+        {{for category}}
+        <div class="btn btn-small btn-rounded">{{:}}</div>
+        {{/for}}
+    </td>
+    <td>
+        {{:~trimLength(title, 26)}}
+    </td>
+    <td>
+        {{for tag}}
+        <div class="btn btn-small btn-rounded">{{:}}</div>
+        {{/for}}
+    </td>
+    <td>
+        {{:media}}
+    </td>
+</tr>

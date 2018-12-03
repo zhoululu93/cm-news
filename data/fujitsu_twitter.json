@@ -1,0 +1,2502 @@
+[{
+        "created_at": "Wed Oct 12 07:33:06 +0000 2017",
+        "id": 918032195096264704,
+        "id_str": "918032195096264704",
+        "image": "t_01.jpg",
+        "text": "日本科学技術連盟が主催するソフトウェアの品質に関する国内最大級の「ソフトウェア品質シンポジウム2017（SQiP2017）」において、当社の発表が将来役に立つ可能性を秘めていると評価されて「SQiP Best Report Fut… https:\/\/t.co\/O6YoUrhSy1",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/O6YoUrhSy1",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/918032195096264704",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 23,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Oct 10 08:35:08 +0000 2017",
+        "id": 917669815552057347,
+        "id_str": "917669815552057347",
+        "image": "t_02.png",
+        "text": "富士通の「シェアリングビジネス基盤サービス」が、シェアリングエコノミーのさらなる加速と活性化につながることが期待できると評価され、2017年度のグッドデザイン賞を受賞しました。今なら30日間無料でトライアルできます！… https:\/\/t.co\/kkY9eQBzqi",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/kkY9eQBzqi",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/917669815552057347",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    110,
+                    133
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 7,
+        "favorite_count": 30,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Mon Oct 09 22:17:19 +0000 2017",
+        "id": 917514339967418368,
+        "id_str": "917514339967418368",
+        "text": "国際体操連盟と富士通は、体操競技における採点支援システムの実用化に共同で取り組むことで合意。より公平かつ正確でリアルタイムな採点支援を実現することを目指し、2020年の実用化に向け、共同でデータ取得や実証実験などを進めていきます。… https:\/\/t.co\/NPFmy37cG5",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/NPFmy37cG5",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/917514339967418368",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 35,
+        "favorite_count": 65,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Fri Oct 06 08:33:04 +0000 2017",
+        "id": 916219744323334144,
+        "id_str": "916219744323334144",
+        "text": "体育の日10月9日は「出雲駅伝」。大学三大駅伝のひとつで、駅伝シーズンの幕開けを飾る“高速駅伝”です。青山学院大学の三連覇なるか、それを阻む古豪・新鋭が出てくるのか、21チームが熱戦を繰り広げる45km2時間のドラマをお見逃しなく… https:\/\/t.co\/4pxWOUKwZ4",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/4pxWOUKwZ4",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/916219744323334144",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 35,
+        "favorite_count": 94,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Thu Oct 05 08:41:51 +0000 2017",
+        "id": 915859567874936832,
+        "id_str": "915859567874936832",
+        "text": "RT @frfr: これが現役なオフィスって他にあるんかな。 https:\/\/t.co\/U1eRyuFU5r",
+        "truncated": false,
+        "image": "t_03.jpg",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "frfr",
+                "name": "ふるふる",
+                "id": 5642692,
+                "id_str": "5642692",
+                "indices": [
+                    3,
+                    8
+                ]
+            }],
+            "urls": [],
+            "media": [{
+                "id": 915776292787650560,
+                "id_str": "915776292787650560",
+                "indices": [
+                    31,
+                    54
+                ],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                "url": "https:\/\/t.co\/U1eRyuFU5r",
+                "display_url": "pic.twitter.com\/U1eRyuFU5r",
+                "expanded_url": "https:\/\/twitter.com\/frfr\/status\/915776308952494082\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 675,
+                        "h": 1200,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 383,
+                        "h": 680,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 1152,
+                        "h": 2048,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 915776308952494082,
+                "source_status_id_str": "915776308952494082",
+                "source_user_id": 5642692,
+                "source_user_id_str": "5642692"
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 915776292787650560,
+                "id_str": "915776292787650560",
+                "indices": [
+                    31,
+                    54
+                ],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                "url": "https:\/\/t.co\/U1eRyuFU5r",
+                "display_url": "pic.twitter.com\/U1eRyuFU5r",
+                "expanded_url": "https:\/\/twitter.com\/frfr\/status\/915776308952494082\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "medium": {
+                        "w": 675,
+                        "h": 1200,
+                        "resize": "fit"
+                    },
+                    "small": {
+                        "w": 383,
+                        "h": 680,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 1152,
+                        "h": 2048,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 915776308952494082,
+                "source_status_id_str": "915776308952494082",
+                "source_user_id": 5642692,
+                "source_user_id_str": "5642692"
+            }]
+        },
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Oct 05 03:11:01 +0000 2017",
+            "id": 915776308952494082,
+            "id_str": "915776308952494082",
+            "text": "これが現役なオフィスって他にあるんかな。 https:\/\/t.co\/U1eRyuFU5r",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [{
+                    "id": 915776292787650560,
+                    "id_str": "915776292787650560",
+                    "indices": [
+                        21,
+                        44
+                    ],
+                    "media_url": "http:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                    "media_url_https": "https:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                    "url": "https:\/\/t.co\/U1eRyuFU5r",
+                    "display_url": "pic.twitter.com\/U1eRyuFU5r",
+                    "expanded_url": "https:\/\/twitter.com\/frfr\/status\/915776308952494082\/photo\/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 383,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1152,
+                            "h": 2048,
+                            "resize": "fit"
+                        }
+                    }
+                }]
+            },
+            "extended_entities": {
+                "media": [{
+                    "id": 915776292787650560,
+                    "id_str": "915776292787650560",
+                    "indices": [
+                        21,
+                        44
+                    ],
+                    "media_url": "http:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                    "media_url_https": "https:\/\/pbs.twimg.com\/media\/DLV9r7FVAAAD_Q4.jpg",
+                    "url": "https:\/\/t.co\/U1eRyuFU5r",
+                    "display_url": "pic.twitter.com\/U1eRyuFU5r",
+                    "expanded_url": "https:\/\/twitter.com\/frfr\/status\/915776308952494082\/photo\/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 383,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1152,
+                            "h": 2048,
+                            "resize": "fit"
+                        }
+                    }
+                }]
+            },
+            "source": "<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 5642692,
+                "id_str": "5642692",
+                "name": "ふるふる",
+                "screen_name": "frfr",
+                "location": "おしゃれよりダジャレの街",
+                "description": "食べることばっかり考えています。",
+                "url": "https:\/\/t.co\/BLlcHxeXPY",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "url": "https:\/\/t.co\/BLlcHxeXPY",
+                            "expanded_url": "http:\/\/miil.me\/u\/frfr7",
+                            "display_url": "miil.me\/u\/frfr7",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 553,
+                "friends_count": 752,
+                "listed_count": 26,
+                "created_at": "Mon Apr 30 02:41:46 +0000 2007",
+                "favourites_count": 9211,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 57891,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "9AE4E8",
+                "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+                "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/544713222779973633\/yUH5flgC_normal.jpeg",
+                "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/544713222779973633\/yUH5flgC_normal.jpeg",
+                "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/5642692\/1479187182",
+                "profile_link_color": "0000FF",
+                "profile_sidebar_border_color": "87BC44",
+                "profile_sidebar_fill_color": "E0FF92",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 333,
+            "favorite_count": 454,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "is_quote_status": false,
+        "retweet_count": 333,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Thu Oct 05 08:35:29 +0000 2017",
+        "id": 915857966905008128,
+        "id_str": "915857966905008128",
+        "text": "幕張メッセで開催されているCEATECの「CEATEC AWARD 2017」で、「IDカード型ハンズフリー音声翻訳端末」がオープンイノベーション部門でグランプリを受賞！富士通ブースでぜひ体感してみてください。… https:\/\/t.co\/bRwLrMNJXZ",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/bRwLrMNJXZ",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/915857966905008128",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    107,
+                    130
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 24,
+        "favorite_count": 51,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Oct 04 09:24:15 +0000 2017",
+        "id": 915507852457918464,
+        "id_str": "915507852457918464",
+        "text": "現在開催中のCEATEC富士通ブースでは「AI･IoTで実現する豊かな暮らし」を様々なシーンでご紹介しています。ぜひご来場ください！ https:\/\/t.co\/9bEYrIDVAM",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/9bEYrIDVAM",
+                "expanded_url": "http:\/\/eng.mg\/5e476",
+                "display_url": "eng.mg\/5e476",
+                "indices": [
+                    67,
+                    90
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 10,
+        "favorite_count": 32,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Oct 03 23:19:44 +0000 2017",
+        "id": 915355717401329664,
+        "id_str": "915355717401329664",
+        "text": "富士通やパナ、健康管理にＡＩなど応用　シーテックで最先端技術を披露（SankeiBiz） - Yahoo!ニュース https:\/\/t.co\/gnXQM7ghNu @YahooNewsTopics",
+        "truncated": false,
+        "image": "t_04.jpg",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "YahooNewsTopics",
+                "name": "Yahoo!ニュース 速報や地震情報も",
+                "id": 88846085,
+                "id_str": "88846085",
+                "indices": [
+                    82,
+                    98
+                ]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/gnXQM7ghNu",
+                "expanded_url": "https:\/\/headlines.yahoo.co.jp\/hl?a=20171003-00000001-fsi-bus_all",
+                "display_url": "headlines.yahoo.co.jp\/hl?a=20171003-…",
+                "indices": [
+                    58,
+                    81
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 18,
+        "favorite_count": 45,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Oct 03 08:35:05 +0000 2017",
+        "id": 915133087775723520,
+        "id_str": "915133087775723520",
+        "text": "富士通では秋のインターンシップ応募受付を開始！ビジネス創出の実践をしたい方、自らの力で社会変革をしたい方、自己成長に向けた高い志を持った方、ご応募をお待ちしています！（応募締切：10月30日（月）12時）… https:\/\/t.co\/9RCRPqMBEr",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/9RCRPqMBEr",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/915133087775723520",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    104,
+                    127
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 11,
+        "favorite_count": 26,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Mon Oct 02 09:39:10 +0000 2017",
+        "id": 914786827457855488,
+        "id_str": "914786827457855488",
+        "text": "明日からのCEATEC富士通ブースでは、AIがあなたの健康データを測定してアドバイスしたり、IoTを活用したウインドサーフィンのトレーニングシステムを体験できたり、「AI･IoTで実現する豊かな暮らし」を様々なシーンでご紹介します… https:\/\/t.co\/TgSYbHXi2D",
+        "truncated": true,
+        "image": "t_05.gif",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/TgSYbHXi2D",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/914786827457855488",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 19,
+        "favorite_count": 58,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Fri Sep 29 08:33:09 +0000 2017",
+        "id": 913683050008948737,
+        "id_str": "913683050008948737",
+        "text": "アメフト「Xリーグ」2017年秋季シーズン3連勝の「富士通フロンティアーズ」、10月1日には「パナソニックインパルス」と敵地大阪に乗り込んでの対戦。ここ2年間全くの互角、激しい攻防戦となりそうです。フロンティアーズに熱い声援を！… https:\/\/t.co\/Q98DXHA80Q",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/Q98DXHA80Q",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/913683050008948737",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    116,
+                    139
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 20,
+        "favorite_count": 54,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Thu Sep 28 08:46:29 +0000 2017",
+        "id": 913324019541196800,
+        "id_str": "913324019541196800",
+        "text": "「上下水道」は私達の生活に欠くことのできないライフライン。常に安心安全を維持するためには異業種間での円滑な情報の共有が必要と考えたメタウォーター株式会社様は課題の解決に富士通のクラウドサービスを活用されています。… https:\/\/t.co\/6Vxh3XwWkS",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/6Vxh3XwWkS",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/913324019541196800",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    108,
+                    131
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 11,
+        "favorite_count": 29,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Sep 27 22:06:49 +0000 2017",
+        "id": 913163040123641856,
+        "id_str": "913163040123641856",
+        "text": "今日は「#パソコン記念日」。1979年の今日、NECがPC-8001を発売。弊社はその2年後の1981年にFM-8を発売し、シャープとNECに加えてもらい当時は「パソコン御三家」とも呼ばれました。FM-8はFM-7、FM-77など… https:\/\/t.co\/OUMAj3sg6P",
+        "truncated": true,
+        "entities": {
+            "hashtags": [{
+                "text": "パソコン記念日",
+                "indices": [
+                    4,
+                    12
+                ]
+            }],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/OUMAj3sg6P",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/913163040123641856",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1007,
+        "favorite_count": 1091,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Sep 27 08:35:10 +0000 2017",
+        "id": 912958782237425665,
+        "id_str": "912958782237425665",
+        "text": "10月3日からの「CEATEC JAPAN」富士通ブースではAIやIoTなどの先進テクノロジーや共創による新しいビジネスを4つのテーマでご紹介！ビジネス、社会、そして私たちの生活がどのように変わっていくか、ぜひ会場でご体感ください… https:\/\/t.co\/chJMYz0z8s",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/chJMYz0z8s",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/912958782237425665",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 14,
+        "favorite_count": 38,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Sep 27 04:26:39 +0000 2017",
+        "id": 912896240198803457,
+        "id_str": "912896240198803457",
+        "text": "昨シーズンのCSファイナルで好評を博した「B.LEAGUE 応援アプリ」がアップグレードして再登場。フリフリ応援機能も36クラブ対応となり、各クラブの選手情報も閲覧できるようになりました。… https:\/\/t.co\/sRNkCtW8gy",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/sRNkCtW8gy",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/912896240198803457",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    96,
+                    119
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 912890923482263558,
+        "quoted_status_id_str": "912890923482263558",
+        "quoted_status": {
+            "created_at": "Wed Sep 27 04:05:31 +0000 2017",
+            "id": 912890923482263558,
+            "id_str": "912890923482263558",
+            "text": "「B.LEAGUE 応援アプリ」がアップグレードして再登場！ https:\/\/t.co\/2q9mjf3F91\n#Bリーグ @FujitsuOfficial",
+            "truncated": false,
+            "entities": {
+                "hashtags": [{
+                    "text": "Bリーグ",
+                    "indices": [
+                        55,
+                        60
+                    ]
+                }],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "FujitsuOfficial",
+                    "name": "富士通(株)FUJITSU Japan",
+                    "id": 2365169072,
+                    "id_str": "2365169072",
+                    "indices": [
+                        61,
+                        77
+                    ]
+                }],
+                "urls": [{
+                    "url": "https:\/\/t.co\/2q9mjf3F91",
+                    "expanded_url": "https:\/\/www.bleague.jp\/news\/33061.html",
+                    "display_url": "bleague.jp\/news\/33061.html",
+                    "indices": [
+                        31,
+                        54
+                    ]
+                }]
+            },
+            "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3500553679,
+                "id_str": "3500553679",
+                "name": "B.LEAGUE（Bリーグ）",
+                "screen_name": "B_LEAGUE",
+                "location": "",
+                "description": "B.LEAGUEの公式Twitterです🏀 #Bリーグ 【Facebook】https:\/\/t.co\/t0JTOBupZ7 【Instagram】https:\/\/t.co\/MyAwdKNMI6",
+                "url": "https:\/\/t.co\/PlCYZ76pGA",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "url": "https:\/\/t.co\/PlCYZ76pGA",
+                            "expanded_url": "http:\/\/www.bleague.jp\/",
+                            "display_url": "bleague.jp",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }]
+                    },
+                    "description": {
+                        "urls": [{
+                                "url": "https:\/\/t.co\/t0JTOBupZ7",
+                                "expanded_url": "https:\/\/www.facebook.com\/B.LEAGUEOFFICIAL\/",
+                                "display_url": "facebook.com\/B.LEAGUEOFFICI…",
+                                "indices": [
+                                    38,
+                                    61
+                                ]
+                            },
+                            {
+                                "url": "https:\/\/t.co\/MyAwdKNMI6",
+                                "expanded_url": "https:\/\/www.instagram.com\/b.league_official\/",
+                                "display_url": "instagram.com\/b.league_offic…",
+                                "indices": [
+                                    73,
+                                    96
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 174370,
+                "friends_count": 50,
+                "listed_count": 677,
+                "created_at": "Wed Sep 09 04:40:29 +0000 2015",
+                "favourites_count": 483,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 4740,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/715780646459805697\/pyF7TTlt.jpg",
+                "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/715780646459805697\/pyF7TTlt.jpg",
+                "profile_background_tile": true,
+                "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/913631080233627648\/Kza0SntH_normal.jpg",
+                "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/913631080233627648\/Kza0SntH_normal.jpg",
+                "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/3500553679\/1498892534",
+                "profile_link_color": "000000",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 91,
+            "favorite_count": 318,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "retweet_count": 33,
+        "favorite_count": 125,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Sep 26 08:35:04 +0000 2017",
+        "id": 912596369138900992,
+        "id_str": "912596369138900992",
+        "text": "トヨタ自動車 サービス技術部では、カイゼンに加えて富士通が提案した「デザイン思考」を取り入れた事で、仕事の進め方が大きく変わり、社員の発想や組織文化も変化しつつあるといいます。デザイン思考とはどのようなものなのでしょうか。… https:\/\/t.co\/tVvxHe22rW",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/tVvxHe22rW",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/912596369138900992",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    113,
+                    136
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 12,
+        "favorite_count": 34,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Mon Sep 25 22:04:04 +0000 2017",
+        "id": 912437572961419265,
+        "id_str": "912437572961419265",
+        "text": "今日は「#ワープロ記念日」。弊社は世界初の日本語ワープロが発表されてから2年後の1980年5月に「OASYS 100」を発売。かな文字を1つのキーに2文字割り当てて、同じ側のシフトキーと一緒に押すと上の文字が、反対側だと下の文字の… https:\/\/t.co\/dlVQmpZiPc",
+        "truncated": true,
+        "entities": {
+            "hashtags": [{
+                "text": "ワープロ記念日",
+                "indices": [
+                    4,
+                    12
+                ]
+            }],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/dlVQmpZiPc",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/912437572961419265",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 209,
+        "favorite_count": 295,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Mon Sep 25 09:20:19 +0000 2017",
+        "id": 912245369072893957,
+        "id_str": "912245369072893957",
+        "text": "制約条件がある中で目的関数を最大化または最小化する「最適化技術」。AI技術のDeep Learning等を活用し、従来より適切かつ高度な解を算出することを目指すようになり、ニーズも人の判断・感性により近づくことに変わってきています… https:\/\/t.co\/7uFenOe8Qt",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/7uFenOe8Qt",
+                "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/912245369072893957",
+                "display_url": "twitter.com\/i\/web\/status\/9…",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 31,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sun Sep 24 22:04:13 +0000 2017",
+        "id": 912075223343566848,
+        "id_str": "912075223343566848",
+        "text": "今日は「#10円カレーの日」。東京・日比谷公園のレストラン「松本楼」、一時は放火で全焼したものの全国のファンの支援で再オープン。その感謝の気持ちを込めた記念行事として始まったもの。10円でなくてもそれ以上でもOKで全額ユニセフに寄付されます。11時スタートで先着1,500人です！",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "10円カレーの日",
+                "indices": [
+                    4,
+                    13
+                ]
+            }],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http:\/\/twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 56,
+        "favorite_count": 89,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Fri Sep 22 08:34:02 +0000 2017",
+        "id": 911146560003629056,
+        "id_str": "911146560003629056",
+        "text": "この週末に大阪市・ヤンマースタジアム長居で開催される全日本実業団陸上は富士通陸上競技部「高平慎士選手」の現役最後の大会。土曜日の4×100mリレーがラストランになり、引退セレモニーも予定されています。熱い声援をよろしくお願いします！ https:\/\/t.co\/qR9U9F0Wle",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https:\/\/t.co\/qR9U9F0Wle",
+                "expanded_url": "http:\/\/eng.mg\/5e19c",
+                "display_url": "eng.mg\/5e19c",
+                "indices": [
+                    117,
+                    140
+                ]
+            }]
+        },
+        "source": "<a href=\"http:\/\/engagemanager.tribalmedia.co.jp\/\" rel=\"nofollow\">EngageManager<\/a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2365169072,
+            "id_str": "2365169072",
+            "name": "富士通(株)FUJITSU Japan",
+            "screen_name": "FujitsuOfficial",
+            "location": "",
+            "description": "富士通株式会社の、公式Twitterアカウントです。富士通グループのソーシャルメディアの公式アカウントのポリシー、一覧等については http:\/\/t.co\/VMjkmok7om をご覧ください。",
+            "url": "http:\/\/t.co\/ddt6kMhbP7",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/ddt6kMhbP7",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/",
+                        "display_url": "jp.fujitsu.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "http:\/\/t.co\/VMjkmok7om",
+                        "expanded_url": "http:\/\/jp.fujitsu.com\/socialmedia\/",
+                        "display_url": "jp.fujitsu.com\/socialmedia\/",
+                        "indices": [
+                            66,
+                            88
+                        ]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 83709,
+            "friends_count": 29,
+            "listed_count": 610,
+            "created_at": "Fri Feb 28 06:18:13 +0000 2014",
+            "favourites_count": 726,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 2019,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/459290665508012033\/mzN7nO6C_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2365169072\/1398225263",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 19,
+        "favorite_count": 65,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    }
+]

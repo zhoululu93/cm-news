@@ -1,0 +1,52 @@
+<div class="card">
+    <div class="title">
+        <h3>({{:headerInfo.crCompanyCode onerror=''}}) {{:outline.companyNameKanji onerror=''}}</h3>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>業種話題</h5>
+    </div>
+    <div class="content">
+        <div class="title topics">
+            <div class="send">
+                <form action="#!" onsubmit='return false;'>
+                    <div class="row" style="margin-top:0; margin-bottom:0;">
+                        <div class="col m3 s6">
+                            <select class="browser-default" id="business_type_code" name="business_type_code">
+                                <option value="" disabled>業種を選択してください。</option>
+                            </select>
+                        </div>
+                        <div class="col m2 s2">
+                            <p class="switch" style="margin-left: 2rem;">
+                                <label>
+                            <input id="topic-hasPicture" type="checkbox" checked />
+                            <span class="lever"></span>写真表示
+                        </label>
+                            </p>
+                        </div>
+                        <div class="col m2 s2">
+                            <select class="browser-default" id="topic_outputLimit">
+                            <option value="" disabled>表示件数を選択してください。</option>
+                            <option value="5">5 件表示</option>
+                            <option value="10">10 件表示</option>
+                            <option value="20" selected>20 件表示</option>
+                            <option value="20">20 件表示</option>
+                            <option value="30">30 件表示</option>
+                            <option value="40">40 件表示</option>
+                        </select>
+                        </div>
+                        <div class="col m3 s4">
+                            <button id="search_news_button" class="waves-effect btn">
+                        <i class="mdi-action-search prefix">検索</i>
+                        </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="finplex_topics" class="row_mt my-shuffle-container" style="margin-top:-4rem; padding-bottom: 1rem;min-height: 20rem;">
+        </div>
+    </div>
+</div>

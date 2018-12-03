@@ -1,0 +1,511 @@
+{
+    "parts": [
+        {
+            "name": "base",
+            "subject": "輪郭",
+            "files": [
+                {
+                    "id": "shape_01",
+                    "svg": "01_shape/shape_01.svg",
+                    "thum": "01_shape/thum_shape_01.png"
+                },
+                {
+                    "id": "shape_02",
+                    "svg": "01_shape/shape_02.svg",
+                    "thum": "01_shape/thum_shape_02.png"
+                },
+                {
+                    "id": "shape_03",
+                    "svg": "01_shape/shape_03.svg",
+                    "thum": "01_shape/thum_shape_03.png"
+                },
+                {
+                    "id": "shape_04",
+                    "svg": "01_shape/shape_04.svg",
+                    "thum": "01_shape/thum_shape_04.png"
+                }
+            ],
+            "colors": [
+                {
+                    "name": "色白",
+                    "mainfill": "#f9e5cf",
+                    "subfill": "#f5d4b4"
+                },
+                {
+                    "name": "ふつう",
+                    "mainfill": "#f3cda8",
+                    "subfill": "#e3ba98"
+                },
+                {
+                    "name": "色黒",
+                    "mainfill": "#d8a988",
+                    "subfill": "#cda082"
+                }
+            ],
+            "discardable": false
+        },
+        {
+            "name": "hair",
+            "subject": "髪型",
+            "files": [
+                {
+                    "id": "female_hair_01",
+                    "svg": "02_female_hair/female_hair_01.svg",
+                    "thum": "02_female_hair/thum_female_hair_01.png"
+                },
+                {
+                    "id": "female_hair_02",
+                    "svg": "02_female_hair/female_hair_02.svg",
+                    "thum": "02_female_hair/thum_female_hair_02.png"
+                },
+                {
+                    "id": "female_hair_03",
+                    "svg": "02_female_hair/female_hair_03.svg",
+                    "thum": "02_female_hair/thum_female_hair_03.png"
+                },
+                {
+                    "id": "female_hair_04",
+                    "svg": "02_female_hair/female_hair_04.svg",
+                    "thum": "02_female_hair/thum_female_hair_04.png"
+                },
+                {
+                    "id": "female_hair_05",
+                    "svg": "02_female_hair/female_hair_05.svg",
+                    "thum": "02_female_hair/thum_female_hair_05.png"
+                },
+                {
+                    "id": "female_hair_06",
+                    "svg": "02_female_hair/female_hair_06.svg",
+                    "thum": "02_female_hair/thum_female_hair_06.png"
+                },
+                {
+                    "id": "female_hair_07",
+                    "svg": "02_female_hair/female_hair_07.svg",
+                    "thum": "02_female_hair/thum_female_hair_07.png"
+                },
+                {
+                    "id": "female_hair_08",
+                    "svg": "02_female_hair/female_hair_08.svg",
+                    "thum": "02_female_hair/thum_female_hair_08.png"
+                },
+                {
+                    "id": "female_hair_09",
+                    "svg": "02_female_hair/female_hair_09.svg",
+                    "thum": "02_female_hair/thum_female_hair_09.png"
+                },
+                {
+                    "id": "female_hair_10",
+                    "svg": "02_female_hair/female_hair_10.svg",
+                    "thum": "02_female_hair/thum_female_hair_10.png"
+                },
+                {
+                    "id": "female_hair_11",
+                    "svg": "02_female_hair/female_hair_11.svg",
+                    "thum": "02_female_hair/thum_female_hair_11.png"
+                },
+                {
+                    "id": "female_hair_12",
+                    "svg": "02_female_hair/female_hair_12.svg",
+                    "thum": "02_female_hair/thum_female_hair_12.png"
+                },
+                {
+                    "id": "female_hair_13",
+                    "svg": "02_female_hair/female_hair_13.svg",
+                    "thum": "02_female_hair/thum_female_hair_13.png"
+                },
+                {
+                    "id": "female_hair_14",
+                    "svg": "02_female_hair/female_hair_14.svg",
+                    "thum": "02_female_hair/thum_female_hair_14.png"
+                },
+                {
+                    "id": "female_hair_15",
+                    "svg": "02_female_hair/female_hair_15.svg",
+                    "thum": "02_female_hair/thum_female_hair_15.png"
+                },
+                {
+                    "id": "female_hair_16",
+                    "svg": "02_female_hair/female_hair_16.svg",
+                    "thum": "02_female_hair/thum_female_hair_16.png"
+                },
+                {
+                    "id": "female_hair_17",
+                    "svg": "02_female_hair/female_hair_17.svg",
+                    "thum": "02_female_hair/thum_female_hair_17.png"
+                },
+                {
+                    "id": "male_hair_01",
+                    "svg": "02_male_hair/male_hair_01.svg",
+                    "thum": "02_male_hair/thum_male_hair_01.png"
+                },
+                {
+                    "id": "male_hair_02",
+                    "svg": "02_male_hair/male_hair_02.svg",
+                    "thum": "02_male_hair/thum_male_hair_02.png"
+                },
+                {
+                    "id": "male_hair_03",
+                    "svg": "02_male_hair/male_hair_03.svg",
+                    "thum": "02_male_hair/thum_male_hair_03.png"
+                },
+                {
+                    "id": "male_hair_04",
+                    "svg": "02_male_hair/male_hair_04.svg",
+                    "thum": "02_male_hair/thum_male_hair_04.png"
+                },
+                {
+                    "id": "male_hair_05",
+                    "svg": "02_male_hair/male_hair_05.svg",
+                    "thum": "02_male_hair/thum_male_hair_05.png"
+                },
+                {
+                    "id": "male_hair_06",
+                    "svg": "02_male_hair/male_hair_06.svg",
+                    "thum": "02_male_hair/thum_male_hair_06.png"
+                },
+                {
+                    "id": "male_hair_07",
+                    "svg": "02_male_hair/male_hair_07.svg",
+                    "thum": "02_male_hair/thum_male_hair_07.png"
+                },
+                {
+                    "id": "male_hair_08",
+                    "svg": "02_male_hair/male_hair_08.svg",
+                    "thum": "02_male_hair/thum_male_hair_08.png"
+                },
+                {
+                    "id": "male_hair_09",
+                    "svg": "02_male_hair/male_hair_09.svg",
+                    "thum": "02_male_hair/thum_male_hair_09.png"
+                },
+                {
+                    "id": "male_hair_10",
+                    "svg": "02_male_hair/male_hair_10.svg",
+                    "thum": "02_male_hair/thum_male_hair_10.png"
+                },
+                {
+                    "id": "male_hair_11",
+                    "svg": "02_male_hair/male_hair_11.svg",
+                    "thum": "02_male_hair/thum_male_hair_11.png"
+                },
+                {
+                    "id": "male_hair_12",
+                    "svg": "02_male_hair/male_hair_12.svg",
+                    "thum": "02_male_hair/thum_male_hair_12.png"
+                },
+                {
+                    "id": "male_hair_13",
+                    "svg": "02_male_hair/male_hair_13.svg",
+                    "thum": "02_male_hair/thum_male_hair_13.png"
+                },
+                {
+                    "id": "male_hair_14",
+                    "svg": "02_male_hair/male_hair_14.svg",
+                    "thum": "02_male_hair/thum_male_hair_14.png"
+                },
+                {
+                    "id": "male_hair_15",
+                    "svg": "02_male_hair/male_hair_15.svg",
+                    "thum": "02_male_hair/thum_male_hair_15.png"
+                },
+                {
+                    "id": "male_hair_16",
+                    "svg": "02_male_hair/male_hair_16.svg",
+                    "thum": "02_male_hair/thum_male_hair_16.png"
+                },
+                {
+                    "id": "male_hair_17",
+                    "svg": "02_male_hair/male_hair_17.svg",
+                    "thum": "02_male_hair/thum_male_hair_17.png"
+                },
+                {
+                    "id": "male_hair_18",
+                    "svg": "02_male_hair/male_hair_18.svg",
+                    "thum": "02_male_hair/thum_male_hair_18.png"
+                },
+                {
+                    "id": "male_hair_19",
+                    "svg": "02_male_hair/male_hair_19.svg",
+                    "thum": "02_male_hair/thum_male_hair_19.png"
+                }
+            ],
+            "colors": [
+                {
+                    "name": "黒髪",
+                    "mainfill": "#3E3A39"
+                },
+                {
+                    "name": "ブラウン",
+                    "mainfill": "#966842"
+                },
+                {
+                    "name": "白髪",
+                    "mainfill": "#DFE1E1"
+                }
+            ],
+            "discardable": true
+        },
+        {
+            "name": "eyes",
+            "subject": "目",
+            "files": [
+                {
+                    "id": "eyes_01",
+                    "svg": "03_eyes/eyes_01.svg",
+                    "thum": "03_eyes/thum_eyes_01.png"
+                },
+                {
+                    "id": "eyes_02",
+                    "svg": "03_eyes/eyes_02.svg",
+                    "thum": "03_eyes/thum_eyes_02.png"
+                },
+                {
+                    "id": "eyes_03",
+                    "svg": "03_eyes/eyes_03.svg",
+                    "thum": "03_eyes/thum_eyes_03.png"
+                },
+                {
+                    "id": "eyes_04",
+                    "svg": "03_eyes/eyes_04.svg",
+                    "thum": "03_eyes/thum_eyes_04.png"
+                },
+                {
+                    "id": "eyes_05",
+                    "svg": "03_eyes/eyes_05.svg",
+                    "thum": "03_eyes/thum_eyes_05.png"
+                },
+                {
+                    "id": "eyes_06",
+                    "svg": "03_eyes/eyes_06.svg",
+                    "thum": "03_eyes/thum_eyes_06.png"
+                }
+            ],
+            "discardable": false
+        },
+        {
+            "name": "nose",
+            "subject": "鼻",
+            "files": [
+                {
+                    "id": "nose_01",
+                    "svg": "04_nose/nose_01.svg",
+                    "thum": "04_nose/thum_nose_01.png"
+                },
+                {
+                    "id": "nose_02",
+                    "svg": "04_nose/nose_02.svg",
+                    "thum": "04_nose/thum_nose_02.png"
+                },
+                {
+                    "id": "nose_03",
+                    "svg": "04_nose/nose_03.svg",
+                    "thum": "04_nose/thum_nose_03.png"
+                },
+                {
+                    "id": "nose_04",
+                    "svg": "04_nose/nose_04.svg",
+                    "thum": "04_nose/thum_nose_04.png"
+                }
+            ],
+            "discardable": false
+        },
+        {
+            "name": "mouth",
+            "subject": "口",
+            "files": [
+                {
+                    "id": "mouth_01",
+                    "svg": "05_mouth/mouth_01.svg",
+                    "thum": "05_mouth/thum_mouth_01.png"
+                },
+                {
+                    "id": "mouth_02",
+                    "svg": "05_mouth/mouth_02.svg",
+                    "thum": "05_mouth/thum_mouth_02.png"
+                },
+                {
+                    "id": "mouth_03",
+                    "svg": "05_mouth/mouth_03.svg",
+                    "thum": "05_mouth/thum_mouth_03.png"
+                },
+                {
+                    "id": "mouth_04",
+                    "svg": "05_mouth/mouth_04.svg",
+                    "thum": "05_mouth/thum_mouth_04.png"
+                }
+            ],
+            "discardable": false
+        },
+        {
+            "name": "mustache",
+            "subject": "ひげ",
+            "files": [
+                {
+                    "id": "mustache_01",
+                    "svg": "06_mustache/mustache_01.svg",
+                    "thum": "06_mustache/thum_mustache_01.png"
+                },
+                {
+                    "id": "mustache_02",
+                    "svg": "06_mustache/mustache_02.svg",
+                    "thum": "06_mustache/thum_mustache_02.png"
+                },
+                {
+                    "id": "mustache_03",
+                    "svg": "06_mustache/mustache_03.svg",
+                    "thum": "06_mustache/thum_mustache_03.png"
+                },
+                {
+                    "id": "mustache_04",
+                    "svg": "06_mustache/mustache_04.svg",
+                    "thum": "06_mustache/thum_mustache_04.png"
+                },
+                {
+                    "id": "mustache_05",
+                    "svg": "06_mustache/mustache_05.svg",
+                    "thum": "06_mustache/thum_mustache_05.png"
+                }
+            ],
+            "colors": [
+                {
+                    "name": "黒髪",
+                    "mainfill": "#3E3A39"
+                },
+                {
+                    "name": "茶髪",
+                    "mainfill": "#966842"
+                },
+                {
+                    "name": "白髪",
+                    "mainfill": "#DFE1E1"
+                }
+            ],
+            "discardable": true
+        },
+        {
+            "name": "eyeglasses",
+            "subject": "眼鏡",
+            "files": [
+                {
+                    "id": "eyeglasses_01",
+                    "svg": "07_eyeglasses/eyeglasses_01.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_01.png"
+                },
+                {
+                    "id": "eyeglasses_02",
+                    "svg": "07_eyeglasses/eyeglasses_02.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_02.png"
+                },
+                {
+                    "id": "eyeglasses_03",
+                    "svg": "07_eyeglasses/eyeglasses_03.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_03.png"
+                },
+                {
+                    "id": "eyeglasses_04",
+                    "svg": "07_eyeglasses/eyeglasses_04.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_04.png"
+                },
+                {
+                    "id": "eyeglasses_05",
+                    "svg": "07_eyeglasses/eyeglasses_05.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_05.png"
+                },
+                {
+                    "id": "eyeglasses_06",
+                    "svg": "07_eyeglasses/eyeglasses_06.svg",
+                    "thum": "07_eyeglasses/thum_eyeglasses_06.png"
+                }
+            ],
+            "colors": [
+                {
+                    "name": "黒",
+                    "mainfill": "#3d3736"
+                },
+                {
+                    "name": "ブラウン",
+                    "mainfill": "#bb7e50"
+                },
+                {
+                    "name": "ワイン",
+                    "mainfill": "#911d47"
+                }
+            ],
+            "discardable": true
+        },
+        {
+            "name": "clothes",
+            "subject": "服",
+            "files": [
+                {
+                    "id": "clothes_01",
+                    "svg": "08_clothes/clothes_01.svg",
+                    "thum": "08_clothes/thum_clothes_01.png"
+                },
+                {
+                    "id": "clothes_02",
+                    "svg": "08_clothes/clothes_02.svg",
+                    "thum": "08_clothes/thum_clothes_02.png"
+                },
+                {
+                    "id": "clothes_03",
+                    "svg": "08_clothes/clothes_03.svg",
+                    "thum": "08_clothes/thum_clothes_03.png"
+                },
+                {
+                    "id": "clothes_04",
+                    "svg": "08_clothes/clothes_04.svg",
+                    "thum": "08_clothes/thum_clothes_04.png"
+                },
+                {
+                    "id": "clothes_05",
+                    "svg": "08_clothes/clothes_05.svg",
+                    "thum": "08_clothes/thum_clothes_05.png"
+                }
+            ],
+            "discardable": false
+        },
+        {
+            "name": "others",
+            "subject": "しわ・ほくろ",
+            "files": [
+                {
+                    "id": "others_01",
+                    "svg": "09_others/others_01.svg",
+                    "thum": "09_others/thum_others_01.png"
+                },
+                {
+                    "id": "others_02",
+                    "svg": "09_others/others_02.svg",
+                    "thum": "09_others/thum_others_02.png"
+                },
+                {
+                    "id": "others_03",
+                    "svg": "09_others/others_03.svg",
+                    "thum": "09_others/thum_others_03.png"
+                },
+                {
+                    "id": "others_04",
+                    "svg": "09_others/others_04.svg",
+                    "thum": "09_others/thum_others_04.png"
+                },
+                {
+                    "id": "others_05",
+                    "svg": "09_others/others_05.svg",
+                    "thum": "09_others/thum_others_05.png"
+                },
+                {
+                    "id": "others_06",
+                    "svg": "09_others/others_06.svg",
+                    "thum": "09_others/thum_others_06.png"
+                },
+                {
+                    "id": "others_07",
+                    "svg": "09_others/others_07.svg",
+                    "thum": "09_others/thum_others_07.png"
+                }
+            ],
+            "discardable": true
+        }
+    ]
+}

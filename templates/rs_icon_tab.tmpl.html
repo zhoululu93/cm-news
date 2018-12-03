@@ -1,0 +1,30 @@
+{{for companies}} {{if own}}
+<div class="own-button">
+    <div style="display: block;">
+        <a class="btn-floating btn-large white" style="margin: auto; display: flex;justify-content: center;align-items: center;"><img class="target-icon" src="{{>image.selected}}" alt=""></a>
+        <div>{{>president_kanji}}</div>
+    </div>
+</div>
+{{/if}} {{/for}}
+<div class="route-arrow">
+    <div>
+        <i class="small mdi-action-trending-neutral"></i>
+    </div>
+</div>
+<div style="display: flex ;justify-content: center;
+        align-items: center; ">
+    <div class="company-button">
+        <div style="display: block;">
+            <a class="company-data waves-effect btn-floating btn-large" style="margin: auto; display: flex;justify-content: center;align-items: center;"><span>ALL</span></a>
+        </div>
+    </div>
+    {{for companies}} {{if target}}
+    <div class="company-button">
+        <div style="display: block;">
+            <a data-company_code="{{>company_code}}" class="company-data waves-effect btn-floating btn-large white " style="margin: auto; display: flex;justify-content: center;align-items: center;"><img class="target-icon" src="{{>image.selected}}" alt=""></a>
+            <p style="text-align: center; margin-bottom:3px;">{{>president_kanji}}</p>
+            <p style="text-align: center;font-size: 9px; margin-top:3px;">{{>company_name_kanji}}</p>
+        </div>
+    </div>
+    {{/if}} {{/for}}
+</div>

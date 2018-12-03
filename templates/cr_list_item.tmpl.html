@@ -1,0 +1,21 @@
+                    <tr>
+                        <th>{{:attributes.crCompanyCode onerror=''}}</th>
+                        <td>{{:attributes.companyNameKanji onerror=''}}</td>
+                        <td>{{:attributes.companyNameKana onerror=''}}</td>
+                        <td>{{:attributes.companyNameEnglish onerror=''}}</td>
+                        <td>{{:attributes.location onerror=''}}</td>
+                        <td>{{:attributes.business onerror=''}}</td>
+                        <td>{{:attributes.presidentKanji onerror=''}}</td>
+                        <td>{{:attributes.presidentKana onerror=''}}</td>
+                        <td>
+                            {{if products && products.companyInfo && products.companyInfo.companyInfoType && products.companyInfo.companyInfoType != 0}}
+                            <a href="company-data.html" class="btn btn-small z-depth-0 cr_list_link" company_code="{{:attributes.crCompanyCode onerror=''}}">
+                                <i class="mdi mdi-navigation-more-horiz"></i>
+                            </a>
+                            {{else}}
+                            <a href="#" class="btn btn-small z-depth-0 disabled" title="企業情報がありません。" >
+                                <i class="mdi mdi-navigation-more-horiz"></i>
+                            </a>
+                            {{/if}}
+                        </td>
+                    </tr>

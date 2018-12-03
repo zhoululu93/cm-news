@@ -1,0 +1,320 @@
+{
+    "nodes": [{
+            "ind": 1,
+            "name": "仕入先",
+            "type": 1,
+            "image": "track.svg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 2,
+            "name": "販売先",
+            "type": 2,
+            "image": "money.svg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+
+        {
+            "ind": 3,
+            "name": "富士通(株)",
+            "type": 0,
+            "image": "c1.jpg",
+            "group": 0,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 4,
+            "name": "富士通システムズ・イースト",
+            "type": 1,
+            "image": "c1.jpg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 5,
+            "name": "富士通システムズ・ウエスト",
+            "type": 1,
+            "image": "c1.jpg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 6,
+            "name": "富士通エフサス",
+            "type": 1,
+            "image": "c1.jpg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 7,
+            "name": "富士通テレコムネットワークス",
+            "type": 1,
+            "image": "c1.jpg",
+            "group": 1,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 8,
+            "name": "ＮＴＴドコモ",
+            "type": 2,
+            "image": "docomo.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 9,
+            "name": "富士通パーソナルズ",
+            "type": 2,
+            "image": "c1.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 10,
+            "name": "Ｆｕｊｉｔｓｕ　Ｔｅｃｈｎｏｌｏｇｙ　Ｓｏｌｕｔｉｏｎｓ",
+            "type": 2,
+            "image": "c1.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 11,
+            "name": "富士通エフサス",
+            "type": 2,
+            "image": "c1.jpg",
+            "group": 2,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 12,
+            "name": "山本正巳",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 101,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 13,
+            "name": "谷口典彦",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 102,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 14,
+            "name": "塚野英博",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 102,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 15,
+            "name": "ダンカン・テイト",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 103,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 16,
+            "name": "古河建純",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 104,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 17,
+            "name": "須田美矢子",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 104,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 18,
+            "name": "向井千秋",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 104,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 19,
+            "name": "阿部敦",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 104,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 20,
+            "name": "加藤和彦",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 105,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 21,
+            "name": "近藤芳樹",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 105,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 22,
+            "name": "山室惠",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 106,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 23,
+            "name": "三谷紘",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 106,
+            "importance": 1,
+            "nextBirth": 100
+        },
+        {
+            "ind": 24,
+            "name": "初川浩司",
+            "type": 3,
+            "image": "noman.jpg",
+            "group": 106,
+            "importance": 1,
+            "nextBirth": 100
+        }
+    ],
+    "links": [{
+            "source": 2,
+            "target": 0,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": {
+                "width": 3,
+                "color": "#808080",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "value": {
+                "width": 3,
+                "color": "#4724A2",
+                "connectionStrength": 1
+            }
+        },
+        {
+            "source": 5,
+            "target": 10,
+            "value": {
+                "width": 4,
+                "color": "orange",
+                "connectionStrength": 1
+            }
+        }
+    ]
+}

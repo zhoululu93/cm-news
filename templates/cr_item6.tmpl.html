@@ -1,0 +1,207 @@
+<style>
+    body {
+        background-color: #383838;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        color: #464646;
+    }
+
+    .tab-wrapper {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tab-menu {
+        margin-bottom: 0px;
+    }
+
+    .tab-menu li {
+        position: relative;
+        background-color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 20px;
+        opacity: 0.8;
+        cursor: pointer;
+        z-index: 0;
+    }
+
+    .tab-menu li:hover {
+        background: #b1dcfb
+    }
+
+    .tab-menu li.active {
+        color: #464646;
+        opacity: 1;
+        background: #205286;
+        color: white;
+    }
+
+    .tab-content>div {
+        margin-top: -13px;
+        background-color: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 200px;
+        max-height: 450px;
+        border-top: 2px solid #205286;
+        overflow: auto
+    }
+
+    .table {
+        width: 96%;
+        max-width: 96%;
+        /* height: 400px; */
+        /* margin-bottom: 20px; */
+    }
+
+    .row {
+        margin: 0px auto;
+        margin-top: 2rem;
+    }
+    table.dataTable.no-footer {
+        border-bottom: 1px solid white;
+    }
+</style>
+<div class="card">
+    <div class="title">
+        <h3>({{:headerInfo.crCompanyCode onerror=''}}) {{:outline.companyNameKanji onerror=''}}</h3>
+   
+    </div>
+</div>
+
+<div class="tab-wrapper">
+
+    <ul class="tab-menu">
+        <li class="active">特許・実用新案（2件）</li>
+        <li>意匠（2件）</li>
+        <li>商標（1件）</li>
+    </ul>
+
+    <div class="tab-content">
+        <p>{{:name}}</p>
+        <!-- 特許一覧 -->
+        <div>
+
+            <div class="content">
+                <table id="patent-table" class="table table-striped table-hover row ">
+                    <thead style="position: relative;top: 0px">
+                        <th style="width:15%">
+                            出願番号
+                        </th>
+                        <th style="width:15%">
+                            出願年月日
+                        </th>
+                        <th style="width:15%">
+                            発明の名称
+                        </th>
+                        <th style="width:50%">
+                            分類
+                        </th>
+                    </thead>
+                    <tbody id="patent-tbody">
+
+                    </tbody>
+
+                </table>
+
+
+            </div>
+        </div>
+        <!-- 意匠一覧 -->
+        <div>
+            <div class="content">
+                <table id="idea-table" class="table table-striped table-hover row ">
+                    <thead>
+                        <th style="width: 15%">
+                            出願番号
+                        </th>
+                        <th style="width: 15%">
+                            出願年月日
+                        </th>
+                        <th style="width: 20%">
+                            意匠に係る物品
+                        </th>
+                        <th style="width: 50%">
+                            分類
+                        </th>
+                    </thead>
+                    <tbody id="idea-tbody">
+                    </tbody>
+
+                </table>
+
+
+            </div>
+        </div>
+        <!-- 商標一覧 -->
+        <div>
+            <div class="content">
+                <table id="trademark-table" class="table table-striped table-hover row ">
+                    <thead>
+                        <th style="width: 15%">
+                            出願番号
+                        </th>
+                        <th style="width: 15%">
+                            出願年月日
+                        </th>
+                        <th style="width: 20%">
+                            商標
+                        </th>
+                        <th style="width: 50%">
+                            分類
+                        </th>
+                    </thead>
+                    <tbody id="trademark-tbody">
+
+                    </tbody>
+
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //tab-content -->
+
+</div>
+<!-- //tab-wrapper -->
+
+<script>
+
+    $(document).ready(function () {
+
+        var $wrapper = $('.tab-wrapper'),
+            $allTabs = $wrapper.find('.tab-content > div');
+        $tabMenu = $wrapper.find('.tab-menu li');
+  
+        $allTabs.not(':first-of-type').hide();
+        $tabMenu.filter(':first-of-type').find(':first').width('100%')
+
+        $tabMenu.each(function (i) {
+            $(this).attr('data-tab', 'tab' + i);
+        });
+
+        $allTabs.each(function (i) {
+            $(this).attr('data-tab', 'tab' + i);
+        });
+
+        $tabMenu.on('click', function () {
+
+            var dataTab = $(this).data('tab'),
+                $getWrapper = $(this).closest($wrapper);
+
+            $getWrapper.find($tabMenu).removeClass('active');
+            $(this).addClass('active');
+
+            $getWrapper.find($allTabs).hide();
+            $getWrapper.find($allTabs).filter('[data-tab=' + dataTab + ']').show();
+        });
+
+
+
+    });
+
+
+</script>

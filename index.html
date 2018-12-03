@@ -1,0 +1,189 @@
+
+
+<!DOCTYPE html> <!--
+  Name: neXessary - neXessary
+  Version: 0.0.0
+  Author: fujitsu
+  Website: http://fujitsu.com
+  Purchase: http://fujitsu.com
+  Support: http://fujitsu.com
+  License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+  Copyright 2018.
+-->
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="fujitsu">
+    <meta name="robots" content="noindex,nofollow">
+    <!-- pwa   start-->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#29434d">
+    <meta name="msapplication-TileColor" content="#29434d">
+    <meta name="msapplication-TileImage" content="./images/icons/mstile-150x150.png">
+    <link rel="apple-touch-icon" href="./images/icons/apple-touch-icon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Progressive Web Application">
+    <meta name="application-name" content="Progressive Web Application">
+  
+    
+    
+    <link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16">
+
+    <!-- <link rel="icon" href="assets/_con/images/icon.png"> -->
+
+    <title>neXessary - ダッシュボード</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+<!-- nanoScroller -->
+<link rel="stylesheet" type="text/css" href="bower_components/nanoscroller/bin/css/nanoscroller.css" /> <!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css" /> <!-- Material Design Icons -->
+<link rel="stylesheet" type="text/css" href="assets/material-design-icons/css/material-design-icons.min.css" /> <!-- IonIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css" /> <!-- WeatherIcons -->
+<link rel="stylesheet" type="text/css" href="bower_components/weather-icons/css/weather-icons.min.css" />                 
+
+<!-- Main -->
+<link rel="stylesheet" type="text/css" href="assets/_con/css/con-base.css" />
+<!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <![endif]--> 
+</head>
+
+<body class="yay-hide">
+    
+<section id="sign-in">
+
+  <!-- Background Bubbles -->
+  <canvas id="bubble-canvas"></canvas>
+  <!-- /Background Bubbles -->
+
+  <!-- Sign In Form -->
+  <form action="my-page.html">
+    <div class="row links">
+      <div class="col s12 logo">
+        <img src="assets/_con/images/logo-white.png" alt="">
+      </div>
+    </div>
+
+    <div class="card-panel clearfix">
+
+      <div class="row">
+        <div class="col"></div>
+      </div>
+
+      <!-- Username -->
+      <div class="input-field">
+        <i class="fa fa-user prefix"></i>
+        <input id="username-input" type="text" class="validate" value="A0012453">
+        <label for="username-input">ユーザー名</label>
+      </div>
+      <!-- /Username -->
+
+      <!-- Password -->
+      <!-- <div class="input-field">
+        <i class="fa fa-unlock-alt prefix"></i>
+        <input id="password-input" type="password" class="validate" value="password">
+        <label for="password-input">パスワード</label>
+      </div> -->
+      <!-- /Password -->
+
+      <div class="switch">
+        <label>
+          <input type="checkbox" checked />
+          <span class="lever"></span>
+          IDを記憶する
+        </label>
+      </div>
+
+      <button class="waves-effect waves-light btn-large z-depth-0 z-depth-1-hover" onclick="onLogin()">ログイン</button>
+    </div>
+
+    <!-- <div class="links right-align">
+      <a href="page-forgot-password.html">パスワードを忘れた場合</a>
+    </div> -->
+
+  </form>
+  <!-- /Sign In Form -->
+
+</section>
+<script>
+  localStorage.setItem("cr_company_code", 200000235);
+  localStorage.setItem("cr_search_condition", "crCompanyCode=&corporateNumber=&knjShogo=%E5%AF%8C%E5%A3%AB%E9%80%9A&knShogo=&ebnShogo=&shzch=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA&kgyDnwbngSigaikybn=&dhyshmeknj=&dhyshmektkn=&keyword=&kanaSort=01&fetchSize=50")
+  localStorage.setItem("cr_search_result", '{"hitCount":0,"hitCountLimitOverFlg":1,"companyList":[]}');
+  localStorage.setItem("loginSellerCode", "seller1")
+  localStorage.setItem("prefId", 01);
+  localStorage.setItem("prefValue", "北海道");
+  localStorage.setItem("sellerCode", "seller1");
+  localStorage.setItem("cr_company_data", '{"headerInfo":{"corporateNumber":null,"creditInfo":null,"bankruptcyHistoryDetail":null,"updateMonth":null,"crCompanyCode":"200000235"},"outline":{"companyNameKanji":"（株）コスモ","companyNameEnglish":null,"companyNameKana":"KK ｺｽﾓ","companyNameOld":null},"basicInfo":{"location":{"zipCode":"921-8844","locationJisCode":"17212","locationCode":"421202905","locationText":"東京都港区西新橋1-1-15"},"telNumber":{"telNumberText":"1277   10000001","telNumber1":"1277   ","telNumber2":"1000","telNumber3":"0001"},"faxNumber":null,"capital":"8000","listingInfo":"非上場","tickerSymbol":null,"employeesCount":null,"score":{"latestScoreMonth":null,"latestScore":"49","priviousScoreMonth":null,"priviousScore":null},"initiation":{"initiationMonth":null,"initiationMonthBeforeMeiji":""},"establishDate":"200412"},"detailInfo":{"bigShareholders":"末政博司（５０％），北風八紘（５０％）","excecutives":"（取）髙山希代子","business":{"businessTypeSubdivideCode1":"6099","businessTypeSubdivideName1":"他に分類されないその他の小売業","businessTypeSubdivideCode2":null,"businessTypeSubdivideName2":""},"businessLine":"金属工作機械の販売・修理業","productLine":{"productLineCode1":"115766","productLineName1":"金属工作機械","productLineCategory1":null,"productLineCode2":null,"productLineName2":"","productLineCategory2":null,"productLineCode3":null,"productLineName3":"","productLineCategory3":null,"productLineCode4":null,"productLineName4":"","productLineCategory4":null,"productLineCode5":null,"productLineName5":"","productLineCategory5":null,"productLineCode6":null,"productLineName6":"","productLineCategory6":null},"banks":"北國 松任","suppliers":"","customers":"組合員８４４０名","office":{"officeCount":null,"factoryCount":null,"officeText":""}},"performance":{"performanceList":[{"accountingMonth":"201004","salesAmount":"90100","profit":null,"profitTaxIncluded":null,"dividendsTotal":null,"financialInfoExists":"0","capitalRatio":null},{"accountingMonth":"201104","salesAmount":"90000","profit":null,"profitTaxIncluded":null,"dividendsTotal":null,"financialInfoExists":"0","capitalRatio":null},{"accountingMonth":"201204","salesAmount":"70000","profit":null,"profitTaxIncluded":null,"dividendsTotal":null,"financialInfoExists":"0","capitalRatio":null}]},"rank":null,"briefing":{"briefingText":"貸事務所業を営み、（株）浅野歯科産業を対象として、毎期手堅く推移している。"},"president":{"presidentKanji":"鈴木　隆平","presidentKana":"ｽｽﾞｷ ﾘﾕｳﾍｲ","sex":"1","personalDataProtected":null,"birthDate":null,"inductDate":null,"address":{"zipCode":"100-6810","addressJisCode":null,"addressCode":null,"addressText":"東京都千代田区大手町１－３－１"},"telNumber":{"telNumberText":null,"telNumber1":null,"telNumber2":null,"telNumber3":null},"origin":"","finalEducation":{"finalEducationSchoolName":"","graduationType":null},"residence":"","hobby":{"hobby1":"","hobby2":"","hobby3":""}}}');
+  localStorage.setItem("cr_company_data_expired", 1540259289037);
+  localStorage.setItem("searchKey","");
+  localStorage.setItem("clickTabPosition","");
+ 
+function onLogin(){
+  // alert($("#username-input").val());
+  localStorage.setItem("login_userName", $("#username-input").val());
+}
+
+</script>  <!-- jQuery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- extensions  -->
+<script type="text/javascript" src="assets/_con/js/extensions.js"></script>
+
+<!-- jQuery RAF (improved animation performance) -->
+<script type="text/javascript" src="bower_components/jquery-requestAnimationFrame/dist/jquery.requestAnimationFrame.min.js"></script>
+
+<!-- nanoScroller -->
+<script type="text/javascript" src="bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+<!-- Materialize -->
+<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>                     <!-- Data Tables -->
+<script type="text/javascript" src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bower_components/datatables-tabletools/js/dataTables.tableTools.js"></script>
+<script type="text/javascript" src="bower_components/datatables-scroller/js/dataTables.scroller.js"></script>
+
+<!-- Moment -->
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>     
+
+<!-- Main -->
+<script type="text/javascript" src="assets/_con/js/_con.js"></script>   
+<!-- parts -->
+<script type="text/javascript" src="assets/_con/js/parts_core.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_topic_list.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_company_profile.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_relation.js"></script>
+<script type="text/javascript" src="assets/_con/js/parts_utils.js"></script>
+<!-- deserialize -->
+<script type="text/javascript" src="bower_components/jquery-deserialize/dist/jquery.deserialize.min.js"></script>
+<!-- lodash -->
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+<!-- css-element-queries -->
+<script type="text/javascript" src="bower_components/css-element-queries/src/ResizeSensor.js"></script>
+<script type="text/javascript" src="bower_components/css-element-queries/src/ElementQueries.js"></script> 
+<!-- pwa JS Files  -->
+<script src="./js/toast.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/offline.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/push.js"></script>
+<script src="./js/sync.js"></script>
+<script src="./js/share.js"></script>
+<script src="./js/menu.js"></script>
+
+</body>
+
+</html>

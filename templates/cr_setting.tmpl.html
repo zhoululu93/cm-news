@@ -1,0 +1,28 @@
+<div style="position: absolute;bottom: 1rem;left: 6rem;display: flex">
+    <div id="settingArea" class="setting-area">
+        <div class="setting-button" id="settingButton">
+            <a class="waves-effect btn-floating btn blue-grey">
+                <i class="mdi mdi-action-settings"></i>
+            </a>
+        </div>
+        <div id="settingInput" class="setting-input">
+            <div style="display:block">
+                <select id="depthSelect" class="depth-select">
+                    <option value="0">1階層表示</option>
+                    <option value="1">2階層表示</option>
+                    <option value="2">3階層表示</option>
+                    <option value="3">4階層表示</option>
+                    <option value="4">5階層表示</option>
+                    <option value="5">6階層表示</option>
+                </select>
+                <div style="display: flex" class="depth-limit-select">
+                    <p>1階層当たり表示数</p>
+                    <input type="number" id="depthLimitSelect" class="align-right validate" min="0" style="width: 4rem;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="refleshButton" class="btn-floating reflesh-button teal">
+        <i class="mdi-navigation-refresh"></i>
+    </div>
+</div>

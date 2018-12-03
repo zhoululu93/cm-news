@@ -1,0 +1,92 @@
+    <div class="card">
+        <div class="title">
+            <h3>({{:headerInfo.crCompanyCode onerror=''}}) {{:outline.companyNameKanji onerror=''}}</h3>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="title">
+            <h5>業績</h5>
+        </div>
+        <div class="content">
+            <table class="table table-hover table-heads table-bordered table-striped ">
+                <thead>
+                    <tr>
+                        <th>決算年月</th>
+                        <th>売上高</th>
+                        <th>利益金</th>
+                        <th>利益金税込フラグ</th>
+                        <th>配当総額</th>
+                        <th>財務有無区分</th>
+                        <th>自己資本比率（％）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{for performance.performanceList onerror=''}}
+                    <tr>
+                        <td>{{:#data.accountingMonth onerror=''}}</td>
+                        <td class="align-right">{{toNumber:#data.salesAmount onerror=''}}</td>
+                        <td class="align-right">{{toNumber:#data.profit onerror=''}}</td>
+                        <td class="align-center">{{toCheck:#data.profitTaxIncluded onerror=''}}</td>
+                        <td class="align-right">{{toNumber:#data.dividendsTotal onerror=''}}</td>
+                        <td class="align-right">{{:#data.financialInfoExists onerror=''}}</td>
+                        <td class="align-right">{{toNumber:#data.capitalRatio onerror=''}}</td>
+                    </tr>
+                    {{/for}}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7" class="align-right">単位:(千円)</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="title">
+            <h5>業種内順位</h5>
+        </div>
+        <div class="content">
+            <table class="table table-hover table-heads">
+                <tbody>
+                    <tr>
+                        <th>対象業種</th>
+                        <td>{{:rank.targetBusiness onerror=''}}</td>
+                        <th>対象決算期</th>
+                        <td>{{:rank.targetFinancialPeriod onerror=''}}</td>
+                    </tr>
+                    <tr>
+                        <th>全国順位/全国対象数</th>
+                        <td class="align-right">{{toNumber:rank.nationalRank.nationalRankData onerror=''}}&nbsp;/&nbsp;{{toNumber:rank.nationalRank.nationalTotal onerror=''}}</td>
+                        <th>県別順位/県別対象数</th>
+                        <td class="align-right">{{toNumber:rank.prefecturalRank.prefecturalRankData onerror=''}}&nbsp;/&nbsp;{{toNumber:rank.prefecturalRank.prefecturalTotal onerror=''}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col l6 m8 s12">
+        <div class="card">
+            <div class="title">
+                <h5>売上</h5>
+            </div>
+            <div class="content">
+                <div id="earnings_container" style="width: 100%; margin: 1rem 0; display: inline-block;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col l6 m8 s12">
+        <div class="card">
+            <div class="title">
+                <h5>利益</h5>
+            </div>
+            <div class="content">
+                <div id="profit_container" style="width: 100%; margin: 1rem 0; display: inline-block;"></div>
+            </div>
+        </div>
+    </div>    

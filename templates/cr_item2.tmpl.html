@@ -1,0 +1,142 @@
+<div class="card">
+    <div class="title">
+        <h3>({{:headerInfo.crCompanyCode onerror=''}}) {{:outline.companyNameKanji onerror=''}}</h3>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>詳細情報</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>大株主</th>
+                    <td>{{:detailInfo.bigShareholders onerror=''}}</td>
+
+                    <th>役員</th>
+                    <td>{{:detailInfo.excecutives onerror=''}}</td>
+
+                </tr>
+                <tr>
+                    <th>業種細分類コード1</th>
+                    <td>{{:detailInfo.business.businessTypeSubdivideCode1 onerror=''}}</td>
+
+                    <th>業種細分類名1</th>
+                    <td>{{:detailInfo.business.businessTypeSubdivideName1 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>業種細分類コード2</th>
+                    <td>{{:detailInfo.business.businessTypeSubdivideCode2 onerror=''}}</td>
+
+                    <th>業種細分類名2</th>
+                    <td>{{:detailInfo.business.businessTypeSubdivideName2 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>営業種目</th>
+                    <td colspan="3">{{:detailInfo.businessLine onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>取引銀行</th>
+                    <td colspan="3">{{:detailInfo.banks onerror=''}}</td>
+
+                </tr>
+                <tr>
+                    <th>仕入先</th>
+                    <td colspan="3">{{:detailInfo.suppliers onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>販売先</th>
+                    <td colspan="3">{{:detailInfo.customers onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>事業所数</th>
+                    <td>{{:detailInfo.office.officeCount onerror=''}}</td>
+
+                    <th>工場数</th>
+                    <td>{{:detailInfo.office.factoryCount onerror=''}}</td>
+                </tr>
+
+                <tr>
+                    <th>事業所</th>
+                    <td colspan="3">{{:detailInfo.office.officeText onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card">
+    <div class="title">
+        <h5>扱い品・業態</h5>
+    </div>
+    <div class="content">
+        <table class="table table-hover table-heads">
+            <tbody>
+                <tr>
+                    <th>扱い品・業態コード1</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCode1 onerror=''}}</td>
+
+                    <th>扱い品名1</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineName1 onerror=''}}</td>
+
+                    <th>扱い品業態名1</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCategory1 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>扱い品・業態コード2</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCode2 onerror=''}}</td>
+
+                    <th>扱い品名2</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineName2 onerror=''}}</td>
+
+                    <th>扱い品業態名2</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCategory2 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>扱い品・業態コード3</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCode3 onerror=''}}</td>
+
+                    <th>扱い品名3</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineName3 onerror=''}}</td>
+
+                    <th>扱い品業態名3</th>
+                    <td class="provide">{{:detailInfo.productLine.productLineCategory3 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>扱い品・業態コード4</th>
+                    <td>{{:detailInfo.productLine.productLineCode4 onerror=''}}</td>
+
+                    <th>扱い品名4</th>
+                    <td>{{:detailInfo.productLine.productLineName4 onerror=''}}</td>
+
+                    <th>扱い品業態名4</th>
+                    <td>{{:detailInfo.productLine.productLineCategory4 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>扱い品・業態コード5</th>
+                    <td>{{:detailInfo.productLine.productLineCode5 onerror=''}}</td>
+
+                    <th>扱い品名5</th>
+                    <td>{{:detailInfo.productLine.productLineName5 onerror=''}}</td>
+
+                    <th>扱い品業態名5</th>
+                    <td>{{:detailInfo.productLine.productLineCategory5 onerror=''}}</td>
+                </tr>
+                <tr>
+                    <th>扱い品・業態コード6</th>
+                    <td>{{:detailInfo.productLine.productLineCode6 onerror=''}}</td>
+
+                    <th>扱い品名6</th>
+                    <td>{{:detailInfo.productLine.productLineName6 onerror=''}}</td>
+
+                    <th>扱い品業態名6</th>
+                    <td>{{:detailInfo.productLine.productLineCategory6 onerror=''}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

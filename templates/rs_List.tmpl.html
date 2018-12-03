@@ -1,0 +1,78 @@
+<div class="routeTabs">
+    <ul class="tabs">
+        {{for route itemVar="~routeNumber"}}
+        <li class="tab">
+            {{if routeNumber == "best"}}
+            <a data-value="{{>target}}_{{>routeNumber}}" class=" routeselectbutton red-text" href="#{{>routeNumber}}tab">
+                <i class="fa fa-handshake-o"></i>
+                <span>スコア重視</span>
+            </a>
+            {{else routeNumber == "short"}}
+            <a data-value="{{>target}}_{{>routeNumber}}" class=" routeselectbutton orange-text" href="#{{>routeNumber}}tab">
+                <i class="fa fa-rocket"></i>
+                <span>経路数重視</span>
+            </a>
+            {{else routeNumber == "near"}}
+            <a data-value="{{>target}}_{{>routeNumber}}" class=" routeselectbutton indigo-text" href="#{{>routeNumber}}tab">
+                <i class="mdi mdi-maps-directions"></i>
+                <span>距離重視</span>
+            </a>
+            {{else routeNumber == "sameProvince"}}
+            <a data-value="{{>target}}_{{>routeNumber}}" class=" routeselectbutton green-text" href="#{{>routeNumber}}tab">
+                <i class="mdi mdi-image-nature-people"></i>
+                <span>同郷重視</span>
+            </a>
+            {{else routeNumber == "sameGraduate"}}
+            <a data-value="{{>target}}_{{>routeNumber}}" class=" routeselectbutton brown-text" href="#{{>routeNumber}}tab">
+                <i class="mdi mdi-social-school"></i>
+                <span>卒業校重視</span>
+            </a>
+            {{/if}}
+        </li>
+        {{/for}}
+    </ul>
+    {{for route itemVar="~routeNumber"}}
+    <div class="routeTab" id="{{>routeNumber}}tab">
+        <table id="companies_table" class="table table-hover actable" style="overflow-y:auto;">
+            <tbody class="cr_list_body">
+                {{for companies}} {{if 0
+                < #index}} <tr class="ac_row {{:~routeNumber.routeNumber}}List">
+                    <td style="padding-top: 0;padding-bottom: 0; padding-left: 2rem;" colspan="8">
+                        <div class="routebridge {{:~routeNumber.routeNumber}}Bridge">
+                            {{if ~routeNumber.routeNumber == "best" || ~routeNumber.routeNumber == "short"}}
+                            スコア：
+                            {{/if}}
+                            {{:edgeDetail}}
+                        </div>
+                    </td>
+                    <td style="min-width: 13rem; justify-content: right;" colspan="2">
+                        <div class="commandButton">
+                            <a href="#" class="waves-effect btn-floating btn-small green">
+                                <i class="small mdi mdi-maps-map"></i>
+                            </a>
+                            <span>地図</span>
+                        </div>
+                        <div class="commandButton">
+                            <a href="#" class="waves-effect btn-floating btn-small blue">
+                                <i class="small mdi mdi-maps-directions"></i>
+                            </a>
+                            <span>乗換</span>
+                        </div>
+                    </td>
+                    </tr>
+                    {{/if}}
+                    <tr class="ac_row {{:~routeNumber.routeNumber}}List">
+                        <td>
+                            <img class="avater" src="{{>avater}}" alt="">
+                        </td>
+                        <td colspan="3" style="white-space: nowrap;">{{>president_kanji}}</td>
+                        <td colspan="3" style="white-space: nowrap;">{{>company_name_kanji}}</td>
+                        <td colspan="3">
+                            {{>briefing}}
+                        </td>
+                        {{/for}}
+            </tbody>
+        </table>
+    </div>
+    {{/for}}
+</div>

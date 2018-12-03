@@ -1,0 +1,39 @@
+<div class="modal-header">
+    <h4>{{:title}}</h4>
+</div>
+<div id="modal_content_sub" class="modal-content">
+    {{for category}}
+    <div class="topic_figure_category">{{:}}</div>
+    {{/for}}
+
+    <div class="topic-box topic-box-large">
+
+        <div>
+            <p>
+                {{for content}} {{if #data.indexOf('
+                < ') !== -1 && #data.indexOf('>') !== -1}} {{:#data}} {{else #data.indexOf('image') == 0 }}
+                    <img class="topic-image" src="data:image/png;base64, {{base64Sanitizer:#data}} " style="max-width: 60%; height: auto;" />                    {{else #data.indexOf('data:image/') == 0}}
+                    <img class="topic-image" src="{{base64Sanitizer:#data}} " style="max-width: 60%; height: auto;" /> {{else}}
+                    <p>{{>#data}}</p>
+                    {{/if}} {{/for}}
+            </p>
+            <div class="topic_tags_bottom">
+                {{for tag}}
+                <div class="btn btn-small btn-rounded topic-tag">{{:}}</div>
+                {{/for}}
+            </div>
+
+            <div class="topic_figure_bottom">
+
+                <i class="mdi-action-favorite" style="color: indianred;font-size: 2rem"></i>
+                <i class="mdi-action-thumb-up" style="color: dodgerblue;font-size: 2rem"></i>
+                <div>{{:media}}</div>
+                <span style="font-weight:600;">&nbsp;<i class="mdi mdi-action-schedule" style="color: dimgray"></i>&nbsp;{{:~topicCodeToDate(date)}}</span>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <a href="#!" id="modal_close_trigger" class="modal-action modal_close waves-effect waves-red btn-flat " onclick="$('.lean-overlay').trigger('click');">閉じる</a>
+</div>

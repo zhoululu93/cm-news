@@ -1,0 +1,34 @@
+<table id="companies_table" class="table table-hover actable">
+    <thead>
+        <tr>
+            <th>企業コード</th>
+            <th>漢字商号</th>
+            <th>カナ商号</th>
+            <th>業種</th>
+            <!-- <th>英文商号</th> -->
+            <!-- <th>所在地</th>
+            <th>代表者漢字氏名</th>
+            <th>代表者カナ氏名</th> -->
+            <th>選択</th>
+        </tr>
+    </thead>
+    <tbody class="cr_list_body">
+        {{for nodes}}
+        <tr class="ac_g1">
+            <td>{{>companyCode}}</td>
+            <td>{{>companyName}}</td>
+            <td>{{>companyNameKana}}</td>
+            <!-- <td></td> -->
+            <td>{{>businessTypeSubdivideName1}}</td>
+            <!-- <td>{{>business_type_name}}</td>
+            <td>{{>president_kanji}}</td>
+            <td>{{>president_kana}}</td> -->
+            <td>
+                <a href="./company-data.html?company_code={{>company_code}}" class="btn btn-small z-depth-0 cr_list_link" data-company_code="{{>companyCode}}">
+                    <i class="mdi mdi-navigation-more-horiz"></i>
+                </a>
+            </td>
+        </tr>
+        {{/for}}
+    </tbody>
+</table>
